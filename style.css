@@ -1,0 +1,34 @@
+:root { color-scheme: light; font-family: 'Inter', system-ui, sans-serif; color: #192742; background: #f3f5fa; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.wrap { width: min(880px, 100% - 32px); margin-inline: auto; }
+header { background: #172b50; color: white; border-bottom: 4px solid #d76557; }
+header .wrap { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 18px; padding-block: 20px; }
+header strong { font-size: 1.3rem; }
+header span { color: #d2ddf4; }
+main { padding-block: clamp(22px, 5vw, 54px) 20px; }
+footer { padding-block: 10px 28px; font-size: .9rem; }
+a { color: #244f9d; }
+.card { background: white; border: 1px solid #dde4f0; border-radius: 16px; padding: clamp(16px, 4vw, 30px); margin-bottom: 16px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr)); gap: 16px; }
+h1, h2 { margin: 0 0 12px; line-height: 1.2; }
+p { line-height: 1.55; margin: 0 0 16px; }
+button, select { font: inherit; padding: 10px 14px; border-radius: 9px; border: 1px solid #c7d2e4; background: white; color: inherit; }
+button { cursor: pointer; }
+button:hover:not(:disabled) { border-color: #244f9d; box-shadow: 0 0 0 1px #244f9d; }
+button:disabled { opacity: .68; cursor: default; }
+button:focus-visible, select:focus-visible, a:focus-visible { outline: 3px solid #3075da; outline-offset: 3px; }
+.primary { background: #244f9d; color: white; border-color: #244f9d; }
+select { display: block; width: 100%; margin: 6px 0 14px; }
+.row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; align-items: center; }
+.meta { font-size: .9rem; color: #445878; }
+#timer { font-variant-numeric: tabular-nums; font-weight: 700; }
+.answers { display: grid; gap: 10px; margin: 18px 0; }
+.option { text-align: left; min-height: 48px; }
+.selected { background: #e6eeff; border-color: #244f9d; }
+.good { background: #dff5e9; border-color: #418566; }
+.bad { background: #fce7e3; border-color: #a95146; }
+.jump { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; }
+.jump button { min-width: 36px; padding: 6px; }
+details { padding: 10px 0; border-top: 1px solid #dde4f0; }
+summary { cursor: pointer; }
