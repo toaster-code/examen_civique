@@ -2,21 +2,30 @@
 
 [**Jouer au quiz en ligne**](https://toaster-code.github.io/examen_civique/)
 
-Extract the archive and run this command inside the quiz folder:
+Entraînement par thème et examen blanc pour la carte de résident. Le quiz contient
+les 209 questions de connaissance publiées par le ministère de l’Intérieur et
+12 mises en situation originales. Le ministère ne publie pas les mises en
+situation de l’épreuve.
+
+## Run locally
+
+From the repository directory:
 
 ```bash
 python -m http.server 8000
 ```
 
 Open http://localhost:8000. On Windows, use `py -m http.server 8000` if needed.
-All files can also be served by any static web host.
 
-The French demo bank is in `questions.json`. Each entry has a unique numeric ID,
-a section from the quotas in `app.js`, one prompt, an array of equivalent
-correct formulations, and at least three groups of distinct wrong answers.
-Each group can contain alternative phrasings of the same wrong answer.
-The browser keeps the practice score and the last mock exam locally.
+## Question bank
 
-The demo bank follows the distribution in Article 3 of the order of
-10 October 2025. It contains original practice material and does not cover
-the full official list. Training scenarios are authored for this quiz.
+The browser selects one correct formulation and three distinct distractors.
+Exact quotations, fixed expressions and some short answers have a single
+formulation. Explanations are shown after each practice answer or after submitting
+the mock exam. Some official prompts, such as questions about euro adoption
+or the ranking of languages, include a correction that explains the date or
+definition used.
+
+- Official prompts: [Ministère de l’Intérieur — Liste officielle CR](https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/).
+- Exam distribution: [Arrêté du 10 octobre 2025, article 3](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000052382287).
+- Adapted answers, distractors and explanations: [Prépa-Examen, dataset published on data.gouv.fr](https://www.data.gouv.fr/datasets/examen-civique-carte-de-resident-cr-questions-officielles-reponses-et-explications), updated 4 November 2026, [Licence Ouverte 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/). The quiz reviews and supplements this third-party material. The answer choices are for practice.
