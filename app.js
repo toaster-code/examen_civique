@@ -1,11 +1,14 @@
 const groups = [
-  { title: 'Principes et valeurs de la République', quotas: { symbols: 3, secular: 2, valuesCase: 6 } },
+  { title: 'Principes et valeurs de la République', practiceSections: ['values'], quotas: { symbols: 3, secular: 2, valuesCase: 6 } },
   { title: 'Système institutionnel et politique', quotas: { vote: 3, institutions: 2, europe: 1 } },
   { title: 'Droits et devoirs', quotas: { rights: 2, duties: 3, rightsCase: 6 } },
   { title: 'Histoire, géographie et culture', quotas: { history: 3, geography: 3, heritage: 2 } },
   { title: 'Vivre dans la société française', quotas: { residence: 1, health: 1, work: 1, school: 1 } }
 ];
 const quotas = Object.assign({}, ...groups.map(group => group.quotas));
+const themeBySection = new Map(groups.flatMap(group =>
+  [...Object.keys(group.quotas), ...(group.practiceSections ?? [])].map(section => [section, group.title])
+));
 const key = 'civique-cr-v1';
 const app = document.querySelector('#app');
 let bank;
@@ -47,17 +50,18 @@ function escape(text) {
 }
 
 function theme(question) {
-  return groups.find(group => Object.hasOwn(group.quotas, question.section)).title;
+  return themeBySection.get(question.section);
 }
 
 function scoreText() {
-  return `${data.score.correct} bonnes réponses sur ${data.score.total}`;
+  const label = data.score.correct === 1 ? 'bonne réponse' : 'bonnes réponses';
+  return `${data.score.correct} ${label} sur ${data.score.total}`;
 }
 
 function home() {
   const examLabel = !data.exam ? 'Commencer' : data.exam.finished ? 'Nouvel examen' : 'Reprendre l’examen';
   return `<h1>Préparez l’examen civique</h1>
-    <p>Banque de démonstration · ${bank.length} questions de niveau carte de résident</p>
+    <p>${bank.filter(question => question.official).length} questions officielles de connaissance · ${bank.filter(question => !question.official).length} mises en situation d’entraînement</p>
     <div class="grid">
     <section class="card"><h2>Entraînement</h2><p>Correction immédiate, sans limite de temps.</p>
     <p><strong>${scoreText()}</strong></p>
@@ -82,6 +86,14 @@ function questionMarkup(question, practice) {
   }).join('')}</div>`;
 }
 
+function explanationMarkup(question) {
+  const explanation = question.explanation ? `<p>${escape(question.explanation)}</p>` : '';
+  const source = question.source?.startsWith('https://')
+    ? `<p><a href="${escape(question.source)}" target="_blank" rel="noopener noreferrer">En savoir plus</a></p>`
+    : '';
+  return explanation + source;
+}
+
 function practiceView() {
   const question = data.practice.question;
   const answered = question.answer !== null;
@@ -89,7 +101,7 @@ function practiceView() {
     <p class="meta">${scoreText()}</p></div><p class="meta">${theme(question)}</p>
     ${questionMarkup(question, true)}
     ${answered ? `<p role="status"><strong>${question.options[question.answer].correct ? 'Bonne réponse.' : 'Réponse incorrecte.'}</strong>
-      ${escape(question.options.find(option => option.correct).text)}</p>` : ''}
+      ${escape(question.options.find(option => option.correct).text)}</p>${explanationMarkup(question)}` : ''}
     <button class="primary" data-action="nextPractice" ${answered ? '' : 'disabled'}>Question suivante</button></section>`;
 }
 
@@ -120,7 +132,7 @@ function resultView() {
       const status = choice ? (choice.correct ? 'Correct' : 'Incorrect') : 'Sans réponse';
       return `<details><summary>${index + 1}. ${escape(question.prompt)} · ${status}</summary>
         <p>Votre réponse : ${escape(choice?.text ?? '—')}<br>Bonne réponse :
-        ${escape(question.options.find(option => option.correct).text)}</p></details>`;
+        ${escape(question.options.find(option => option.correct).text)}</p>${explanationMarkup(question)}</details>`;
     }).join('')}</section>`;
 }
 
@@ -138,7 +150,7 @@ function startPractice() {
 function nextPractice() {
   const practice = data.practice;
   if (!practice.remaining.length) {
-    const eligible = bank.filter(question => filter === 'all' || Object.hasOwn(groups[Number(filter)].quotas, question.section));
+    const eligible = bank.filter(question => filter === 'all' || theme(question) === groups[Number(filter)].title);
     practice.remaining = shuffle(eligible.map(question => question.id));
     if (practice.remaining.length > 1 && practice.remaining.at(-1) === practice.question?.id) {
       practice.remaining.unshift(practice.remaining.pop());
@@ -227,6 +239,22 @@ fetch('questions.json').then(response => {
       throw new Error(`Insufficient questions for ${section}`);
     }
   }
+  const questionsById = new Map(bank.map(question => [question.id, question]));
+  if (data.practice) {
+    const current = data.practice.question;
+    if (current) {
+      const updated = questionsById.get(current.id);
+      data.practice.question = updated ? { ...updated, options: current.options, answer: current.answer } : null;
+    }
+    data.practice.remaining = data.practice.remaining.filter(id => questionsById.has(id));
+  }
+  if (data.exam) {
+    for (const question of data.exam.questions) {
+      const updated = questionsById.get(question.id);
+      if (updated?.explanation) question.explanation = updated.explanation;
+    }
+  }
+  save();
   filter = data.practice?.filter ?? 'all';
   if (data.exam && !data.exam.finished && Date.now() >= data.exam.deadline) finishExam(true);
   render();
