@@ -1,5 +1,7 @@
 # Quiz civique CR
 
+[**Jouer au quiz en ligne**](https://toaster-code.github.io/examen_civique/)
+
 Extract the archive and run this command inside the quiz folder:
 
 ```bash
