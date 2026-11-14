@@ -1,0 +1,848 @@
+[
+  {
+    "id": 1,
+    "section": "symbols",
+    "prompt": "Quelle est la devise de la République française ?",
+    "correct": [
+      "Liberté, Égalité, Fraternité"
+    ],
+    "distractors": [
+      [
+        "Liberté, Solidarité, Justice"
+      ],
+      [
+        "Égalité, Unité, Fraternité"
+      ],
+      [
+        "Liberté, Égalité, Laïcité"
+      ],
+      [
+        "Unité, Égalité, Solidarité"
+      ]
+    ]
+  },
+  {
+    "id": 2,
+    "section": "symbols",
+    "prompt": "Quel est l’hymne national français ?",
+    "correct": [
+      "La Marseillaise"
+    ],
+    "distractors": [
+      [
+        "Le Chant des partisans"
+      ],
+      [
+        "Le Chant du départ"
+      ],
+      [
+        "L’Ode à la joie"
+      ],
+      [
+        "L’Internationale"
+      ]
+    ]
+  },
+  {
+    "id": 3,
+    "section": "symbols",
+    "prompt": "Quelles sont les couleurs du drapeau français, dans l’ordre à partir de la hampe ?",
+    "correct": [
+      "Bleu, blanc, rouge"
+    ],
+    "distractors": [
+      [
+        "Bleu, rouge, blanc"
+      ],
+      [
+        "Rouge, blanc, bleu"
+      ],
+      [
+        "Blanc, bleu, rouge"
+      ],
+      [
+        "Rouge, bleu, blanc"
+      ]
+    ]
+  },
+  {
+    "id": 4,
+    "section": "symbols",
+    "prompt": "Que représente Marianne ?",
+    "correct": [
+      "La République française",
+      "Une personnification de la République française"
+    ],
+    "distractors": [
+      [
+        "Le Gouvernement français"
+      ],
+      [
+        "Le Parlement français"
+      ],
+      [
+        "La présidence de la République"
+      ],
+      [
+        "La Révolution de 1848 en particulier"
+      ]
+    ]
+  },
+  {
+    "id": 5,
+    "section": "secular",
+    "prompt": "Un agent public peut-il manifester ses convictions religieuses pendant son service ?",
+    "correct": [
+      "Non, il est tenu à la neutralité pendant son service",
+      "Non, il doit rester neutre dans l’exercice de ses fonctions"
+    ],
+    "distractors": [
+      [
+        "Oui, avec l’accord de son supérieur"
+      ],
+      [
+        "Oui, tant qu’aucun usager ne s’y oppose"
+      ],
+      [
+        "Oui, lorsqu’il travaille sans recevoir de public"
+      ]
+    ]
+  },
+  {
+    "id": 6,
+    "section": "secular",
+    "prompt": "Quelle liberté la laïcité garantit-elle ?",
+    "correct": [
+      "La liberté de conscience",
+      "La liberté de croire ou de ne pas croire"
+    ],
+    "distractors": [
+      [
+        "Le droit d’imposer sa religion à un agent public"
+      ],
+      [
+        "Le droit pour l’État d’imposer une religion"
+      ],
+      [
+        "Le droit d’exiger l’application de règles religieuses par une administration"
+      ]
+    ]
+  },
+  {
+    "id": 7,
+    "section": "valuesCase",
+    "prompt": "Au guichet d’une mairie, un agent donne la priorité aux usagers de sa religion. Quel principe doit guider son accueil ?",
+    "correct": [
+      "Traiter les usagers selon les mêmes règles",
+      "Appliquer les mêmes règles indépendamment des convictions"
+    ],
+    "distractors": [
+      [
+        "Donner la priorité aux usagers dont il connaît les convictions"
+      ],
+      [
+        "Alterner les priorités selon les religions"
+      ],
+      [
+        "Laisser chaque agent fixer ses critères religieux"
+      ]
+    ]
+  },
+  {
+    "id": 8,
+    "section": "valuesCase",
+    "prompt": "Une mairie doit attribuer des places en crèche. Quel critère peut-elle retenir sans discrimination religieuse ?",
+    "correct": [
+      "Des critères publics liés à la situation des familles"
+    ],
+    "distractors": [
+      [
+        "La religion des parents"
+      ],
+      [
+        "L’appartenance à une association cultuelle"
+      ],
+      [
+        "L’accord du responsable religieux du quartier"
+      ]
+    ]
+  },
+  {
+    "id": 9,
+    "section": "valuesCase",
+    "prompt": "Lors d’un débat public, une personne critique une décision municipale sans menacer ni diffamer personne. Quelle liberté exerce-t-elle ?",
+    "correct": [
+      "La liberté d’expression",
+      "Le droit d’exprimer son opinion"
+    ],
+    "distractors": [
+      [
+        "La liberté de circulation"
+      ],
+      [
+        "Le droit de vote"
+      ],
+      [
+        "La liberté d’association"
+      ]
+    ]
+  },
+  {
+    "id": 10,
+    "section": "valuesCase",
+    "prompt": "Un agent vous demande d’adhérer à sa religion pour traiter votre demande. Quelle réaction est appropriée ?",
+    "correct": [
+      "Signaler la condition au responsable du service"
+    ],
+    "distractors": [
+      [
+        "Accepter cette condition pour que le dossier soit traité"
+      ],
+      [
+        "Demander à être évalué par un agent de votre religion"
+      ],
+      [
+        "Demander à ce que la mairie établisse une liste de religions autorisées"
+      ]
+    ]
+  },
+  {
+    "id": 11,
+    "section": "valuesCase",
+    "prompt": "Une association veut organiser une collecte de vêtements ouverte à tous. Quelle action illustre la fraternité ?",
+    "correct": [
+      "Participer à la collecte pour aider les personnes dans le besoin"
+    ],
+    "distractors": [
+      [
+        "Limiter l’aide aux personnes qui votent comme vous"
+      ],
+      [
+        "Exiger une adhésion religieuse pour recevoir de l’aide"
+      ],
+      [
+        "Réserver les dons en échange d’un soutien électoral"
+      ]
+    ]
+  },
+  {
+    "id": 12,
+    "section": "valuesCase",
+    "prompt": "Un collègue affirme que la laïcité oblige chacun à abandonner sa religion. Quelle réponse lui donner ?",
+    "correct": [
+      "Chacun reste libre de croire ou de ne pas croire"
+    ],
+    "distractors": [
+      [
+        "Seuls les agents publics sont libres de croire"
+      ],
+      [
+        "Seules les religions reconnues par la mairie sont autorisées"
+      ],
+      [
+        "La liberté de croire dépend d’une autorisation préfectorale"
+      ]
+    ]
+  },
+  {
+    "id": 13,
+    "section": "vote",
+    "prompt": "Quels représentants sont élus lors des élections législatives ?",
+    "correct": [
+      "Les députés",
+      "Les membres de l’Assemblée nationale"
+    ],
+    "distractors": [
+      [
+        "Les sénateurs"
+      ],
+      [
+        "Les conseillers municipaux"
+      ],
+      [
+        "Les conseillers régionaux"
+      ],
+      [
+        "Les députés européens"
+      ]
+    ]
+  },
+  {
+    "id": 14,
+    "section": "vote",
+    "prompt": "Quelle est la durée du mandat du président de la République ?",
+    "correct": [
+      "Cinq ans"
+    ],
+    "distractors": [
+      [
+        "Quatre ans"
+      ],
+      [
+        "Six ans"
+      ],
+      [
+        "Sept ans"
+      ],
+      [
+        "Trois ans"
+      ]
+    ]
+  },
+  {
+    "id": 15,
+    "section": "vote",
+    "prompt": "Que signifie le secret du vote ?",
+    "correct": [
+      "Le choix de chaque électeur reste confidentiel",
+      "Personne ne peut exiger de connaître le choix d’un électeur"
+    ],
+    "distractors": [
+      [
+        "Les résultats ne sont pas rendus publics"
+      ],
+      [
+        "Le dépouillement est réservé aux candidats"
+      ],
+      [
+        "La liste des candidats reste confidentielle"
+      ]
+    ]
+  },
+  {
+    "id": 16,
+    "section": "institutions",
+    "prompt": "Qui nomme le Premier ministre ?",
+    "correct": [
+      "Le président de la République",
+      "Le chef de l’État"
+    ],
+    "distractors": [
+      [
+        "Le président du Sénat"
+      ],
+      [
+        "Le président de l’Assemblée nationale"
+      ],
+      [
+        "Le président du Conseil constitutionnel"
+      ],
+      [
+        "Le ministre de l’Intérieur"
+      ]
+    ]
+  },
+  {
+    "id": 17,
+    "section": "institutions",
+    "prompt": "Quelles assemblées composent le Parlement français ?",
+    "correct": [
+      "L’Assemblée nationale et le Sénat"
+    ],
+    "distractors": [
+      [
+        "L’Assemblée nationale et le Conseil constitutionnel"
+      ],
+      [
+        "Le Sénat et le Conseil d’État"
+      ],
+      [
+        "L’Assemblée nationale et le Conseil des ministres"
+      ],
+      [
+        "Le Sénat et le Conseil économique, social et environnemental"
+      ]
+    ]
+  },
+  {
+    "id": 18,
+    "section": "europe",
+    "prompt": "Quelle institution est élue directement par les citoyens de l’Union européenne ?",
+    "correct": [
+      "Le Parlement européen"
+    ],
+    "distractors": [
+      [
+        "La Commission européenne"
+      ],
+      [
+        "Le Conseil européen"
+      ],
+      [
+        "La Cour de justice de l’Union européenne"
+      ],
+      [
+        "La Banque centrale européenne"
+      ]
+    ]
+  },
+  {
+    "id": 19,
+    "section": "rights",
+    "prompt": "Quel texte adopté en 1789 proclame notamment la liberté et l’égalité en droits ?",
+    "correct": [
+      "La Déclaration des droits de l’homme et du citoyen"
+    ],
+    "distractors": [
+      [
+        "La Déclaration universelle des droits de l’homme"
+      ],
+      [
+        "La Constitution de la Ve République"
+      ],
+      [
+        "La Charte des droits fondamentaux de l’Union européenne"
+      ]
+    ]
+  },
+  {
+    "id": 20,
+    "section": "rights",
+    "prompt": "Quelle liberté permet de créer une association avec d’autres personnes ?",
+    "correct": [
+      "La liberté d’association"
+    ],
+    "distractors": [
+      [
+        "La liberté de circulation"
+      ],
+      [
+        "La liberté de conscience"
+      ],
+      [
+        "La liberté de la presse"
+      ]
+    ]
+  },
+  {
+    "id": 21,
+    "section": "duties",
+    "prompt": "À quoi servent notamment les impôts ?",
+    "correct": [
+      "À financer les services publics",
+      "À financer des dépenses collectives comme l’école et les infrastructures"
+    ],
+    "distractors": [
+      [
+        "À rémunérer uniquement les élus"
+      ],
+      [
+        "À financer uniquement les entreprises privées"
+      ],
+      [
+        "À remplacer les cotisations des associations"
+      ]
+    ]
+  },
+  {
+    "id": 22,
+    "section": "duties",
+    "prompt": "En France, à partir de quel âge l’instruction est-elle obligatoire ?",
+    "correct": [
+      "Trois ans"
+    ],
+    "distractors": [
+      [
+        "Quatre ans"
+      ],
+      [
+        "Cinq ans"
+      ],
+      [
+        "Six ans"
+      ],
+      [
+        "Sept ans"
+      ]
+    ]
+  },
+  {
+    "id": 23,
+    "section": "duties",
+    "prompt": "Qui est tenu de respecter les lois françaises sur le territoire français ?",
+    "correct": [
+      "Toute personne présente en France",
+      "Chacun, quelle que soit sa nationalité"
+    ],
+    "distractors": [
+      [
+        "Uniquement les citoyens français"
+      ],
+      [
+        "Uniquement les résidents permanents"
+      ],
+      [
+        "Uniquement les personnes inscrites sur les listes électorales"
+      ]
+    ]
+  },
+  {
+    "id": 24,
+    "section": "rightsCase",
+    "prompt": "Une propriétaire refuse un dossier de location en raison de l’origine du candidat. Comment qualifier ce refus ?",
+    "correct": [
+      "Une discrimination liée à l’origine"
+    ],
+    "distractors": [
+      [
+        "Un critère de solvabilité"
+      ],
+      [
+        "Une priorité liée à l’ancienneté du dossier"
+      ],
+      [
+        "Une condition liée à l’assurance du logement"
+      ]
+    ]
+  },
+  {
+    "id": 25,
+    "section": "rightsCase",
+    "prompt": "Un employeur refuse une candidature parce que la personne est enceinte. Comment qualifier ce refus ?",
+    "correct": [
+      "Une discrimination liée à la grossesse"
+    ],
+    "distractors": [
+      [
+        "Une décision fondée sur le diplôme"
+      ],
+      [
+        "Une condition d’ancienneté"
+      ],
+      [
+        "Une procédure normale de période d’essai"
+      ]
+    ]
+  },
+  {
+    "id": 26,
+    "section": "rightsCase",
+    "prompt": "Un parent veut que son enfant de huit ans cesse toute instruction. Quelle règle s’applique ?",
+    "correct": [
+      "L’enfant doit continuer à recevoir une instruction"
+    ],
+    "distractors": [
+      [
+        "L’instruction devient facultative après le CP"
+      ],
+      [
+        "Seules les familles françaises sont concernées"
+      ],
+      [
+        "La commune peut supprimer cette obligation sur simple demande"
+      ]
+    ]
+  },
+  {
+    "id": 27,
+    "section": "rightsCase",
+    "prompt": "Une personne vous dit que son conjoint peut décider seul de la priver de tout accès à son salaire. Quelle réponse est juste ?",
+    "correct": [
+      "Chaque époux peut percevoir et disposer de ses gains après avoir contribué aux charges du mariage"
+    ],
+    "distractors": [
+      [
+        "Seul le conjoint qui gère les dépenses peut percevoir les salaires"
+      ],
+      [
+        "Le conjoint qui gagne le plus décide de l’usage des deux salaires"
+      ],
+      [
+        "Le mariage impose le versement de tous les salaires sur un compte commun"
+      ]
+    ]
+  },
+  {
+    "id": 28,
+    "section": "rightsCase",
+    "prompt": "Une personne reçoit une convocation comme juré d’assises. Elle pense avoir un motif sérieux de dispense. Que doit-elle faire ?",
+    "correct": [
+      "Présenter une demande de dispense motivée"
+    ],
+    "distractors": [
+      [
+        "Ignorer la convocation sans répondre"
+      ],
+      [
+        "Choisir elle-même une personne pour la remplacer"
+      ],
+      [
+        "Demander à son employeur d’annuler la convocation"
+      ]
+    ]
+  },
+  {
+    "id": 29,
+    "section": "rightsCase",
+    "prompt": "Une personne est poursuivie au pénal et aucun jugement définitif de culpabilité n’a été rendu. Quel principe s’applique ?",
+    "correct": [
+      "La présomption d’innocence",
+      "Elle est présumée innocente tant que sa culpabilité n’a pas été établie"
+    ],
+    "distractors": [
+      [
+        "La culpabilité dès l’ouverture de l’enquête"
+      ],
+      [
+        "La culpabilité dès le dépôt d’une plainte"
+      ],
+      [
+        "L’obligation de prouver son innocence"
+      ]
+    ]
+  },
+  {
+    "id": 30,
+    "section": "history",
+    "prompt": "En quelle année a commencé la Révolution française ?",
+    "correct": [
+      "1789"
+    ],
+    "distractors": [
+      [
+        "1776"
+      ],
+      [
+        "1792"
+      ],
+      [
+        "1804"
+      ],
+      [
+        "1815"
+      ]
+    ]
+  },
+  {
+    "id": 31,
+    "section": "history",
+    "prompt": "En quelle année les femmes ont-elles obtenu le droit de vote en France ?",
+    "correct": [
+      "1944"
+    ],
+    "distractors": [
+      [
+        "1936"
+      ],
+      [
+        "1945"
+      ],
+      [
+        "1946"
+      ],
+      [
+        "1958"
+      ]
+    ]
+  },
+  {
+    "id": 32,
+    "section": "history",
+    "prompt": "En quelle année a été adoptée la Constitution de la Ve République ?",
+    "correct": [
+      "1958"
+    ],
+    "distractors": [
+      [
+        "1944"
+      ],
+      [
+        "1946"
+      ],
+      [
+        "1962"
+      ],
+      [
+        "1968"
+      ]
+    ]
+  },
+  {
+    "id": 33,
+    "section": "geography",
+    "prompt": "Quelle ville est située sur la Garonne ?",
+    "correct": [
+      "Toulouse"
+    ],
+    "distractors": [
+      [
+        "Lyon"
+      ],
+      [
+        "Nantes"
+      ],
+      [
+        "Strasbourg"
+      ],
+      [
+        "Rouen"
+      ]
+    ]
+  },
+  {
+    "id": 34,
+    "section": "geography",
+    "prompt": "Quel territoire français est situé en Amérique du Sud ?",
+    "correct": [
+      "La Guyane"
+    ],
+    "distractors": [
+      [
+        "La Guadeloupe"
+      ],
+      [
+        "La Martinique"
+      ],
+      [
+        "La Réunion"
+      ],
+      [
+        "Mayotte"
+      ]
+    ]
+  },
+  {
+    "id": 35,
+    "section": "geography",
+    "prompt": "Quel massif montagneux sépare une partie de la France et de l’Espagne ?",
+    "correct": [
+      "Les Pyrénées"
+    ],
+    "distractors": [
+      [
+        "Les Alpes"
+      ],
+      [
+        "Le Jura"
+      ],
+      [
+        "Les Vosges"
+      ],
+      [
+        "Le Massif central"
+      ]
+    ]
+  },
+  {
+    "id": 36,
+    "section": "heritage",
+    "prompt": "Dans quelle ville se trouve le musée du Louvre ?",
+    "correct": [
+      "Paris"
+    ],
+    "distractors": [
+      [
+        "Lyon"
+      ],
+      [
+        "Marseille"
+      ],
+      [
+        "Bordeaux"
+      ],
+      [
+        "Lille"
+      ]
+    ]
+  },
+  {
+    "id": 37,
+    "section": "heritage",
+    "prompt": "Qui a écrit Les Misérables ?",
+    "correct": [
+      "Victor Hugo"
+    ],
+    "distractors": [
+      [
+        "Émile Zola"
+      ],
+      [
+        "Alexandre Dumas"
+      ],
+      [
+        "Gustave Flaubert"
+      ],
+      [
+        "Honoré de Balzac"
+      ]
+    ]
+  },
+  {
+    "id": 38,
+    "section": "residence",
+    "prompt": "À quoi sert un titre de séjour ?",
+    "correct": [
+      "À justifier du droit de séjourner en France",
+      "À attester que son titulaire est autorisé à séjourner en France"
+    ],
+    "distractors": [
+      [
+        "À prouver la nationalité française"
+      ],
+      [
+        "À tenir lieu de passeport"
+      ],
+      [
+        "À attester du domicile actuel"
+      ]
+    ]
+  },
+  {
+    "id": 39,
+    "section": "health",
+    "prompt": "Quel numéro permet de joindre directement le SAMU en cas d’urgence médicale ?",
+    "correct": [
+      "Le 15"
+    ],
+    "distractors": [
+      [
+        "Le 17"
+      ],
+      [
+        "Le 18"
+      ],
+      [
+        "Le 115"
+      ]
+    ]
+  },
+  {
+    "id": 40,
+    "section": "work",
+    "prompt": "Quel document précise normalement le salaire brut et les cotisations d’un salarié pour une période de paie ?",
+    "correct": [
+      "Le bulletin de paie",
+      "La fiche de paie"
+    ],
+    "distractors": [
+      [
+        "Le certificat de travail"
+      ],
+      [
+        "Le contrat de travail"
+      ],
+      [
+        "L’attestation employeur destinée à France Travail"
+      ]
+    ]
+  },
+  {
+    "id": 41,
+    "section": "school",
+    "prompt": "Quelle démarche permet de demander une première inscription à l’école primaire publique de sa commune ?",
+    "correct": [
+      "S’adresser à la mairie pour l’inscription"
+    ],
+    "distractors": [
+      [
+        "S’adresser à la caisse d’assurance maladie"
+      ],
+      [
+        "Déposer une demande à la préfecture"
+      ],
+      [
+        "S’inscrire auprès de France Travail"
+      ]
+    ]
+  }
+]
