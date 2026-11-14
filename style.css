@@ -32,3 +32,49 @@ select { display: block; width: 100%; margin: 6px 0 14px; }
 .jump button { min-width: 36px; padding: 6px; }
 details { padding: 10px 0; border-top: 1px solid #dde4f0; }
 summary { cursor: pointer; }
+
+/* Mobile ergonomics: larger touch targets, clearer hierarchy, and compact exam navigation. */
+html { -webkit-text-size-adjust: 100%; }
+button, select, summary, a { touch-action: manipulation; }
+button, select { min-height: 44px; }
+button:focus-visible, select:focus-visible, a:focus-visible, summary:focus-visible {
+  outline: 3px solid #3075da;
+  outline-offset: 3px;
+}
+.jump button { min-width: 44px; min-height: 44px; }
+.option { line-height: 1.45; padding: 12px 14px; }
+#timer { display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; border-radius: 8px; background: #eef3fb; color: #172b50; }
+
+@media (max-width: 600px) {
+  .wrap { width: min(100% - 24px, 880px); }
+  header .wrap { gap: 4px 10px; padding-block: 14px; align-items: flex-start; flex-direction: column; }
+  header strong { font-size: 1.2rem; }
+  header span { font-size: .95rem; }
+  main { padding-block: 18px 14px; }
+  footer { padding-block: 8px 22px; line-height: 1.45; overflow-wrap: anywhere; }
+  .card { border-radius: 14px; padding: 16px; margin-bottom: 12px; }
+  .grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  h1 { font-size: clamp(1.5rem, 7vw, 1.9rem); }
+  h2 { font-size: clamp(1.18rem, 5vw, 1.45rem); }
+  p { line-height: 1.6; }
+  .row { gap: 8px; }
+  .row > button { flex: 1 1 auto; }
+  .row > .meta { flex-basis: 100%; margin: 0; }
+  .answers { gap: 9px; margin: 16px 0; }
+  .option { min-height: 54px; }
+  .jump { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
+  .jump button { width: 100%; min-width: 0; min-height: 46px; padding: 4px; font-variant-numeric: tabular-nums; }
+  details { padding: 12px 0; }
+  summary { line-height: 1.5; padding: 4px 0; }
+}
+
+@media (max-width: 360px) {
+  .wrap { width: calc(100% - 20px); }
+  .card { padding: 14px; }
+  .jump { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 7px; }
+  .row { align-items: stretch; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  button { transition: border-color 120ms ease, background-color 120ms ease, box-shadow 120ms ease; }
+}
