@@ -1,132 +1,5493 @@
 [
   {
-    "id": 1,
-    "section": "symbols",
-    "prompt": "Quelle est la devise de la République française ?",
+    "id": 1001,
+    "section": "values",
+    "prompt": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
     "correct": [
-      "Liberté, Égalité, Fraternité"
+      "Voter aux élections",
+      "Participer au vote lors d’une élection"
     ],
     "distractors": [
       [
-        "Liberté, Solidarité, Justice"
+        "Payer son loyer"
       ],
       [
-        "Égalité, Unité, Fraternité"
+        "Regarder les informations à la télévision"
       ],
       [
-        "Liberté, Égalité, Laïcité"
+        "Prendre les transports en commun"
       ],
       [
-        "Unité, Égalité, Solidarité"
+        "Suivre les résultats électoraux à la télévision sans voter"
       ]
-    ]
+    ],
+    "explanation": "Voter, s'engager dans une association ou un syndicat sont des formes de participation à la vie citoyenne. Le vote est une participation civique directe. S’informer peut préparer cet engagement.",
+    "source": "https://www.prepa-examen.fr/question/parmi-propositions-suivantes-laquelle-constitue-participation-citoyenne-cr/",
+    "official": true
   },
   {
-    "id": 2,
-    "section": "symbols",
-    "prompt": "Quel est l’hymne national français ?",
+    "id": 1002,
+    "section": "values",
+    "prompt": "Que garantit la liberté d’expression ?",
     "correct": [
-      "La Marseillaise"
+      "Dire et écrire ce qu'on pense en respectant la loi",
+      "Exprimer ses opinions dans les limites prévues par la loi"
     ],
     "distractors": [
       [
-        "Le Chant des partisans"
+        "Dire ce qu'on pense sans aucune limite légale"
       ],
       [
-        "Le Chant du départ"
+        "Exprimer son avis sans être critiqué jamais"
       ],
       [
-        "L’Ode à la joie"
+        "Donner son avis obligatoire sur tous les débats"
       ],
       [
-        "L’Internationale"
+        "Exprimer toute opinion à condition de le faire anonymement"
       ]
-    ]
+    ],
+    "explanation": "La liberté d'expression garantit le droit de s'exprimer librement, dans le respect des lois (pas d'injure, de diffamation ou d'incitation à la haine). La protection s’applique aussi en ligne. La diffamation et l’incitation à la haine restent sanctionnables.",
+    "source": "https://www.prepa-examen.fr/question/garantit-liberte-expression-cr/",
+    "official": true
   },
   {
-    "id": 3,
-    "section": "symbols",
-    "prompt": "Quelles sont les couleurs du drapeau français, dans l’ordre à partir de la hampe ?",
+    "id": 1003,
+    "section": "values",
+    "prompt": "À quoi sert un titre de séjour ?",
     "correct": [
-      "Bleu, blanc, rouge"
+      "Il autorise une personne étrangère à résider légalement en France",
+      "Il justifie le droit de séjourner en France"
     ],
     "distractors": [
       [
-        "Bleu, rouge, blanc"
+        "Il donne automatiquement la nationalité française à son titulaire"
       ],
       [
-        "Rouge, blanc, bleu"
+        "Il remplace le passeport dans tous les pays"
       ],
       [
-        "Blanc, bleu, rouge"
+        "Il sert uniquement à ouvrir un compte bancaire"
       ],
       [
-        "Rouge, bleu, blanc"
+        "Il atteste l’inscription sur une liste électorale"
       ]
-    ]
+    ],
+    "explanation": "Le titre de séjour autorise une personne étrangère à vivre légalement en France pendant sa durée de validité. Le droit au séjour et l’autorisation de travailler sont distincts. Cette dernière dépend du titre.",
+    "source": "https://www.prepa-examen.fr/question/a-quoi-sert-titre-sejour-cr/",
+    "official": true
   },
   {
-    "id": 4,
+    "id": 1004,
+    "section": "values",
+    "prompt": "La liberté de circulation permet à toute personne de :",
+    "correct": [
+      "se déplacer librement sur le territoire",
+      "circuler librement, sous réserve des restrictions légales"
+    ],
+    "distractors": [
+      [
+        "conduire sans permis"
+      ],
+      [
+        "voyager gratuitement dans les transports"
+      ],
+      [
+        "entrer dans tous les pays sans visa"
+      ],
+      [
+        "franchir toute frontière sur présentation d’un justificatif de domicile"
+      ]
+    ],
+    "explanation": "La liberté d'aller et venir permet de se déplacer librement en France, dans le respect de la loi. La liberté de circulation n’abolit ni les contrôles aux frontières ni les règles de sécurité.",
+    "source": "https://www.prepa-examen.fr/question/liberte-circulation-permet-a-toute-personne-cr/",
+    "official": true
+  },
+  {
+    "id": 1005,
+    "section": "symbols",
+    "prompt": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
+    "correct": [
+      "Sur le site officiel du ministère de l’Intérieur",
+      "Sur des sites institutionnels comme interieur.gouv.fr"
+    ],
+    "distractors": [
+      [
+        "Sur un site commercial en ligne uniquement"
+      ],
+      [
+        "Sur les réseaux sociaux uniquement"
+      ],
+      [
+        "Sur des sites de partis politiques uniquement"
+      ],
+      [
+        "Uniquement sur les sites des mairies"
+      ]
+    ],
+    "explanation": "Le bloc-marque de l’État peut associer une représentation de Marianne à la devise. Il figure sur les sites ministériels.",
+    "source": "https://www.prepa-examen.fr/question/site-internet-retrouver-symbole-republique-francaise-cr/",
+    "official": true
+  },
+  {
+    "id": 1006,
+    "section": "symbols",
+    "prompt": "Complétez ces paroles de la Marseillaise : \"Aux armes […] ! Formez vos bataillons\"",
+    "correct": [
+      "citoyens"
+    ],
+    "distractors": [
+      [
+        "soldats"
+      ],
+      [
+        "français"
+      ],
+      [
+        "patriotes"
+      ],
+      [
+        "volontaires"
+      ],
+      [
+        "compagnons"
+      ]
+    ],
+    "explanation": "Le refrain de la Marseillaise commence par « Aux armes, citoyens ! Formez vos bataillons ». Les vers suivants commencent par « Formez vos bataillons », ce qui peut faire penser à « soldats ».",
+    "source": "https://www.prepa-examen.fr/question/completez-paroles-marseillaise-armes-formez-vos-bataillons-cr/",
+    "official": true
+  },
+  {
+    "id": 1007,
+    "section": "symbols",
+    "prompt": "Complétez les paroles de la Marseillaise : \"Allons enfants de la patrie […]\"",
+    "correct": [
+      "le jour de gloire est arrivé"
+    ],
+    "distractors": [
+      [
+        "debout citoyens"
+      ],
+      [
+        "la France nous a tout donné"
+      ],
+      [
+        "vive la République"
+      ],
+      [
+        "marchons, marchons"
+      ],
+      [
+        "que le sang impur abreuve nos sillons"
+      ]
+    ],
+    "explanation": "Le premier couplet de la Marseillaise commence par \"Allons enfants de la patrie, le jour de gloire est arrivé !\" Ces deux autres expressions sont dans le refrain, après le premier couplet.",
+    "source": "https://www.prepa-examen.fr/question/completez-paroles-marseillaise-allons-enfants-patrie-csp/",
+    "official": true
+  },
+  {
+    "id": 1008,
+    "section": "values",
+    "prompt": "En application de la liberté individuelle, quelle proposition est correcte ? Une personne peut :",
+    "correct": [
+      "choisir librement la personne avec qui elle vit",
+      "décider avec qui elle souhaite vivre"
+    ],
+    "distractors": [
+      [
+        "empêcher son conjoint de travailler"
+      ],
+      [
+        "interdire à sa fille majeure de sortir"
+      ],
+      [
+        "lire le courrier de ses voisins"
+      ],
+      [
+        "choisir à la place d’un autre adulte son lieu de vie"
+      ]
+    ],
+    "explanation": "La liberté individuelle permet à chacun de choisir sa vie privée ; elle ne permet pas de restreindre la liberté des autres. La liberté individuelle protège ses propres choix, dans le respect de l’autonomie et de la vie privée d’autrui.",
+    "source": "https://www.prepa-examen.fr/question/application-liberte-individuelle-proposition-correcte-personne-cr/",
+    "official": true
+  },
+  {
+    "id": 1009,
+    "section": "values",
+    "prompt": "Concernant la pratique de la religion, quelle proposition est correcte ?",
+    "correct": [
+      "Chacun peut pratiquer sa religion librement, dans le respect de l'ordre public",
+      "On peut pratiquer le culte de son choix dans le respect de l’ordre public"
+    ],
+    "distractors": [
+      [
+        "La pratique religieuse est strictement interdite dans tous les lieux publics"
+      ],
+      [
+        "L'État impose une religion officielle"
+      ],
+      [
+        "Seules certaines religions sont autorisées"
+      ],
+      [
+        "Une pratique doit être autorisée au cas par cas par le maire"
+      ]
+    ],
+    "explanation": "La liberté de culte est garantie : chacun pratique librement sa religion, dans le respect de la loi et de l'ordre public. La neutralité s’impose à l’État, tandis que les personnes disposent de la liberté de conscience et de culte.",
+    "source": "https://www.prepa-examen.fr/question/concernant-pratique-religion-proposition-correcte-cr/",
+    "official": true
+  },
+  {
+    "id": 1010,
+    "section": "values",
+    "prompt": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?",
+    "correct": [
+      "Non, les cours obligatoires s'imposent à tous les élèves",
+      "Non, la mixité ne dispense pas d’un cours obligatoire"
+    ],
+    "distractors": [
+      [
+        "Oui, avec un simple mot des parents"
+      ],
+      [
+        "Oui, pour les filles uniquement"
+      ],
+      [
+        "Oui, si la famille fournit une attestation sur l'honneur"
+      ],
+      [
+        "Oui, si l’enfant s’engage à pratiquer un sport à la maison"
+      ]
+    ],
+    "explanation": "Aucun motif religieux ou personnel ne permet de refuser un enseignement obligatoire : la mixité s'applique à tous. Une inaptitude médicale peut justifier une adaptation. La mixité ne constitue pas un motif de dispense.",
+    "source": "https://www.prepa-examen.fr/question/tant-parent-refuser-enfant-participe-cours-sport-cr/",
+    "official": true
+  },
+  {
+    "id": 1011,
+    "section": "symbols",
+    "prompt": "Quelle est la devise de la France ?",
+    "correct": [
+      "« Liberté, Égalité, Fraternité »"
+    ],
+    "distractors": [
+      [
+        "« Unité, Travail, Progrès »"
+      ],
+      [
+        "« Dieu et mon droit »"
+      ],
+      [
+        "« Paix, Justice, Solidarité »"
+      ],
+      [
+        "« Travail, Famille, Patrie »"
+      ],
+      [
+        "« Liberté, Égalité, Solidarité »"
+      ]
+    ],
+    "explanation": "La devise de la République française est « Liberté, Égalité, Fraternité ». L’article 2 de la Constitution fixe la devise. « Travail, Famille, Patrie » renvoie au régime de Vichy.",
+    "source": "https://www.prepa-examen.fr/question/devise-france-cr/",
+    "official": true
+  },
+  {
+    "id": 1012,
+    "section": "values",
+    "prompt": "La répudiation de sa femme est :",
+    "correct": [
+      "interdite en tant que rupture unilatérale imposée à son épouse",
+      "interdite comme rupture du mariage imposée unilatéralement à son épouse"
+    ],
+    "distractors": [
+      [
+        "autorisée avec l'accord du maire"
+      ],
+      [
+        "autorisée si le mariage a eu lieu à l'étranger"
+      ],
+      [
+        "tolérée dans certaines régions"
+      ],
+      [
+        "admise si un acte notarié est signé par le mari seul"
+      ]
+    ],
+    "explanation": "La répudiation unilatérale doit être distinguée du droit de chaque époux de demander un divorce selon les procédures françaises.",
+    "source": "https://www.prepa-examen.fr/question/repudiation-femme-cr/",
+    "official": true
+  },
+  {
+    "id": 1013,
+    "section": "values",
+    "prompt": "Les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+    "correct": [
+      "Ils financent les écoles, les hôpitaux et les routes",
+      "Ils contribuent au financement des services et équipements publics"
+    ],
+    "distractors": [
+      [
+        "Ils ne servent qu'à payer les fonctionnaires"
+      ],
+      [
+        "Ils ne financent que l'armée"
+      ],
+      [
+        "Ils sont reversés directement aux entreprises privées"
+      ],
+      [
+        "Ils sont intégralement reversés aux collectivités locales"
+      ]
+    ],
+    "explanation": "Les impôts financent l'ensemble des services publics : éducation, santé, infrastructures, sécurité, justice, etc. Le produit de l’impôt finance diverses dépenses collectives, au-delà d’un seul ministère ou niveau d’administration.",
+    "source": "https://www.prepa-examen.fr/question/france-impots-permettent-financer-depenses-publiques-proposition-cr/",
+    "official": true
+  },
+  {
+    "id": 1014,
+    "section": "values",
+    "prompt": "Peut-on brûler publiquement un drapeau français ?",
+    "correct": [
+      "La destruction publique peut être sanctionnée lorsqu’elle constitue un outrage au drapeau",
+      "Un tel acte peut constituer un outrage au drapeau sanctionné par la loi"
+    ],
+    "distractors": [
+      [
+        "Oui, si c'est filmé pour les réseaux sociaux"
+      ],
+      [
+        "Oui, lors de manifestations autorisées"
+      ],
+      [
+        "Oui, c'est un acte protégé par la liberté d'expression"
+      ],
+      [
+        "Oui, toute destruction en plein air est automatiquement protégée"
+      ]
+    ],
+    "explanation": "L’article R645-15 vise notamment l’intention d’outrager et un risque de trouble à l’ordre public. L’article 433-5-1 prévoit un cas distinct.",
+    "source": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022510542",
+    "official": true
+  },
+  {
+    "id": 1015,
+    "section": "values",
+    "prompt": "Que fait l’État pour lutter contre les discriminations ?",
+    "correct": [
+      "Il les interdit et les sanctionne pénalement",
+      "Il interdit les discriminations et prévoit des sanctions"
+    ],
+    "distractors": [
+      [
+        "Il laisse chaque employeur décider"
+      ],
+      [
+        "Il ne s'occupe que des discriminations au travail"
+      ],
+      [
+        "Rien, ce n'est pas son rôle"
+      ],
+      [
+        "Il intervient uniquement si la victime a la nationalité française"
+      ]
+    ],
+    "explanation": "Les discriminations sont des délits punis par la loi ; le Défenseur des droits peut être saisi gratuitement. Le Défenseur des droits peut accompagner les personnes qui estiment avoir subi une discrimination.",
+    "source": "https://www.prepa-examen.fr/question/etat-lutter-contre-discriminations-cr/",
+    "official": true
+  },
+  {
+    "id": 1016,
     "section": "symbols",
     "prompt": "Que représente Marianne ?",
     "correct": [
-      "La République française",
-      "Une personnification de la République française"
+      "Le symbole de la République française",
+      "Une figure allégorique de la République française"
     ],
     "distractors": [
       [
-        "Le Gouvernement français"
+        "La figure allégorique de la justice"
       ],
       [
-        "Le Parlement français"
+        "La patronne des Français"
       ],
       [
-        "La présidence de la République"
+        "La reine de France"
       ],
       [
-        "La Révolution de 1848 en particulier"
+        "La personnification officielle de l’Union européenne"
       ]
-    ]
+    ],
+    "explanation": "Marianne est le symbole officiel de la République française. Son buste est présent dans toutes les mairies. Marianne représente des principes républicains. Elle apparaît notamment dans les mairies et sur des timbres.",
+    "source": "https://www.prepa-examen.fr/question/represente-marianne-cr/",
+    "official": true
   },
   {
-    "id": 5,
-    "section": "secular",
-    "prompt": "Un agent public peut-il manifester ses convictions religieuses pendant son service ?",
+    "id": 1017,
+    "section": "values",
+    "prompt": "Qu'est-ce que la liberté d'association ?",
     "correct": [
-      "Non, il est tenu à la neutralité pendant son service",
-      "Non, il doit rester neutre dans l’exercice de ses fonctions"
+      "Fonder ou rejoindre librement un groupement de personnes",
+      "Créer une association ou y adhérer librement"
     ],
     "distractors": [
       [
-        "Oui, avec l’accord de son supérieur"
+        "Se déplacer librement sur tout le territoire français sans restriction"
       ],
       [
-        "Oui, tant qu’aucun usager ne s’y oppose"
+        "S'affilier obligatoirement à un syndicat pour travailler"
       ],
       [
-        "Oui, lorsqu’il travaille sans recevoir de public"
+        "Demander une nouvelle nationalité sans conditions"
+      ],
+      [
+        "Créer un organisme public pour représenter l’État"
       ]
-    ]
+    ],
+    "explanation": "La liberté d’association concerne les groupements. Une association peut exister sans déclaration, qui lui permet d’acquérir la capacité juridique.",
+    "source": "https://www.prepa-examen.fr/question/liberte-association-cr-2/",
+    "official": true
   },
   {
-    "id": 6,
+    "id": 1018,
+    "section": "values",
+    "prompt": "Qu'est-ce que la liberté ?",
+    "correct": [
+      "La possibilité d’agir sans nuire à autrui et dans le cadre de la loi",
+      "La possibilité d’agir dans le respect des droits d’autrui et de la loi"
+    ],
+    "distractors": [
+      [
+        "Le droit de faire tout ce que l'on veut, sans aucune limite"
+      ],
+      [
+        "Le droit de ne pas respecter les règles communes"
+      ],
+      [
+        "Le droit d'imposer ses choix à sa famille"
+      ],
+      [
+        "Le droit d’agir selon les seuls usages de son quartier"
+      ]
+    ],
+    "explanation": "L’article 4 de la Déclaration de 1789 pose la limite des droits d’autrui. La loi détermine ces limites.",
+    "source": "https://www.prepa-examen.fr/question/liberte-cr-2/",
+    "official": true
+  },
+  {
+    "id": 1019,
+    "section": "symbols",
+    "prompt": "Qu'est-ce que la Marseillaise ?",
+    "correct": [
+      "L'hymne national français",
+      "Le chant qui constitue l’hymne national de la France"
+    ],
+    "distractors": [
+      [
+        "Une danse traditionnelle"
+      ],
+      [
+        "La devise de la République"
+      ],
+      [
+        "Une fête organisée à Marseille"
+      ],
+      [
+        "L’hymne choisi pour représenter l’Union européenne"
+      ]
+    ],
+    "explanation": "La Marseillaise est l'hymne national de la France depuis 1795. Le Chant de guerre pour l’armée du Rhin est devenu La Marseillaise. L’hymne européen repose sur l’Ode à la joie.",
+    "source": "https://www.prepa-examen.fr/question/marseillaise-csp/",
+    "official": true
+  },
+  {
+    "id": 1020,
+    "section": "symbols",
+    "prompt": "Sur quel document peut-on voir Marianne ?",
+    "correct": [
+      "Les timbres et les pièces de monnaie",
+      "Certains timbres-poste et certaines pièces françaises"
+    ],
+    "distractors": [
+      [
+        "La carte Vitale et le passeport français"
+      ],
+      [
+        "La carte d'identité et le permis de conduire"
+      ],
+      [
+        "Les billets de banque en euros"
+      ],
+      [
+        "Les billets de banque émis dans toute la zone euro sans exception"
+      ]
+    ],
+    "explanation": "Les représentations varient suivant les séries de timbres et de pièces.",
+    "source": "https://www.prepa-examen.fr/question/document-voir-marianne-csp/",
+    "official": true
+  },
+  {
+    "id": 1021,
+    "section": "values",
+    "prompt": "Un employeur refuse d’embaucher des femmes dans son entreprise. Que dit la loi ?",
+    "correct": [
+      "C'est une discrimination interdite et punie",
+      "Refuser l’embauche en raison du sexe constitue une discrimination"
+    ],
+    "distractors": [
+      [
+        "L'employeur est libre de choisir"
+      ],
+      [
+        "C'est autorisé pour les métiers physiques"
+      ],
+      [
+        "C'est autorisé dans les petites entreprises"
+      ],
+      [
+        "Un tel refus est valable s’il est annoncé dans l’offre"
+      ]
+    ],
+    "explanation": "Refuser une embauche en raison du sexe est une discrimination, punie par le Code pénal et le Code du travail. La liberté de choisir un candidat s’exerce selon des critères professionnels. Les exceptions légales sont strictement encadrées.",
+    "source": "https://www.prepa-examen.fr/question/employeur-refuse-embaucher-femmes-entreprise-dit-loi-cr/",
+    "official": true
+  },
+  {
+    "id": 1022,
+    "section": "values",
+    "prompt": "Une des valeurs de la devise républicaine est l'égalité. Qu'est-ce que cela signifie ?",
+    "correct": [
+      "Chacun est égal devant la loi",
+      "La loi s’applique à tous selon le principe d’égalité"
+    ],
+    "distractors": [
+      [
+        "L'État donne le même salaire à tous les citoyens"
+      ],
+      [
+        "Chacun doit avoir le même métier que ses parents"
+      ],
+      [
+        "Tous les citoyens soutiennent le même parti politique"
+      ],
+      [
+        "Tous doivent verser exactement le même montant d’impôt"
+      ]
+    ],
+    "explanation": "L’égalité en droits n’oblige pas à appliquer un montant identique lorsque la loi distingue des situations différentes, par exemple selon le revenu.",
+    "source": "https://www.prepa-examen.fr/question/valeurs-devise-republicaine-egalite-cela-signifie-csp/",
+    "official": true
+  },
+  {
+    "id": 1023,
+    "section": "symbols",
+    "prompt": "Quelle est la place de la langue française dans la République ?",
+    "correct": [
+      "C'est la langue de la République, inscrite dans la Constitution",
+      "Le français est la langue de la République en vertu de l’article 2"
+    ],
+    "distractors": [
+      [
+        "C'est une langue régionale parmi d'autres"
+      ],
+      [
+        "C'est une langue utilisée seulement à l'école"
+      ],
+      [
+        "C'est une langue facultative dans les administrations"
+      ],
+      [
+        "C’est la langue administrative par usage, sans valeur constitutionnelle"
+      ]
+    ],
+    "explanation": "L'article 2 de la Constitution dispose : « La langue de la République est le français ». Les langues régionales appartiennent au patrimoine de la France en vertu de l’article 75-1.",
+    "source": "https://www.prepa-examen.fr/question/place-langue-francaise-republique-csp/",
+    "official": true
+  },
+  {
+    "id": 1024,
+    "section": "symbols",
+    "prompt": "Quels sont des symboles officiels de la République française ?",
+    "correct": [
+      "Le drapeau tricolore",
+      "Le drapeau bleu, blanc et rouge"
+    ],
+    "distractors": [
+      [
+        "Le lys et la couronne royale"
+      ],
+      [
+        "L'aigle et le sceptre"
+      ],
+      [
+        "Le blason royal et la fleur de lys"
+      ],
+      [
+        "Le drapeau bleu aux douze étoiles dorées"
+      ]
+    ],
+    "explanation": "Les symboles officiels de la République sont le drapeau bleu-blanc-rouge, Marianne, la Marseillaise, la devise et le 14 juillet. Le drapeau tricolore est l’emblème national selon l’article 2. Le drapeau aux étoiles est européen.",
+    "source": "https://www.prepa-examen.fr/question/lesquels-symboles-officiels-republique-francaise-csp/",
+    "official": true
+  },
+  {
+    "id": 1025,
+    "section": "values",
+    "prompt": "A-t-on le droit d'insulter publiquement quelqu’un parce qu’il est différent (handicap, apparence physique, sexe…) ?",
+    "correct": [
+      "Non, c'est une infraction punie par la loi",
+      "Non, les injures publiques peuvent être sanctionnées"
+    ],
+    "distractors": [
+      [
+        "Oui, c'est la liberté d'expression"
+      ],
+      [
+        "Oui, si c'est sur internet"
+      ],
+      [
+        "Oui, entre personnes majeures"
+      ],
+      [
+        "Oui, à condition que le message soit effacé par son auteur"
+      ]
+    ],
+    "explanation": "L'injure publique, surtout à caractère discriminatoire, est punie par la loi. La liberté d'expression ne protège pas les insultes. Les modalités et la sanction dépendent de la nature de l’injure et de son caractère public.",
+    "source": "https://www.prepa-examen.fr/question/a-droit-insulter-publiquement-quelqu-parce-different-csp/",
+    "official": true
+  },
+  {
+    "id": 1026,
+    "section": "values",
+    "prompt": "Le régime de la France est :",
+    "correct": [
+      "une démocratie",
+      "une République démocratique"
+    ],
+    "distractors": [
+      [
+        "une monarchie constitutionnelle"
+      ],
+      [
+        "un empire"
+      ],
+      [
+        "un régime militaire"
+      ],
+      [
+        "une démocratie directe sans Parlement"
+      ]
+    ],
+    "explanation": "La France est une démocratie : le pouvoir appartient au peuple, qui élit ses représentants. L’article premier qualifie la France de République indivisible, laïque, démocratique et sociale.",
+    "source": "https://www.prepa-examen.fr/question/regime-france-csp/",
+    "official": true
+  },
+  {
+    "id": 1027,
     "section": "secular",
-    "prompt": "Quelle liberté la laïcité garantit-elle ?",
+    "prompt": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+    "correct": [
+      "Pour garantir la neutralité de l'école et la liberté de conscience des élèves",
+      "Pour protéger la liberté de conscience et l’égalité des élèves"
+    ],
+    "distractors": [
+      [
+        "Parce que la religion est interdite en France"
+      ],
+      [
+        "Pour obliger les élèves à abandonner leur religion"
+      ],
+      [
+        "Parce que les enseignants choisissent la religion enseignée aux élèves"
+      ],
+      [
+        "Pour éviter toute étude scolaire des faits religieux"
+      ]
+    ],
+    "explanation": "L'école publique est neutre : elle protège les élèves de toute pression et respecte la liberté de conscience de chacun. La laïcité n’interdit pas l’étude des religions dans les programmes.",
+    "source": "https://www.prepa-examen.fr/question/pourquoi-principe-laicite-doit-etre-respecte-a-csp/",
+    "official": true
+  },
+  {
+    "id": 1028,
+    "section": "secular",
+    "prompt": "En quelle année la loi de séparation des Églises et de l'Etat a-t-elle été votée ?",
+    "correct": [
+      "1905",
+      "En 1905"
+    ],
+    "distractors": [
+      [
+        "1958"
+      ],
+      [
+        "1946"
+      ],
+      [
+        "1789"
+      ],
+      [
+        "1882"
+      ],
+      [
+        "1886"
+      ]
+    ],
+    "explanation": "La loi du 9 décembre 1905 instaure la séparation des Églises et de l'État, fondement du principe de laïcité en France. 1882 et 1886 renvoient aux lois scolaires. La loi du 9 décembre 1905 porte sur la séparation des Églises et de l’État.",
+    "source": "https://www.prepa-examen.fr/question/annee-loi-separation-eglises-etat-a-ete-cr/",
+    "official": true
+  },
+  {
+    "id": 1029,
+    "section": "secular",
+    "prompt": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+    "correct": [
+      "Oui, la liberté de conscience protège aussi les non-croyants",
+      "Oui, on est libre de n’adhérer à aucune religion"
+    ],
+    "distractors": [
+      [
+        "Non, chacun doit déclarer une religion à l'administration"
+      ],
+      [
+        "Oui, mais seulement chez elle"
+      ],
+      [
+        "Non, sauf autorisation spéciale"
+      ],
+      [
+        "Oui, à condition d’en informer l’officier d’état civil"
+      ]
+    ],
+    "explanation": "La liberté de conscience protège les croyants comme les non-croyants : ne pas croire est un droit. La liberté de conscience protège les croyants, les agnostiques et les athées.",
+    "source": "https://www.prepa-examen.fr/question/personne-a-droit-croire-religion-csp/",
+    "official": true
+  },
+  {
+    "id": 1030,
+    "section": "secular",
+    "prompt": "Quel droit est garanti par la laïcité ?",
     "correct": [
       "La liberté de conscience",
-      "La liberté de croire ou de ne pas croire"
+      "Le droit de croire ou de ne pas croire"
     ],
     "distractors": [
       [
-        "Le droit d’imposer sa religion à un agent public"
+        "Le droit de propriété"
       ],
       [
-        "Le droit pour l’État d’imposer une religion"
+        "Le droit au logement"
       ],
       [
-        "Le droit d’exiger l’application de règles religieuses par une administration"
+        "Le droit de vote"
+      ],
+      [
+        "Le droit de préférence religieuse dans l’accès au service public"
       ]
-    ]
+    ],
+    "explanation": "La laïcité garantit la liberté de conscience et le libre exercice des cultes, dans le respect de l'ordre public. La neutralité des services protège l’égalité des personnes quelles que soient leurs convictions.",
+    "source": "https://www.prepa-examen.fr/question/droit-garanti-laicite-csp/",
+    "official": true
+  },
+  {
+    "id": 1031,
+    "section": "secular",
+    "prompt": "À l'école publique, qui peut porter des signes religieux très visibles ?",
+    "correct": [
+      "À l’école publique primaire ou secondaire, ni les élèves ni les agents en service",
+      "Ni les agents en service ni les élèves de l’enseignement public primaire ou secondaire"
+    ],
+    "distractors": [
+      [
+        "Les enseignants en service"
+      ],
+      [
+        "Les élèves ayant atteint leur majorité"
+      ],
+      [
+        "Les seuls élèves des lycées publics"
+      ],
+      [
+        "Les élèves dont les parents donnent une autorisation"
+      ],
+      [
+        "Tous les lycéens dès lors qu’ils sont majeurs"
+      ]
+    ],
+    "explanation": "La règle relative aux signes ostensibles concerne les élèves des écoles, collèges et lycées publics. Elle ne s’étend pas de la même façon aux parents ou aux étudiants.",
+    "source": "https://www.prepa-examen.fr/question/a-ecole-publique-porter-signes-religieux-tres-cr/",
+    "official": true
+  },
+  {
+    "id": 1032,
+    "section": "secular",
+    "prompt": "Selon le principe de laïcité, que signifie la neutralité de l’État ?",
+    "correct": [
+      "L'État ne favorise ni ne défavorise aucune religion",
+      "Les pouvoirs publics restent impartiaux à l’égard des croyances"
+    ],
+    "distractors": [
+      [
+        "L'État interdit les religions"
+      ],
+      [
+        "L'État finance toutes les religions"
+      ],
+      [
+        "L'État choisit une religion officielle pour le pays"
+      ],
+      [
+        "L’État doit appliquer les règles de la religion majoritaire"
+      ]
+    ],
+    "explanation": "L'État est neutre : il ne reconnaît, ne salarie ni ne subventionne aucun culte, et traite tous les citoyens également. La neutralité garantit l’égalité du traitement. Certains régimes locaux de cultes ont des règles spécifiques.",
+    "source": "https://www.prepa-examen.fr/question/principe-laicite-signifie-neutralite-etat-cr/",
+    "official": true
+  },
+  {
+    "id": 1033,
+    "section": "secular",
+    "prompt": "Que peut faire un usager du service public dans une mairie ?",
+    "correct": [
+      "Être reçu et traité de manière égale, sans discrimination",
+      "Accéder au service selon les mêmes règles que les autres usagers"
+    ],
+    "distractors": [
+      [
+        "Refuser de présenter une pièce d'identité"
+      ],
+      [
+        "Demander un service uniquement en langue étrangère"
+      ],
+      [
+        "Exiger un traitement prioritaire selon sa nationalité"
+      ],
+      [
+        "Exiger un agent qui partage ses convictions"
+      ]
+    ],
+    "explanation": "Le principe d'égalité du service public garantit à chaque usager un traitement équitable, sans discrimination. L’usager peut avoir des convictions. Il doit cependant respecter le bon fonctionnement du service.",
+    "source": "https://www.prepa-examen.fr/question/faire-usager-service-public-mairie-cr/",
+    "official": true
+  },
+  {
+    "id": 1034,
+    "section": "secular",
+    "prompt": "Qui doit respecter le principe de neutralité religieuse dans une préfecture ?",
+    "correct": [
+      "Les agents de la préfecture",
+      "Les agents qui y exercent leurs fonctions"
+    ],
+    "distractors": [
+      [
+        "Les usagers uniquement"
+      ],
+      [
+        "Personne"
+      ],
+      [
+        "Les visiteurs étrangers"
+      ],
+      [
+        "Uniquement les agents titulaires qui reçoivent le public"
+      ]
+    ],
+    "explanation": "Les agents publics doivent être neutres pendant leur service ; les usagers, eux, gardent leur liberté d'expression religieuse. L’obligation concerne aussi les agents contractuels et ceux qui ne sont pas au guichet.",
+    "source": "https://www.prepa-examen.fr/question/doit-respecter-principe-neutralite-religieuse-prefecture-cr/",
+    "official": true
+  },
+  {
+    "id": 1035,
+    "section": "secular",
+    "prompt": "La laïcité impose-t-elle aux agents publics d'être neutres vis-à-vis des usagers ?",
+    "correct": [
+      "Oui, ils doivent traiter tous les usagers de la même façon",
+      "Oui, dans l’exercice de leurs fonctions"
+    ],
+    "distractors": [
+      [
+        "Non, c'est un simple usage"
+      ],
+      [
+        "Oui, mais seulement dans les écoles et les hôpitaux"
+      ],
+      [
+        "Non, sauf pour les directeurs"
+      ],
+      [
+        "Oui, uniquement lorsqu’un usager se plaint"
+      ]
+    ],
+    "explanation": "La neutralité des agents publics garantit l'égalité de traitement de tous les usagers, quelles que soient leurs convictions. La neutralité s’applique tout au long du service. Les agents conservent leur liberté de conscience.",
+    "source": "https://www.prepa-examen.fr/question/laicite-impose-agents-publics-etre-neutres-vis-cr/",
+    "official": true
+  },
+  {
+    "id": 1036,
+    "section": "secular",
+    "prompt": "Que garantit le principe de laïcité ?",
+    "correct": [
+      "L'État reste neutre. Chacun est libre de croire ou non.",
+      "La liberté de conscience et la neutralité de l’État"
+    ],
+    "distractors": [
+      [
+        "Chacun doit pratiquer une religion reconnue par l'État."
+      ],
+      [
+        "Une religion officielle est supérieure aux autres."
+      ],
+      [
+        "Interdire toute pratique religieuse publique et privée."
+      ],
+      [
+        "Une dispense générale des règles communes pour motif religieux"
+      ]
+    ],
+    "explanation": "La laïcité garantit à la fois la neutralité de l'État à l'égard des religions et la liberté pour chacun de croire, de ne pas croire ou de changer de religion. La loi de 1905 garantit le libre exercice des cultes sous les restrictions prévues dans l’intérêt de l’ordre public.",
+    "source": "https://www.prepa-examen.fr/question/garantit-principe-laicite-cr/",
+    "official": true
+  },
+  {
+    "id": 1037,
+    "section": "secular",
+    "prompt": "A-t-on le droit de changer de religion ?",
+    "correct": [
+      "Oui, c'est une liberté fondamentale",
+      "Oui, chacun est libre d’adopter une autre conviction"
+    ],
+    "distractors": [
+      [
+        "Non, c'est interdit"
+      ],
+      [
+        "Oui, avec une autorisation administrative"
+      ],
+      [
+        "Oui, une seule fois dans sa vie"
+      ],
+      [
+        "Oui, à condition que le changement soit enregistré en mairie"
+      ]
+    ],
+    "explanation": "Changer de religion, en avoir une ou ne pas en avoir relève de la liberté de conscience de chacun. La liberté de conscience comprend le droit de changer de conviction ou de ne plus en avoir.",
+    "source": "https://www.prepa-examen.fr/question/a-droit-changer-religion-cr/",
+    "official": true
+  },
+  {
+    "id": 1038,
+    "section": "secular",
+    "prompt": "Que représente la laïcité ?",
+    "correct": [
+      "La neutralité de l'État et la liberté de conscience",
+      "L’impartialité des pouvoirs publics et la liberté de conscience"
+    ],
+    "distractors": [
+      [
+        "Le rejet de toutes les religions"
+      ],
+      [
+        "Une religion d'État"
+      ],
+      [
+        "L'interdiction d'exprimer sa religion en public"
+      ],
+      [
+        "Le transfert des décisions publiques aux autorités religieuses"
+      ]
+    ],
+    "explanation": "La laïcité repose sur la neutralité de l'État, la liberté de conscience et l'égalité de tous devant la loi. Ces deux principes permettent aux personnes de convictions différentes d’accéder aux mêmes services.",
+    "source": "https://www.prepa-examen.fr/question/represente-laicite-cr/",
+    "official": true
+  },
+  {
+    "id": 1039,
+    "section": "secular",
+    "prompt": "Qu'est ce qui est interdit par la Charte de la laïcité à l'école ?",
+    "correct": [
+      "Refuser un enseignement au nom de ses convictions religieuses",
+      "Opposer sa religion pour ne pas suivre un cours obligatoire"
+    ],
+    "distractors": [
+      [
+        "Poser des questions sur l'histoire des religions en classe"
+      ],
+      [
+        "Étudier l'histoire des religions"
+      ],
+      [
+        "Manger à la cantine scolaire"
+      ],
+      [
+        "Signaler une discrimination liée à la religion"
+      ]
+    ],
+    "explanation": "La Charte de la laïcité rappelle qu'aucun élève ne peut contester un enseignement au nom de ses convictions. Un élève ne peut invoquer une conviction pour contester le droit de l’enseignant à traiter un sujet du programme.",
+    "source": "https://www.prepa-examen.fr/question/interdit-charte-laicite-a-ecole-cr/",
+    "official": true
+  },
+  {
+    "id": 1040,
+    "section": "secular",
+    "prompt": "Que dit l'article 1er de la Constitution française ?",
+    "correct": [
+      "« La France est une République indivisible, laïque, démocratique et sociale »"
+    ],
+    "distractors": [
+      [
+        "« Le président de la République est élu pour cinq ans au suffrage universel »"
+      ],
+      [
+        "« La langue de la République est le français »"
+      ],
+      [
+        "« Le Parlement vote la loi »"
+      ],
+      [
+        "« Le suffrage peut être direct ou indirect »"
+      ],
+      [
+        "« Le Gouvernement détermine et conduit la politique de la Nation »"
+      ]
+    ],
+    "explanation": "L'article 1er définit la République : indivisible, laïque, démocratique et sociale, assurant l'égalité de tous devant la loi. Ces règles relèvent respectivement des articles 3 et 20. La formule de l’article 2 sur la langue est également un piège.",
+    "source": "https://www.prepa-examen.fr/question/dit-article-1er-constitution-francaise-cr/",
+    "official": true
+  },
+  {
+    "id": 1041,
+    "section": "institutions",
+    "prompt": "Qu'est-ce que l'État de droit ?",
+    "correct": [
+      "Un État où tous, y compris les gouvernants, sont soumis au droit",
+      "Un État dont les autorités sont elles-mêmes soumises au droit"
+    ],
+    "distractors": [
+      [
+        "Un État militaire"
+      ],
+      [
+        "Un État sans Constitution"
+      ],
+      [
+        "Un État dirigé par un roi"
+      ],
+      [
+        "Un système où le Gouvernement peut soustraire ses actes à tout contrôle"
+      ]
+    ],
+    "explanation": "L'État de droit est un système dans lequel les gouvernants et les gouvernés sont également soumis au respect de la loi. Des juridictions indépendantes permettent de contester les actes illégaux des pouvoirs publics.",
+    "source": "https://www.prepa-examen.fr/question/etat-droit-cr/",
+    "official": true
+  },
+  {
+    "id": 1042,
+    "section": "institutions",
+    "prompt": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+    "correct": [
+      "Il peut être destitué suivant la procédure de l’article 68",
+      "Une destitution est possible si le manquement est manifestement incompatible avec le mandat"
+    ],
+    "distractors": [
+      [
+        "Il ne peut jamais être poursuivi, même après son mandat"
+      ],
+      [
+        "Il est jugé par le Sénat seul"
+      ],
+      [
+        "Il est automatiquement remplacé par le Premier ministre"
+      ],
+      [
+        "La condamnation pénale est prononcée par la Haute Cour"
+      ]
+    ],
+    "explanation": "L’article 68 charge le Parlement constitué en Haute Cour de décider d’une éventuelle destitution. Elle ne juge pas pénalement le crime.",
+    "source": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006527564",
+    "official": true
+  },
+  {
+    "id": 1043,
+    "section": "institutions",
+    "prompt": "La loi est l'expression de :",
+    "correct": [
+      "la volonté générale"
+    ],
+    "distractors": [
+      [
+        "la volonté du Président"
+      ],
+      [
+        "l'opinion des juges"
+      ],
+      [
+        "la volonté des plus riches"
+      ],
+      [
+        "la volonté du Gouvernement"
+      ],
+      [
+        "la volonté du Conseil constitutionnel"
+      ]
+    ],
+    "explanation": "Selon la Déclaration de 1789, « la loi est l'expression de la volonté générale », exprimée par les représentants élus. La formule est celle de l’article 6 de la Déclaration de 1789. Les citoyens concourent à la formation de la loi, directement ou par leurs représentants.",
+    "source": "https://www.prepa-examen.fr/question/loi-expression-cr/",
+    "official": true
+  },
+  {
+    "id": 1044,
+    "section": "vote",
+    "prompt": "Quelle est la durée du mandat du conseil municipal et du maire ?",
+    "correct": [
+      "6 ans",
+      "Six ans"
+    ],
+    "distractors": [
+      [
+        "3 ans"
+      ],
+      [
+        "4 ans"
+      ],
+      [
+        "5 ans"
+      ],
+      [
+        "Sept ans"
+      ]
+    ],
+    "explanation": "Le conseil municipal est élu par les électeurs. Le maire est élu par le conseil, en principe pour la durée de son mandat.",
+    "source": "https://www.prepa-examen.fr/question/durees-mandat-conseil-municipal-maire-cr/",
+    "official": true
+  },
+  {
+    "id": 1045,
+    "section": "vote",
+    "prompt": "Que garantit l’État de droit ?",
+    "correct": [
+      "Le respect de la loi par tous, y compris par l'État",
+      "La soumission des autorités publiques au droit"
+    ],
+    "distractors": [
+      [
+        "Le pouvoir absolu du Gouvernement"
+      ],
+      [
+        "L'absence totale d'impôts"
+      ],
+      [
+        "La supériorité de l'État sur la loi et sur les juges"
+      ],
+      [
+        "L’impossibilité de contester un acte administratif"
+      ]
+    ],
+    "explanation": "Dans un État de droit, l'État lui-même est soumis au droit, et les libertés des citoyens sont protégées. Le juge peut contrôler la légalité des actes administratifs. Les citoyens disposent de voies de recours.",
+    "source": "https://www.prepa-examen.fr/question/garantit-etat-droit-cr/",
+    "official": true
+  },
+  {
+    "id": 1046,
+    "section": "vote",
+    "prompt": "Une personne peut-elle voter à la place d'une autre ?",
+    "correct": [
+      "Oui, si elle a reçu une procuration",
+      "Oui, si une procuration valable lui a été donnée"
+    ],
+    "distractors": [
+      [
+        "Non, jamais"
+      ],
+      [
+        "Oui, pour les membres de sa famille sans formalité"
+      ],
+      [
+        "Oui, en présentant la carte d'électeur de l'autre personne"
+      ],
+      [
+        "Oui, si la mairie l’autorise oralement le jour du vote"
+      ]
+    ],
+    "explanation": "Le vote par procuration permet à un électeur absent de confier son vote à une personne de confiance, après une démarche officielle. Le mandataire vote dans le bureau du mandant, même si leurs communes d’inscription sont différentes.",
+    "source": "https://www.prepa-examen.fr/question/personne-voter-a-place-autre-cr/",
+    "official": true
+  },
+  {
+    "id": 1047,
+    "section": "vote",
+    "prompt": "Est-ce que le vote est obligatoire ?",
+    "correct": [
+      "Non, pour les citoyens aux élections ordinaires",
+      "En règle générale, le vote des citoyens est facultatif"
+    ],
+    "distractors": [
+      [
+        "Oui, sous peine d'amende"
+      ],
+      [
+        "Oui, pour les fonctionnaires"
+      ],
+      [
+        "Non, sauf aux élections présidentielles"
+      ],
+      [
+        "Oui, dès lors que l’électeur est inscrit"
+      ]
+    ],
+    "explanation": "Le vote des citoyens aux élections ordinaires est facultatif. Les grands électeurs aux sénatoriales sont soumis à une règle spécifique.",
+    "source": "https://www.prepa-examen.fr/question/vote-obligatoire-cr/",
+    "official": true
+  },
+  {
+    "id": 1048,
+    "section": "vote",
+    "prompt": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+    "correct": [
+      "Non, il quitte ses fonctions sauf s'il est réélu",
+      "Son mandat prend fin et il ne peut pas le prolonger de lui-même"
+    ],
+    "distractors": [
+      [
+        "Oui, s'il le décide"
+      ],
+      [
+        "Oui, avec l'accord du Gouvernement"
+      ],
+      [
+        "Oui, pour cinq ans supplémentaires sans élection"
+      ],
+      [
+        "Oui, avec un vote favorable du seul Conseil des ministres"
+      ]
+    ],
+    "explanation": "Le mandat présidentiel est limité à cinq ans, renouvelable une fois consécutivement : rester au pouvoir exige d'être réélu. Une réélection est possible dans la limite de deux mandats consécutifs prévue à l’article 6.",
+    "source": "https://www.prepa-examen.fr/question/a-fin-mandat-president-republique-decider-rester-cr/",
+    "official": true
+  },
+  {
+    "id": 1049,
+    "section": "institutions",
+    "prompt": "Qui dirige l'action du Gouvernement ?",
+    "correct": [
+      "Le Premier ministre",
+      "Le chef du Gouvernement, c’est-à-dire le Premier ministre"
+    ],
+    "distractors": [
+      [
+        "Le président du Sénat"
+      ],
+      [
+        "Le ministre de l'Intérieur"
+      ],
+      [
+        "Le président de l'Assemblée nationale"
+      ],
+      [
+        "Le président du Conseil constitutionnel"
+      ]
+    ],
+    "explanation": "Le Premier ministre dirige l'action du Gouvernement (article 21 de la Constitution). L’article 21 attribue cette mission au Premier ministre. Le président de la République préside le Conseil des ministres.",
+    "source": "https://www.prepa-examen.fr/question/dirige-action-gouvernement-cr/",
+    "official": true
+  },
+  {
+    "id": 1050,
+    "section": "institutions",
+    "prompt": "Qui nomme le Premier ministre ?",
+    "correct": [
+      "Le Président de la République",
+      "Le chef de l’État"
+    ],
+    "distractors": [
+      [
+        "Le peuple directement"
+      ],
+      [
+        "L'Assemblée nationale"
+      ],
+      [
+        "Le Sénat"
+      ],
+      [
+        "Le président du Sénat"
+      ],
+      [
+        "Le Conseil constitutionnel"
+      ]
+    ],
+    "explanation": "Le Premier ministre est nommé par le Président de la République. L’article 8 attribue la nomination au président de la République. La possibilité d’une censure donne à l’Assemblée un rôle politique distinct.",
+    "source": "https://www.elysee.fr/la-presidence/le-president-dans-la-constitution",
+    "official": true
+  },
+  {
+    "id": 1051,
+    "section": "institutions",
+    "prompt": "Quelle est l'organisation administrative de la France ?",
+    "correct": [
+      "Des communes, des départements et des régions",
+      "Elle comprend notamment les communes, les départements et les régions"
+    ],
+    "distractors": [
+      [
+        "Des États fédérés"
+      ],
+      [
+        "Des provinces et des comtés dirigés par des gouverneurs"
+      ],
+      [
+        "Des cantons indépendants"
+      ],
+      [
+        "Elle est composée uniquement de préfectures et de cantons"
+      ]
+    ],
+    "explanation": "Le territoire français est organisé en communes, départements et régions, ainsi que des collectivités d'outre-mer. Il existe aussi des collectivités à statut particulier et des collectivités d’outre-mer.",
+    "source": "https://www.prepa-examen.fr/question/organisation-administrative-france-cr/",
+    "official": true
+  },
+  {
+    "id": 1052,
+    "section": "institutions",
+    "prompt": "Qu'est-ce que le pouvoir législatif ? Le pouvoir :",
+    "correct": [
+      "de voter les lois",
+      "de délibérer et de voter la loi"
+    ],
+    "distractors": [
+      [
+        "d'appliquer les lois"
+      ],
+      [
+        "de juger les infractions"
+      ],
+      [
+        "de dissoudre l'Assemblée nationale"
+      ],
+      [
+        "de prendre un arrêté municipal"
+      ]
+    ],
+    "explanation": "Le pouvoir législatif consiste à discuter et voter les lois : il appartient au Parlement. L’article 24 attribue le vote de la loi au Parlement. L’exécution relève du pouvoir exécutif.",
+    "source": "https://www.prepa-examen.fr/question/pouvoir-legislatif-pouvoir-cr/",
+    "official": true
+  },
+  {
+    "id": 1053,
+    "section": "institutions",
+    "prompt": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+    "correct": [
+      "Pour éviter la concentration du pouvoir et protéger les libertés",
+      "Pour que des pouvoirs distincts se contrôlent et protègent les libertés"
+    ],
+    "distractors": [
+      [
+        "Pour ralentir volontairement les décisions"
+      ],
+      [
+        "Pour créer plus d'emplois publics"
+      ],
+      [
+        "Pour permettre au président de la République de tout contrôler"
+      ],
+      [
+        "Pour permettre à chaque pouvoir de modifier seul la Constitution"
+      ]
+    ],
+    "explanation": "La séparation des pouvoirs (exécutif, législatif, judiciaire) empêche les abus et protège les citoyens. Le contrôle réciproque limite l’arbitraire. Il n’exige pas une absence de relations entre pouvoirs.",
+    "source": "https://www.prepa-examen.fr/question/pourquoi-separer-trois-pouvoirs-democratie-cr/",
+    "official": true
+  },
+  {
+    "id": 1054,
+    "section": "institutions",
+    "prompt": "Qui sanctionne l'auteur d'un vol ?",
+    "correct": [
+      "Le tribunal (le juge)",
+      "La juridiction pénale compétente"
+    ],
+    "distractors": [
+      [
+        "Le préfet"
+      ],
+      [
+        "Le maire"
+      ],
+      [
+        "Le Président de la République"
+      ],
+      [
+        "Le procureur à la place du tribunal dans toute affaire"
+      ]
+    ],
+    "explanation": "C'est la justice, et plus précisément le juge, qui sanctionne les auteurs d'infractions comme le vol. Le vol simple relève en principe du tribunal correctionnel. La police enquête et le parquet exerce les poursuites.",
+    "source": "https://www.prepa-examen.fr/question/sanctionne-auteur-vol-cr/",
+    "official": true
+  },
+  {
+    "id": 1055,
+    "section": "institutions",
+    "prompt": "Quel est le rôle du gouvernement ?",
+    "correct": [
+      "Déterminer et conduire la politique de la nation",
+      "Conduire la politique nationale"
+    ],
+    "distractors": [
+      [
+        "Voter les lois"
+      ],
+      [
+        "Rendre la justice au nom du peuple français"
+      ],
+      [
+        "Élire le président de la République"
+      ],
+      [
+        "Déterminer la validité constitutionnelle des lois"
+      ]
+    ],
+    "explanation": "Selon la Constitution, le Gouvernement détermine et conduit la politique de la nation. Cette mission figure à l’article 20. Le Gouvernement est responsable devant le Parlement selon la Constitution.",
+    "source": "https://www.prepa-examen.fr/question/role-gouvernement-cr/",
+    "official": true
+  },
+  {
+    "id": 1056,
+    "section": "institutions",
+    "prompt": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+    "correct": [
+      "Il peut être jugé et condamné, comme tout citoyen",
+      "Il peut être poursuivi selon les règles applicables à ses actes"
+    ],
+    "distractors": [
+      [
+        "Rien, il est protégé à vie"
+      ],
+      [
+        "Il est seulement privé de salaire"
+      ],
+      [
+        "Il est jugé uniquement par le président de la République"
+      ],
+      [
+        "Un ministre ne peut être sanctionné qu’après sa retraite"
+      ]
+    ],
+    "explanation": "Les infractions commises dans l’exercice des fonctions ministérielles relèvent de la Cour de justice de la République.",
+    "source": "https://www.prepa-examen.fr/question/passe-si-ministre-respecte-loi-csp/",
+    "official": true
+  },
+  {
+    "id": 1057,
+    "section": "institutions",
+    "prompt": "Combien de députés composent l’Assemblée nationale ?",
+    "correct": [
+      "577",
+      "Cinq cent soixante-dix-sept"
+    ],
+    "distractors": [
+      [
+        "500"
+      ],
+      [
+        "700"
+      ],
+      [
+        "348"
+      ],
+      [
+        "580"
+      ],
+      [
+        "565"
+      ]
+    ],
+    "explanation": "L'Assemblée nationale est composée de 577 députés, élus au suffrage universel direct pour un mandat de 5 ans. C'est la chambre basse du Parlement français. 348 correspond au nombre de sénateurs. Les députés siègent à l’Assemblée nationale.",
+    "source": "https://www.prepa-examen.fr/question/combien-deputes-composent-assemblee-nationale-francaise-csp/",
+    "official": true
+  },
+  {
+    "id": 1058,
+    "section": "vote",
+    "prompt": "Qui peut voter aux élections en France ?",
+    "correct": [
+      "Aux élections nationales, les Français majeurs inscrits et jouissant de leurs droits civiques",
+      "Pour les élections nationales, les Français majeurs jouissant de leurs droits civiques et inscrits"
+    ],
+    "distractors": [
+      [
+        "Toutes les personnes vivant en France"
+      ],
+      [
+        "Les personnes de plus de 16 ans"
+      ],
+      [
+        "Uniquement les personnes nées sur le territoire français"
+      ],
+      [
+        "Tous les résidents ayant une carte de séjour de dix ans"
+      ]
+    ],
+    "explanation": "Les citoyens de l’UE non français remplissant les conditions peuvent voter aux municipales et aux européennes en France.",
+    "source": "https://www.prepa-examen.fr/question/voter-elections-france-csp/",
+    "official": true
+  },
+  {
+    "id": 1059,
+    "section": "vote",
+    "prompt": "Pour combien de temps sont élus les sénateurs ?",
+    "correct": [
+      "Six ans",
+      "6 ans"
+    ],
+    "distractors": [
+      [
+        "Trois ans"
+      ],
+      [
+        "Cinq ans"
+      ],
+      [
+        "Neuf ans"
+      ],
+      [
+        "Quatre ans"
+      ]
+    ],
+    "explanation": "Les sénateurs sont élus pour six ans. Le Sénat est renouvelé par moitié tous les trois ans. Trois ans désigne le rythme de renouvellement et six ans la durée du mandat.",
+    "source": "https://www.prepa-examen.fr/question/combien-temps-elus-senateurs-csp/",
+    "official": true
+  },
+  {
+    "id": 1060,
+    "section": "institutions",
+    "prompt": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "correct": [
+      "Législatif, exécutif et judiciaire",
+      "Le pouvoir de voter la loi, celui de l’exécuter et celui de juger"
+    ],
+    "distractors": [
+      [
+        "Régional, national et européen"
+      ],
+      [
+        "Royal, populaire et ecclésiastique"
+      ],
+      [
+        "Judiciaire, militaire et religieux"
+      ],
+      [
+        "Constitutionnel, préfectoral et municipal"
+      ]
+    ],
+    "explanation": "La séparation des pouvoirs distingue le pouvoir législatif (Parlement), le pouvoir exécutif (Président/gouvernement) et le pouvoir judiciaire (tribunaux). La séparation distingue les fonctions, même lorsque des institutions coopèrent.",
+    "source": "https://www.prepa-examen.fr/question/separation-pouvoirs-principe-fondamental-trois-pouvoirs-concernes-cr/",
+    "official": true
+  },
+  {
+    "id": 1061,
+    "section": "institutions",
+    "prompt": "Est-ce que le président de la République a tous les pouvoirs ?",
+    "correct": [
+      "Non, la Constitution organise la séparation des pouvoirs",
+      "Non, ses pouvoirs sont encadrés par la Constitution"
+    ],
+    "distractors": [
+      [
+        "Oui, il décide de tout"
+      ],
+      [
+        "Oui, pendant son mandat"
+      ],
+      [
+        "Non, sauf pendant les périodes de crise nationale"
+      ],
+      [
+        "Oui, s’il est soutenu par la majorité de l’Assemblée"
+      ]
+    ],
+    "explanation": "Les pouvoirs sont séparés : le Parlement légifère, la justice est indépendante, et la Constitution limite les pouvoirs du Président. Même les pouvoirs exceptionnels de l’article 16 sont soumis à des conditions et à des contrôles.",
+    "source": "https://www.prepa-examen.fr/question/president-republique-a-tous-pouvoirs-csp/",
+    "official": true
+  },
+  {
+    "id": 1062,
+    "section": "institutions",
+    "prompt": "Qui est le préfet ?",
+    "correct": [
+      "Le représentant de l'État dans le département",
+      "Le représentant territorial de l’État nommé par le pouvoir exécutif"
+    ],
+    "distractors": [
+      [
+        "L'élu qui dirige la commune"
+      ],
+      [
+        "Le président du tribunal"
+      ],
+      [
+        "Le chef de la police municipale de la commune"
+      ],
+      [
+        "L’élu placé à la tête du conseil départemental"
+      ]
+    ],
+    "explanation": "Le préfet, nommé par l'État, représente le Gouvernement dans le département ou la région. Le préfet représente l’État. Le président du conseil départemental dirige la collectivité.",
+    "source": "https://www.prepa-examen.fr/question/prefet-csp/",
+    "official": true
+  },
+  {
+    "id": 1063,
+    "section": "vote",
+    "prompt": "Quelle condition est nécessaire pour voter aux élections ?",
+    "correct": [
+      "Être inscrit sur les listes électorales",
+      "Figurer sur la liste électorale"
+    ],
+    "distractors": [
+      [
+        "Avoir un emploi"
+      ],
+      [
+        "Être marié"
+      ],
+      [
+        "Payer une taxe électorale à la commune"
+      ],
+      [
+        "Être propriétaire d’un logement"
+      ]
+    ],
+    "explanation": "L’inscription s’ajoute aux conditions d’âge et de droits civiques. Les conditions de nationalité dépendent du scrutin.",
+    "source": "https://www.prepa-examen.fr/question/condition-necessaire-voter-elections-csp/",
+    "official": true
+  },
+  {
+    "id": 1064,
+    "section": "institutions",
+    "prompt": "Qui dirige la commune ?",
+    "correct": [
+      "Le maire",
+      "Le maire élu par le conseil municipal"
+    ],
+    "distractors": [
+      [
+        "Le préfet"
+      ],
+      [
+        "Le député"
+      ],
+      [
+        "Le président du conseil régional"
+      ],
+      [
+        "Le président du conseil départemental"
+      ]
+    ],
+    "explanation": "Le maire, élu par le conseil municipal, dirige la commune. Le maire prépare et exécute les décisions du conseil. Il remplit aussi des missions au nom de l’État.",
+    "source": "https://www.prepa-examen.fr/question/dirige-commune-csp/",
+    "official": true
+  },
+  {
+    "id": 1065,
+    "section": "institutions",
+    "prompt": "Quel est le régime politique de la France aujourd'hui ?",
+    "correct": [
+      "Une république démocratique",
+      "Une République démocratique organisée par la Constitution"
+    ],
+    "distractors": [
+      [
+        "Une monarchie constitutionnelle"
+      ],
+      [
+        "Un empire"
+      ],
+      [
+        "Un régime à parti unique"
+      ],
+      [
+        "Un régime fédéral composé d’États souverains"
+      ]
+    ],
+    "explanation": "La France vit sous la Ve République, un régime républicain et démocratique. Les institutions actuelles sont celles de la Ve République.",
+    "source": "https://www.prepa-examen.fr/question/regime-politique-france-aujourd-hui-csp/",
+    "official": true
+  },
+  {
+    "id": 1066,
+    "section": "institutions",
+    "prompt": "Qu'est-ce que l'Hôtel de Matignon ?",
+    "correct": [
+      "La résidence et les bureaux du Premier ministre",
+      "Le lieu de travail officiel du Premier ministre"
+    ],
+    "distractors": [
+      [
+        "La résidence du président de la République"
+      ],
+      [
+        "Le siège du Sénat"
+      ],
+      [
+        "Un musée national"
+      ],
+      [
+        "Le siège de l’Assemblée nationale"
+      ]
+    ],
+    "explanation": "L'Hôtel de Matignon est la résidence officielle et le lieu de travail du Premier ministre. L’Élysée est associé à la présidence, le Palais-Bourbon à l’Assemblée et le Luxembourg au Sénat.",
+    "source": "https://www.prepa-examen.fr/question/hotel-matignon-cr/",
+    "official": true
+  },
+  {
+    "id": 1067,
+    "section": "institutions",
+    "prompt": "Le Parlement est composé :",
+    "correct": [
+      "de l'Assemblée nationale et du Sénat",
+      "des deux chambres, le Sénat et l’Assemblée nationale"
+    ],
+    "distractors": [
+      [
+        "du Gouvernement et du Conseil d'État"
+      ],
+      [
+        "de l'Assemblée nationale et du Conseil constitutionnel"
+      ],
+      [
+        "du Sénat et du Conseil des ministres"
+      ],
+      [
+        "du Sénat et de l’Assemblée nationale réunis avec le Gouvernement"
+      ]
+    ],
+    "explanation": "Le Parlement français comprend deux chambres : l'Assemblée nationale et le Sénat. Les deux chambres réunies peuvent former le Congrès ou, dans un autre cadre, la Haute Cour.",
+    "source": "https://www.prepa-examen.fr/question/parlement-compose-csp/",
+    "official": true
+  },
+  {
+    "id": 1068,
+    "section": "institutions",
+    "prompt": "Quel est le rôle du président de la République ?",
+    "correct": [
+      "Veiller au respect de la Constitution",
+      "S’assurer du respect de la Constitution"
+    ],
+    "distractors": [
+      [
+        "Juger les affaires criminelles"
+      ],
+      [
+        "Voter les lois"
+      ],
+      [
+        "Diriger les régions"
+      ],
+      [
+        "Exercer le contrôle parlementaire du Gouvernement"
+      ]
+    ],
+    "explanation": "Le Président de la République veille au respect de la Constitution, garantit l'indépendance nationale et nomme le Premier ministre. L’article 5 lui confie aussi une mission d’arbitrage pour le fonctionnement régulier des pouvoirs publics.",
+    "source": "https://www.prepa-examen.fr/question/role-president-republique-cr/",
+    "official": true
+  },
+  {
+    "id": 1069,
+    "section": "institutions",
+    "prompt": "Quel est le rôle du Premier ministre ?",
+    "correct": [
+      "Diriger le gouvernement et coordonner les ministres",
+      "Conduire et coordonner l’action du Gouvernement"
+    ],
+    "distractors": [
+      [
+        "Organiser les élections et désigner les candidats"
+      ],
+      [
+        "Négocier avec les pays étrangers au nom de la France"
+      ],
+      [
+        "Valider les lois avant leur publication officielle"
+      ],
+      [
+        "Présider de droit toutes les séances de l’Assemblée nationale"
+      ]
+    ],
+    "explanation": "Le Premier ministre dirige l'action du gouvernement et coordonne les ministres pour mettre en œuvre la politique nationale. L’article 21 précise également que le Premier ministre assure l’exécution des lois.",
+    "source": "https://www.prepa-examen.fr/question/role-premier-ministre-cr/",
+    "official": true
+  },
+  {
+    "id": 1070,
+    "section": "institutions",
+    "prompt": "Qui est le chef du Gouvernement ?",
+    "correct": [
+      "Le Premier ministre",
+      "Le Premier ministre, nommé par le chef de l’État"
+    ],
+    "distractors": [
+      [
+        "Le président de la République"
+      ],
+      [
+        "Le ministre de l'Économie"
+      ],
+      [
+        "Le président de l'Assemblée nationale"
+      ],
+      [
+        "Le président du Sénat"
+      ]
+    ],
+    "explanation": "Le Premier ministre est le chef du Gouvernement ; il est nommé par le président de la République. Le président de la République est chef de l’État. Le Premier ministre dirige l’action du Gouvernement.",
+    "source": "https://www.prepa-examen.fr/question/chef-gouvernement-cr/",
+    "official": true
+  },
+  {
+    "id": 1071,
+    "section": "institutions",
+    "prompt": "Combien y a-t-il de régions en France ?",
+    "correct": [
+      "18",
+      "Dix-huit, dont cinq d’outre-mer"
+    ],
+    "distractors": [
+      [
+        "13"
+      ],
+      [
+        "22"
+      ],
+      [
+        "27"
+      ],
+      [
+        "23"
+      ]
+    ],
+    "explanation": "La France compte 18 régions : 13 en métropole et 5 en outre-mer. La France compte treize régions métropolitaines et cinq d’outre-mer dans le décompte usuel.",
+    "source": "https://www.prepa-examen.fr/question/combien-y-a-regions-france-cr/",
+    "official": true
+  },
+  {
+    "id": 1072,
+    "section": "institutions",
+    "prompt": "Quel est le rôle du Défenseur des droits ?",
+    "correct": [
+      "Aider les citoyens contre les dysfonctionnements publics",
+      "Défendre les droits des usagers et lutter contre les discriminations"
+    ],
+    "distractors": [
+      [
+        "Représenter la France aux tribunaux internationaux"
+      ],
+      [
+        "Proposer des projets de loi au Parlement"
+      ],
+      [
+        "Nommer les juges des tribunaux français"
+      ],
+      [
+        "Annuler directement toute décision de justice"
+      ]
+    ],
+    "explanation": "Cette autorité indépendante peut notamment traiter les différends avec les services publics et défendre les droits des enfants.",
+    "source": "https://www.prepa-examen.fr/question/role-defenseur-droits-nat/",
+    "official": true
+  },
+  {
+    "id": 1073,
+    "section": "europe",
+    "prompt": "Depuis quand l'euro est-elle la monnaie unique ?",
+    "correct": [
+      "Depuis 1999 comme monnaie et depuis 2002 sous forme de billets et de pièces",
+      "Depuis 1999 pour les paiements scripturaux et 2002 pour les billets et pièces"
+    ],
+    "distractors": [
+      [
+        "1992"
+      ],
+      [
+        "1995"
+      ],
+      [
+        "2005"
+      ],
+      [
+        "Depuis 1999 pour les billets et pièces dans toute la zone euro"
+      ]
+    ],
+    "explanation": "Les deux dates correspondent à des étapes différentes. Le passage aux espèces a eu lieu le 1er janvier 2002.",
+    "source": "https://www.prepa-examen.fr/question/quand-euro-monnaie-unique-cr/",
+    "official": true
+  },
+  {
+    "id": 1074,
+    "section": "institutions",
+    "prompt": "Quel est le rôle principal du département ?",
+    "correct": [
+      "Mettre en œuvre des politiques de solidarité et d’action sociale",
+      "Assurer l’aide sociale de proximité, notamment pour l’enfance et l’autonomie"
+    ],
+    "distractors": [
+      [
+        "Gérer les lycées publics"
+      ],
+      [
+        "Assurer l’état civil dans les communes"
+      ],
+      [
+        "Contrôler la constitutionnalité des lois"
+      ],
+      [
+        "Fixer les programmes scolaires"
+      ]
+    ],
+    "explanation": "Les départements interviennent notamment dans l’aide sociale à l’enfance, le RSA et l’autonomie. Les régions gèrent les lycées.",
+    "source": "https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/",
+    "official": true
+  },
+  {
+    "id": 1075,
+    "section": "institutions",
+    "prompt": "Quel est le rôle principal des communes ?",
+    "correct": [
+      "Gérer les services de proximité, comme l'état civil",
+      "Assurer des services locaux comme l’état civil"
+    ],
+    "distractors": [
+      [
+        "Voter les lois nationales"
+      ],
+      [
+        "Rendre la justice"
+      ],
+      [
+        "Diriger la police nationale et la gendarmerie"
+      ],
+      [
+        "Gérer le réseau national des autoroutes"
+      ]
+    ],
+    "explanation": "La commune gère les services du quotidien : état civil, écoles maternelles et élémentaires, voirie, urbanisme. La commune intervient notamment dans l’état civil et le fonctionnement des écoles primaires publiques, selon la répartition des compétences.",
+    "source": "https://www.prepa-examen.fr/question/role-principal-communes-cr/",
+    "official": true
+  },
+  {
+    "id": 1076,
+    "section": "institutions",
+    "prompt": "Combien de communes environ existe-t-il en France ?",
+    "correct": [
+      "35 000",
+      "De l’ordre de 35 000"
+    ],
+    "distractors": [
+      [
+        "5 000"
+      ],
+      [
+        "15 000"
+      ],
+      [
+        "60 000"
+      ],
+      [
+        "25 000"
+      ]
+    ],
+    "explanation": "La France compte environ 35 000 communes, un record en Europe. Le nombre exact varie avec les créations et fusions de communes. L’ordre de grandeur reste proche de 35 000.",
+    "source": "https://www.prepa-examen.fr/question/combien-communes-environ-existe-france-cr/",
+    "official": true
+  },
+  {
+    "id": 1077,
+    "section": "europe",
+    "prompt": "Quel traité concerne la construction de l'Union européenne ?",
+    "correct": [
+      "Le traité de Maastricht",
+      "Le traité signé à Maastricht en 1992"
+    ],
+    "distractors": [
+      [
+        "Le traité de Versailles"
+      ],
+      [
+        "Le traité de Trianon"
+      ],
+      [
+        "Les accords d’Évian"
+      ],
+      [
+        "Les accords de Dayton"
+      ]
+    ],
+    "explanation": "Le traité de Maastricht, signé en 1992, a fondé l'Union européenne. Maastricht institue l’Union européenne. Le traité est signé en 1992 et entre en vigueur en 1993.",
+    "source": "https://www.prepa-examen.fr/question/traite-concerne-construction-union-europeenne-cr/",
+    "official": true
+  },
+  {
+    "id": 1078,
+    "section": "europe",
+    "prompt": "Quel État a quitté l'Union européenne en 2020 ?",
+    "correct": [
+      "Le Royaume-Uni",
+      "Le Royaume-Uni, à la suite du Brexit"
+    ],
+    "distractors": [
+      [
+        "La Suisse"
+      ],
+      [
+        "La Turquie"
+      ],
+      [
+        "La Norvège"
+      ],
+      [
+        "L’Islande"
+      ]
+    ],
+    "explanation": "Le Royaume-Uni a quitté l'Union européenne le 31 janvier 2020, suite au Brexit. La Suisse, la Norvège et l’Islande n’ont jamais été membres. Le Royaume-Uni a quitté l’Union le 31 janvier 2020.",
+    "source": "https://www.prepa-examen.fr/question/etat-a-quitte-union-europeenne-2020-cr/",
+    "official": true
+  },
+  {
+    "id": 1079,
+    "section": "europe",
+    "prompt": "Quelle est la devise de l’Union européenne ?",
+    "correct": [
+      "« Unie dans la diversité »"
+    ],
+    "distractors": [
+      [
+        "« Liberté, Égalité, Fraternité »"
+      ],
+      [
+        "« La paix par le commerce »"
+      ],
+      [
+        "« Ensemble pour l'Europe »"
+      ],
+      [
+        "« Unis pour la paix »"
+      ],
+      [
+        "« La diversité dans l’égalité »"
+      ]
+    ],
+    "explanation": "La devise de l'Union européenne est « Unie dans la diversité ». La devise exprime la coopération entre Européens tout en reconnaissant la diversité des cultures et des langues.",
+    "source": "https://www.prepa-examen.fr/question/devise-union-europeenne-cr/",
+    "official": true
+  },
+  {
+    "id": 1080,
+    "section": "europe",
+    "prompt": "Quel est l'hymne de l'Union européenne ?",
+    "correct": [
+      "L'Ode à la Joie",
+      "Le thème de l’Ode à la joie de Beethoven"
+    ],
+    "distractors": [
+      [
+        "Fratelli d'Italia"
+      ],
+      [
+        "La Marseillaise"
+      ],
+      [
+        "God Save the King"
+      ],
+      [
+        "Le Prélude à l’hymne à la joie de Charpentier"
+      ]
+    ],
+    "explanation": "L'hymne de l'Union européenne est l'Ode à la Joie, tiré de la 9ème Symphonie de Beethoven. Le thème vient de la Neuvième Symphonie de Beethoven. La version officielle de l’hymne européen est instrumentale.",
+    "source": "https://www.prepa-examen.fr/question/hymne-union-europeenne-cr/",
+    "official": true
+  },
+  {
+    "id": 1081,
+    "section": "europe",
+    "prompt": "De quoi est composé le drapeau européen ?",
+    "correct": [
+      "De 12 étoiles jaunes sur fond bleu",
+      "Douze étoiles d’or en cercle sur un fond bleu"
+    ],
+    "distractors": [
+      [
+        "De croix sur fond bleu"
+      ],
+      [
+        "De 15 étoiles jaunes sur fond bleu"
+      ],
+      [
+        "De 27 étoiles rouges sur fond blanc"
+      ],
+      [
+        "De douze étoiles blanches sur fond bleu"
+      ]
+    ],
+    "explanation": "Le drapeau européen est composé de 12 étoiles dorées en cercle sur fond bleu, symbole d'unité. Les douze étoiles symbolisent notamment l’unité. Leur nombre ne change pas avec celui des États membres.",
+    "source": "https://www.prepa-examen.fr/question/quoi-compose-drapeau-europeen-csp/",
+    "official": true
+  },
+  {
+    "id": 1082,
+    "section": "europe",
+    "prompt": "De quelle couleur est le drapeau européen ?",
+    "correct": [
+      "Bleu avec douze étoiles dorées",
+      "Sur fond bleu, les étoiles sont dorées"
+    ],
+    "distractors": [
+      [
+        "Bleu, blanc, rouge"
+      ],
+      [
+        "Blanc avec douze étoiles bleues"
+      ],
+      [
+        "Bleu avec vingt-sept étoiles dorées"
+      ],
+      [
+        "Bleu avec douze étoiles argentées"
+      ]
+    ],
+    "explanation": "Le drapeau européen est bleu, orné d'un cercle de douze étoiles dorées, symbole d'unité — leur nombre ne dépend pas du nombre d'États membres. Le bleu constitue le fond et le jaune doré la couleur des douze étoiles.",
+    "source": "https://www.prepa-examen.fr/question/couleur-drapeau-europeen-cr/",
+    "official": true
+  },
+  {
+    "id": 1083,
+    "section": "europe",
+    "prompt": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+    "correct": [
+      "1992",
+      "En 1992"
+    ],
+    "distractors": [
+      [
+        "2000"
+      ],
+      [
+        "1986"
+      ],
+      [
+        "1957"
+      ],
+      [
+        "1993"
+      ],
+      [
+        "1985"
+      ]
+    ],
+    "explanation": "Le traité de Maastricht a été signé le 7 février 1992, instituant officiellement l'Union européenne. 1993 correspond à l’entrée en vigueur du traité. L’Acte unique européen a été signé en 1986.",
+    "source": "https://www.prepa-examen.fr/question/annee-traite-maastricht-marque-fondation-union-europeenne-nat/",
+    "official": true
+  },
+  {
+    "id": 1084,
+    "section": "europe",
+    "prompt": "Où est le siège du Parlement européen ?",
+    "correct": [
+      "Strasbourg",
+      "À Strasbourg, pour le siège officiel"
+    ],
+    "distractors": [
+      [
+        "Bruxelles uniquement"
+      ],
+      [
+        "Francfort"
+      ],
+      [
+        "Luxembourg"
+      ],
+      [
+        "À Bruxelles comme siège statutaire unique"
+      ]
+    ],
+    "explanation": "Strasbourg accueille les principales sessions plénières. Bruxelles accueille notamment les commissions et d’autres séances.",
+    "source": "https://www.prepa-examen.fr/question/siege-parlement-europeen-cr-2/",
+    "official": true
+  },
+  {
+    "id": 1085,
+    "section": "europe",
+    "prompt": "Où est le siège de la Commission européenne ?",
+    "correct": [
+      "Bruxelles",
+      "À Bruxelles, en Belgique"
+    ],
+    "distractors": [
+      [
+        "Strasbourg"
+      ],
+      [
+        "Francfort"
+      ],
+      [
+        "Luxembourg"
+      ],
+      [
+        "À La Haye"
+      ]
+    ],
+    "explanation": "La Commission européenne a son siège principal à Bruxelles, en Belgique. Bruxelles est le siège de la Commission. La Cour de justice de l’Union européenne siège à Luxembourg.",
+    "source": "https://www.prepa-examen.fr/question/siege-commission-europeenne-nat/",
+    "official": true
+  },
+  {
+    "id": 1086,
+    "section": "europe",
+    "prompt": "Quel État n'est pas membre de l'Union européenne ?",
+    "correct": [
+      "Le Royaume-Uni",
+      "Le Royaume-Uni depuis le Brexit"
+    ],
+    "distractors": [
+      [
+        "L'Espagne"
+      ],
+      [
+        "La Belgique"
+      ],
+      [
+        "Le Portugal"
+      ],
+      [
+        "L’Irlande"
+      ]
+    ],
+    "explanation": "Le Royaume-Uni a quitté l'Union européenne en 2020 (Brexit). L’Irlande demeure membre de l’UE, même après le départ du Royaume-Uni.",
+    "source": "https://www.prepa-examen.fr/question/etat-membre-union-europeenne-csp/",
+    "official": true
+  },
+  {
+    "id": 1087,
+    "section": "europe",
+    "prompt": "Quand célèbre-t-on la journée de l'Europe ?",
+    "correct": [
+      "Le 9 mai",
+      "Chaque année le 9 mai"
+    ],
+    "distractors": [
+      [
+        "Le 8 mai"
+      ],
+      [
+        "Le 1er mai"
+      ],
+      [
+        "Le 14 juillet"
+      ],
+      [
+        "Le 5 mai"
+      ]
+    ],
+    "explanation": "La journée de l'Europe est célébrée le 9 mai, en mémoire de la déclaration Schuman de 1950. Le 9 mai commémore la déclaration Schuman de 1950. Le 5 mai est associé au Conseil de l’Europe.",
+    "source": "https://www.prepa-examen.fr/question/quand-celebre-journee-europe-csp/",
+    "official": true
+  },
+  {
+    "id": 1088,
+    "section": "europe",
+    "prompt": "À quelle fréquence les élections européennes sont-elles organisées ?",
+    "correct": [
+      "Tous les cinq ans",
+      "Une fois tous les cinq ans"
+    ],
+    "distractors": [
+      [
+        "Tous les quatre ans"
+      ],
+      [
+        "Tous les six ans"
+      ],
+      [
+        "Tous les deux ans"
+      ],
+      [
+        "Tous les sept ans"
+      ]
+    ],
+    "explanation": "Les députés européens sont élus tous les cinq ans au suffrage universel direct. Les députés européens sont élus au suffrage direct pour un mandat de cinq ans.",
+    "source": "https://www.prepa-examen.fr/question/a-frequence-elections-europeennes-organisees-csp/",
+    "official": true
+  },
+  {
+    "id": 1089,
+    "section": "europe",
+    "prompt": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+    "correct": [
+      "Être citoyen d'un État membre de l'Union européenne",
+      "Avoir la citoyenneté d’un pays membre de l’UE"
+    ],
+    "distractors": [
+      [
+        "Être né en France"
+      ],
+      [
+        "Avoir plus de 25 ans"
+      ],
+      [
+        "Travailler dans la fonction publique européenne"
+      ],
+      [
+        "Disposer seulement d’un titre de séjour permanent dans l’UE"
+      ]
+    ],
+    "explanation": "Tout citoyen majeur d'un État membre de l'UE, inscrit sur les listes électorales, peut voter aux élections européennes. La citoyenneté européenne est nécessaire. L’âge et l’inscription électorale s’ajoutent selon l’État de vote.",
+    "source": "https://www.prepa-examen.fr/question/condition-necessaire-voter-elections-europeennes-csp/",
+    "official": true
+  },
+  {
+    "id": 1090,
+    "section": "europe",
+    "prompt": "Quel pays est un pays fondateur de l'Union européenne ?",
+    "correct": [
+      "L'Allemagne de l'Ouest",
+      "La République fédérale d’Allemagne, alors appelée Allemagne de l’Ouest"
+    ],
+    "distractors": [
+      [
+        "La Pologne"
+      ],
+      [
+        "L’Espagne"
+      ],
+      [
+        "Le Royaume-Uni"
+      ],
+      [
+        "Le Danemark"
+      ]
+    ],
+    "explanation": "Les six fondateurs de la CEE en 1957 sont la France, la RFA, l’Italie, la Belgique, les Pays-Bas et le Luxembourg.",
+    "source": "https://www.prepa-examen.fr/question/lequel-pays-pays-fondateur-union-europeenne-nat/",
+    "official": true
+  },
+  {
+    "id": 1091,
+    "section": "rights",
+    "prompt": "À quelle liberté la PMA fait-elle référence ?",
+    "correct": [
+      "La possibilité de fonder une famille",
+      "La possibilité d’avoir un projet parental"
+    ],
+    "distractors": [
+      [
+        "La liberté de circulation"
+      ],
+      [
+        "La liberté d'expression"
+      ],
+      [
+        "La liberté de réunion"
+      ],
+      [
+        "La liberté d’établissement dans l’Union européenne"
+      ]
+    ],
+    "explanation": "L’assistance médicale à la procréation répond à un projet parental selon les conditions du code de la santé publique.",
+    "source": "https://www.prepa-examen.fr/question/a-liberte-pma-reference-cr/",
+    "official": true
+  },
+  {
+    "id": 1092,
+    "section": "rights",
+    "prompt": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+    "correct": [
+      "De l'ordre public",
+      "De la protection de l’ordre public"
+    ],
+    "distractors": [
+      [
+        "De la religion d'État"
+      ],
+      [
+        "De la majorité politique"
+      ],
+      [
+        "De l'intérêt du gouvernement"
+      ],
+      [
+        "De la seule convenance des services publics"
+      ]
+    ],
+    "explanation": "L'État peut restreindre certains droits au nom de l'ordre public, de la sécurité nationale ou de la protection des droits et libertés d'autrui. Les restrictions doivent avoir une base légale et être justifiées et proportionnées à leur objectif.",
+    "source": "https://www.prepa-examen.fr/question/nom-quoi-etat-justifie-restriction-droits-nat/",
+    "official": true
+  },
+  {
+    "id": 1093,
+    "section": "rights",
+    "prompt": "Concernant le droit de se marier, quelle proposition est correcte ?",
+    "correct": [
+      "Chacun choisit librement son conjoint",
+      "Le mariage requiert le consentement libre des deux personnes"
+    ],
+    "distractors": [
+      [
+        "Les familles choisissent les époux"
+      ],
+      [
+        "Le mariage est obligatoire à partir de 25 ans"
+      ],
+      [
+        "Seul le mariage religieux est reconnu"
+      ],
+      [
+        "L’accord des parents remplace le consentement personnel d’un époux majeur"
+      ]
+    ],
+    "explanation": "Le mariage exige le libre consentement des deux époux : le mariage forcé est interdit et puni. Sans consentement, il n’y a pas de mariage au sens de l’article 146 du code civil.",
+    "source": "https://www.prepa-examen.fr/question/concernant-droit-marier-proposition-correcte-cr/",
+    "official": true
+  },
+  {
+    "id": 1094,
+    "section": "rights",
+    "prompt": "Est-il toujours possible de divorcer ?",
+    "correct": [
+      "Oui, chacun des époux peut demander le divorce",
+      "Chaque époux peut engager une procédure de divorce"
+    ],
+    "distractors": [
+      [
+        "Non, seul le mari peut le demander"
+      ],
+      [
+        "Non, il faut l'accord des deux familles"
+      ],
+      [
+        "Oui, mais uniquement après dix ans de mariage"
+      ],
+      [
+        "Le refus de l’autre époux rend tout divorce impossible"
+      ]
+    ],
+    "explanation": "Le consentement mutuel est une procédure parmi d’autres. Certains divorces peuvent être demandés malgré le désaccord du conjoint.",
+    "source": "https://www.prepa-examen.fr/question/toujours-possible-divorcer-csp/",
+    "official": true
+  },
+  {
+    "id": 1095,
+    "section": "rights",
+    "prompt": "La peine de mort est :",
+    "correct": [
+      "abolie en France",
+      "supprimée du droit pénal français"
+    ],
+    "distractors": [
+      [
+        "appliquée pour les crimes les plus graves"
+      ],
+      [
+        "possible en temps de guerre"
+      ],
+      [
+        "décidée par le président de la République"
+      ],
+      [
+        "applicable si un jury est unanime"
+      ]
+    ],
+    "explanation": "La peine de mort a été abolie en 1981 ; son interdiction est inscrite dans la Constitution depuis 2007. Abolie en 1981, la peine de mort est aussi interdite par l’article 66-1 de la Constitution.",
+    "source": "https://www.prepa-examen.fr/question/peine-mort-csp/",
+    "official": true
+  },
+  {
+    "id": 1096,
+    "section": "rights",
+    "prompt": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
+    "correct": [
+      "\"Les hommes naissent et demeurent libres et égaux en droits\""
+    ],
+    "distractors": [
+      [
+        "« La loi garantit à la femme, dans tous les domaines, des droits égaux à ceux de l’homme »"
+      ],
+      [
+        "« La souveraineté nationale appartient au peuple qui l’exerce par ses représentants et par la voie du référendum »"
+      ],
+      [
+        "« Tout homme persécuté en raison de son action en faveur de la liberté a droit d’asile sur les territoires de la République »"
+      ],
+      [
+        "« Nul ne peut être condamné à la peine de mort »"
+      ],
+      [
+        "« Les êtres humains naissent libres et égaux en dignité et en droits »"
+      ]
+    ],
+    "explanation": "L'article 1er de la DDHC affirme : Les hommes naissent et demeurent libres et égaux en droits. La bonne citation ouvre l’article premier de la Déclaration de 1789. La formule sur la dignité et les droits vient de la Déclaration universelle de 1948.",
+    "source": "https://www.prepa-examen.fr/question/laquelle-citations-inscrite-declaration-droits-homme-citoyen-nat/",
+    "official": true
+  },
+  {
+    "id": 1097,
+    "section": "rights",
+    "prompt": "Le recours à l'avortement est-il autorisé ?",
+    "correct": [
+      "Oui, dans les conditions fixées par la loi",
+      "Oui, la loi fixe les conditions d’exercice de la liberté de recourir à l’IVG"
+    ],
+    "distractors": [
+      [
+        "Non, c'est interdit"
+      ],
+      [
+        "Oui, uniquement pour les femmes mariées"
+      ],
+      [
+        "Oui, avec l'autorisation d'un juge"
+      ],
+      [
+        "Oui, à condition d’obtenir l’accord du conjoint"
+      ]
+    ],
+    "explanation": "Depuis 2024, l’article 34 de la Constitution mentionne la liberté garantie de recourir à l’interruption volontaire de grossesse.",
+    "source": "https://www.prepa-examen.fr/question/recours-a-avortement-autorise-cr/",
+    "official": true
+  },
+  {
+    "id": 1098,
+    "section": "rights",
+    "prompt": "Que contient la Constitution ?",
+    "correct": [
+      "L'organisation des pouvoirs et les droits fondamentaux",
+      "Les règles fondamentales des institutions et la protection des droits"
+    ],
+    "distractors": [
+      [
+        "La liste détaillée de tous les impôts locaux"
+      ],
+      [
+        "Le code de la route"
+      ],
+      [
+        "Les programmes scolaires de l'Éducation nationale"
+      ],
+      [
+        "L’intégralité du code civil et du code pénal"
+      ]
+    ],
+    "explanation": "La Constitution organise les institutions de la République et garantit les droits fondamentaux. Le préambule renvoie à des textes protecteurs, dont la Déclaration de 1789 et la Charte de l’environnement.",
+    "source": "https://www.prepa-examen.fr/question/contient-constitution-cr/",
+    "official": true
+  },
+  {
+    "id": 1099,
+    "section": "rights",
+    "prompt": "Que garantit la liberté de la presse ?",
+    "correct": [
+      "Le droit d'informer et d'être informé librement",
+      "La liberté de publier et de recevoir des informations dans le cadre légal"
+    ],
+    "distractors": [
+      [
+        "L'obligation de lire les journaux"
+      ],
+      [
+        "La censure des journaux"
+      ],
+      [
+        "Le contrôle de l'information par l'État"
+      ],
+      [
+        "L’autorisation préalable de toute publication par l’administration"
+      ]
+    ],
+    "explanation": "La liberté de la presse garantit le droit d'informer et d'être informé librement, dans le respect de la loi. La liberté de la presse est encadrée notamment par la loi du 29 juillet 1881, qui prévoit des responsabilités en cas d’abus.",
+    "source": "https://www.prepa-examen.fr/question/garantit-liberte-presse-cr/",
+    "official": true
+  },
+  {
+    "id": 1100,
+    "section": "rights",
+    "prompt": "Que prévoit la Charte de l'environnement ?",
+    "correct": [
+      "Le droit de vivre dans un environnement équilibré et respectueux de la santé",
+      "Le droit à un environnement équilibré et favorable à la santé"
+    ],
+    "distractors": [
+      [
+        "L'interdiction de toute industrie"
+      ],
+      [
+        "La gratuité de l'eau et de l'électricité pour tous les habitants"
+      ],
+      [
+        "La suppression des voitures en ville"
+      ],
+      [
+        "Un droit absolu à exploiter toute ressource naturelle"
+      ]
+    ],
+    "explanation": "La Charte de l'environnement (2004), à valeur constitutionnelle, reconnaît le droit de chacun à un environnement sain. L’article premier énonce ce droit. La Charte prévoit également des devoirs, par exemple la prévention des atteintes à l’environnement.",
+    "source": "https://www.prepa-examen.fr/question/prevoit-charte-environnement-cr/",
+    "official": true
+  },
+  {
+    "id": 1101,
+    "section": "rights",
+    "prompt": "Que signifie la dignité humaine ?",
+    "correct": [
+      "Chaque personne doit être respectée, quelle que soit sa situation",
+      "Le respect dû à tout être humain"
+    ],
+    "distractors": [
+      [
+        "Seules les personnes célèbres ou importantes méritent le respect"
+      ],
+      [
+        "Le respect dépend du niveau de revenus"
+      ],
+      [
+        "La dignité se perd en cas de condamnation"
+      ],
+      [
+        "Un droit qui dépend de la nationalité"
+      ]
+    ],
+    "explanation": "La dignité humaine est un principe absolu : toute personne mérite le respect, sans condition. La dignité demeure protégée quelles que soient la situation, l’origine ou les convictions de la personne.",
+    "source": "https://www.prepa-examen.fr/question/signifie-dignite-humaine-cr/",
+    "official": true
+  },
+  {
+    "id": 1102,
+    "section": "rights",
+    "prompt": "Que signifie le droit de manifester ?",
+    "correct": [
+      "Exprimer collectivement une opinion dans l'espace public, après déclaration",
+      "Se rassembler publiquement pour exprimer une revendication, dans le cadre légal"
+    ],
+    "distractors": [
+      [
+        "Bloquer les routes sans aucune limite"
+      ],
+      [
+        "Défiler uniquement avec l'autorisation du président de la République"
+      ],
+      [
+        "Se réunir seulement dans des salles privées"
+      ],
+      [
+        "Défiler sans tenir compte des restrictions légales de sécurité"
+      ]
+    ],
+    "explanation": "Le droit de manifester permet d'exprimer collectivement une opinion sur la voie publique ; la manifestation doit être déclarée à l'avance. Les manifestations sur la voie publique sont en principe soumises à déclaration préalable par leurs organisateurs.",
+    "source": "https://www.prepa-examen.fr/question/signifie-droit-manifester-cr/",
+    "official": true
+  },
+  {
+    "id": 1103,
+    "section": "rights",
+    "prompt": "Que signifie PMA ?",
+    "correct": [
+      "Procréation médicalement assistée",
+      "Procréation médicalement assistée, aussi appelée AMP"
+    ],
+    "distractors": [
+      [
+        "Protection médicale des adultes"
+      ],
+      [
+        "Prestation médicale d'accueil"
+      ],
+      [
+        "Procédure médicale d'urgence"
+      ],
+      [
+        "Protection maternelle et infantile"
+      ]
+    ],
+    "explanation": "AMP signifie assistance médicale à la procréation. PMI désigne la protection maternelle et infantile.",
+    "source": "https://www.prepa-examen.fr/question/signifie-pma-cr/",
+    "official": true
+  },
+  {
+    "id": 1104,
+    "section": "rights",
+    "prompt": "Quel texte est le plus difficile à modifier ?",
+    "correct": [
+      "La Constitution",
+      "La Constitution, dont la révision suit une procédure particulière"
+    ],
+    "distractors": [
+      [
+        "Un arrêté municipal"
+      ],
+      [
+        "Un décret"
+      ],
+      [
+        "Une loi ordinaire"
+      ],
+      [
+        "Une circulaire ministérielle"
+      ]
+    ],
+    "explanation": "La Constitution est au sommet de la hiérarchie des normes : sa révision suit une procédure spéciale (Congrès ou référendum). La procédure de révision constitutionnelle est notamment définie par l’article 89.",
+    "source": "https://www.prepa-examen.fr/question/texte-difficile-a-modifier-cr/",
+    "official": true
+  },
+  {
+    "id": 1105,
+    "section": "rights",
+    "prompt": "Quelle liberté permet à une personne de croire en la religion de son choix ?",
+    "correct": [
+      "La liberté de conscience",
+      "La liberté de conscience, qui comprend la liberté religieuse"
+    ],
+    "distractors": [
+      [
+        "La liberté de circulation"
+      ],
+      [
+        "La liberté syndicale"
+      ],
+      [
+        "La liberté du commerce"
+      ],
+      [
+        "La liberté de la presse"
+      ]
+    ],
+    "explanation": "La liberté de conscience, garantie par la laïcité, permet de choisir librement sa religion ou de ne pas en avoir. La liberté de conscience protège aussi le choix de changer de religion ou de n’en avoir aucune.",
+    "source": "https://www.prepa-examen.fr/question/liberte-permet-a-personne-croire-religion-choix-cr/",
+    "official": true
+  },
+  {
+    "id": 1106,
+    "section": "rights",
+    "prompt": "Qu'est-ce que le droit de grève ?",
+    "correct": [
+      "Arrêter le travail pour défendre ses droits",
+      "Cesser le travail pour soutenir des revendications professionnelles"
+    ],
+    "distractors": [
+      [
+        "S'absenter du travail sans raison"
+      ],
+      [
+        "Refuser un travail trop difficile"
+      ],
+      [
+        "Travailler moins pour le même salaire"
+      ],
+      [
+        "Refuser individuellement une tâche pour convenance personnelle"
+      ]
+    ],
+    "explanation": "Une grève est en principe une cessation collective et concertée du travail appuyant des revendications professionnelles.",
+    "source": "https://www.prepa-examen.fr/question/droit-greve-cr/",
+    "official": true
+  },
+  {
+    "id": 1107,
+    "section": "rights",
+    "prompt": "Qu'est-ce que la Constitution ?",
+    "correct": [
+      "Le texte fondamental qui organise les pouvoirs publics",
+      "La norme fondamentale qui définit les institutions et leurs compétences"
+    ],
+    "distractors": [
+      [
+        "Un journal officiel"
+      ],
+      [
+        "Un contrat entre les communes"
+      ],
+      [
+        "Un recueil de coutumes et de traditions locales"
+      ],
+      [
+        "Le règlement intérieur de l’Assemblée nationale"
+      ]
+    ],
+    "explanation": "La Constitution est le texte suprême : elle organise les institutions et protège les droits fondamentaux. Les lois doivent respecter la Constitution. Le Conseil constitutionnel en contrôle la conformité dans les conditions prévues.",
+    "source": "https://www.prepa-examen.fr/question/constitution-cr/",
+    "official": true
+  },
+  {
+    "id": 1108,
+    "section": "rights",
+    "prompt": "Qui peut demander à avorter ?",
+    "correct": [
+      "Toute femme enceinte qui le souhaite, selon les conditions prévues",
+      "Une personne enceinte qui souhaite interrompre sa grossesse"
+    ],
+    "distractors": [
+      [
+        "Seulement les femmes mariées"
+      ],
+      [
+        "Seulement les femmes de plus de 25 ans"
+      ],
+      [
+        "Seulement avec l'accord du père"
+      ],
+      [
+        "Seulement les femmes ayant déjà un enfant"
+      ]
+    ],
+    "explanation": "Une mineure peut aussi demander une IVG. Si elle tient au secret à l’égard de ses représentants légaux, un majeur de son choix l’accompagne.",
+    "source": "https://www.prepa-examen.fr/question/demander-a-avorter-cr/",
+    "official": true
+  },
+  {
+    "id": 1109,
+    "section": "rights",
+    "prompt": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+    "correct": [
+      "Oui, dans les mêmes conditions que les hommes",
+      "Oui, si elle remplit les mêmes conditions électorales qu’un homme"
+    ],
+    "distractors": [
+      [
+        "Non"
+      ],
+      [
+        "Oui, seulement aux élections municipales"
+      ],
+      [
+        "Oui, si elle est mariée"
+      ],
+      [
+        "Oui, mais uniquement si elle travaille"
+      ]
+    ],
+    "explanation": "Les femmes votent en France depuis 1944, dans les mêmes conditions que les hommes. Le droit de vote et l’éligibilité des femmes ont été reconnus par l’ordonnance du 21 avril 1944.",
+    "source": "https://www.prepa-examen.fr/question/femme-majeure-nationalite-francaise-a-droit-voter-cr/",
+    "official": true
+  },
+  {
+    "id": 1110,
+    "section": "duties",
+    "prompt": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+    "correct": [
+      "Les injures et appels à la haine y sont punis comme ailleurs",
+      "La liberté d’expression en ligne reste soumise à la loi"
+    ],
+    "distractors": [
+      [
+        "Tout est permis car c'est virtuel"
+      ],
+      [
+        "Seuls les journalistes sont responsables de leurs publications"
+      ],
+      [
+        "Les menaces en ligne ne sont pas punissables"
+      ],
+      [
+        "Un compte pseudonyme exclut toute responsabilité"
+      ]
+    ],
+    "explanation": "La loi s'applique aussi sur internet : injures, menaces et incitations à la haine y sont punies. Les règles en matière de harcèlement, de diffamation et d’incitation à la haine s’appliquent aussi sur les réseaux sociaux.",
+    "source": "https://www.prepa-examen.fr/question/concernant-utilisation-reseaux-sociaux-proposition-correcte-cr/",
+    "official": true
+  },
+  {
+    "id": 1111,
+    "section": "duties",
+    "prompt": "Jeter un mégot par terre est :",
+    "correct": [
+      "une infraction punie d'une amende",
+      "passible d’une amende pour abandon de déchet"
+    ],
+    "distractors": [
+      [
+        "un geste toléré en ville"
+      ],
+      [
+        "autorisé sur les trottoirs"
+      ],
+      [
+        "interdit seulement dans les parcs"
+      ],
+      [
+        "autorisé si le mégot est éteint"
+      ]
+    ],
+    "explanation": "Jeter un mégot sur la voie publique est une infraction passible d'une amende (135 € dans de nombreuses communes). Un mégot est un déchet. Le fait qu’il soit éteint ne permet pas de le jeter dans la rue.",
+    "source": "https://www.prepa-examen.fr/question/jeter-megot-terre-cr/",
+    "official": true
+  },
+  {
+    "id": 1112,
+    "section": "duties",
+    "prompt": "L'État peut-il limiter les droits et libertés ?",
+    "correct": [
+      "Oui, dans les cas prévus par la loi, pour l'intérêt général",
+      "Oui, sous des conditions légales et de proportionnalité"
+    ],
+    "distractors": [
+      [
+        "Oui, librement et sans aucune justification particulière"
+      ],
+      [
+        "Non, jamais"
+      ],
+      [
+        "Non, sauf décision d'un maire ou d'un préfet"
+      ],
+      [
+        "Oui, sans contrôle du juge"
+      ]
+    ],
+    "explanation": "Les droits et libertés peuvent être encadrés par la loi, de façon proportionnée, pour protéger l'ordre public et les droits d'autrui. Une limitation doit répondre à un objectif légitime et ne pas aller au-delà de ce qui est nécessaire.",
+    "source": "https://www.prepa-examen.fr/question/etat-limiter-droits-libertes-cr/",
+    "official": true
+  },
+  {
+    "id": 1113,
+    "section": "duties",
+    "prompt": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l’environnement ?",
+    "correct": [
+      "Trier ses déchets",
+      "Séparer les déchets selon les consignes de collecte"
+    ],
+    "distractors": [
+      [
+        "Laisser les lumières allumées en permanence"
+      ],
+      [
+        "Jeter les piles avec les ordures ménagères"
+      ],
+      [
+        "Laver sa voiture dans la rivière"
+      ],
+      [
+        "Mettre les médicaments inutilisés avec les emballages recyclables"
+      ]
+    ],
+    "explanation": "Le tri des déchets permet le recyclage et réduit la pollution. Les filières sont différentes selon le déchet. Les médicaments non utilisés sont rapportés en pharmacie.",
+    "source": "https://www.prepa-examen.fr/question/parmi-actions-laquelle-permet-adopter-attitude-respectueuse-cr/",
+    "official": true
+  },
+  {
+    "id": 1114,
+    "section": "duties",
+    "prompt": "Quelle proposition constitue une obligation ?",
+    "correct": [
+      "Payer ses impôts",
+      "Déclarer ses revenus et payer l’impôt lorsque celui-ci est dû"
+    ],
+    "distractors": [
+      [
+        "Adhérer à une association"
+      ],
+      [
+        "Voter aux élections"
+      ],
+      [
+        "Posséder une voiture"
+      ],
+      [
+        "Souscrire une carte d’adhésion à un parti"
+      ]
+    ],
+    "explanation": "Payer ses impôts est une obligation légale ; voter est un droit et un devoir civique, mais n'est pas obligatoire. Le paiement dépend de l’assujettissement et du montant dû. Le vote des citoyens aux élections ordinaires demeure facultatif.",
+    "source": "https://www.prepa-examen.fr/question/proposition-constitue-obligation-cr/",
+    "official": true
+  },
+  {
+    "id": 1115,
+    "section": "duties",
+    "prompt": "Pour quel motif peut-on limiter la liberté d'expression ?",
+    "correct": [
+      "Pour protéger l'ordre public",
+      "Pour protéger l’ordre public ou les droits d’autrui dans les conditions légales"
+    ],
+    "distractors": [
+      [
+        "Pour empêcher les critiques politiques"
+      ],
+      [
+        "Pour protéger la religion officielle"
+      ],
+      [
+        "Pour plaire au gouvernement"
+      ],
+      [
+        "Pour éviter que les élus soient critiqués"
+      ]
+    ],
+    "explanation": "La liberté d'expression peut être limitée pour protéger l'ordre public, la réputation d'autrui, ou prévenir l'incitation à la haine et à la discrimination. La diffamation et l’incitation à la haine illustrent des restrictions légales de la liberté d’expression.",
+    "source": "https://www.prepa-examen.fr/question/motif-limiter-liberte-expression-cr/",
+    "official": true
+  },
+  {
+    "id": 1116,
+    "section": "duties",
+    "prompt": "Pourquoi doit-on trier ses déchets ?",
+    "correct": [
+      "Pour permettre le recyclage et protéger l'environnement",
+      "Pour séparer les matières et faciliter leur recyclage"
+    ],
+    "distractors": [
+      [
+        "Pour éviter de payer l'eau"
+      ],
+      [
+        "Parce que c'est une pratique réservée aux entreprises"
+      ],
+      [
+        "Pour remplir les décharges plus vite"
+      ],
+      [
+        "Pour que tous les déchets soient mélangés après la collecte"
+      ]
+    ],
+    "explanation": "Le tri permet de recycler les matériaux et de limiter la pollution. Le tri facilite la valorisation. Certains déchets dangereux suivent une filière spécifique.",
+    "source": "https://www.prepa-examen.fr/question/pourquoi-doit-trier-dechets-cr/",
+    "official": true
+  },
+  {
+    "id": 1117,
+    "section": "duties",
+    "prompt": "Que doit faire une victime de violences ?",
+    "correct": [
+      "Alerter la police ou la gendarmerie et se faire aider",
+      "Se mettre en sécurité, alerter les services compétents et demander de l’aide"
+    ],
+    "distractors": [
+      [
+        "Garder le silence pour protéger la famille"
+      ],
+      [
+        "Régler le problème elle-même"
+      ],
+      [
+        "Attendre que les violences cessent d'elles-mêmes"
+      ],
+      [
+        "Affronter l’auteur sans prendre de précaution"
+      ]
+    ],
+    "explanation": "Une victime doit alerter la police ou la gendarmerie (17), ou le 3919 pour les violences conjugales ; des associations peuvent l'accompagner. En cas de danger immédiat, appeler le 17 ou le 112 si possible. Des associations peuvent aussi orienter et accompagner.",
+    "source": "https://www.prepa-examen.fr/question/doit-faire-victime-violences-csp/",
+    "official": true
+  },
+  {
+    "id": 1118,
+    "section": "duties",
+    "prompt": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+    "correct": [
+      "S'y conformer ; on peut les contester ensuite par des voies légales",
+      "Respecter les consignes légitimes et utiliser les voies de recours en cas de désaccord"
+    ],
+    "distractors": [
+      [
+        "Les ignorer si on est pressé"
+      ],
+      [
+        "Proposer de payer l'amende en espèces directement sur place"
+      ],
+      [
+        "S'enfuir pour éviter le contrôle"
+      ],
+      [
+        "Refuser systématiquement tout contrôle en attendant un avocat"
+      ]
+    ],
+    "explanation": "Il faut se conformer aux instructions des forces de l'ordre (contrôles d'identité, routiers…) ; toute contestation passe par des recours légaux. Un désaccord peut être contesté par les voies prévues. Il ne dispense pas de suivre une instruction légitime.",
+    "source": "https://www.prepa-examen.fr/question/doit-faire-face-ordres-policiers-gendarmes-cr/",
+    "official": true
+  },
+  {
+    "id": 1119,
+    "section": "duties",
+    "prompt": "Quel est le rôle de la police ?",
+    "correct": [
+      "Protéger les personnes et les biens",
+      "Veiller à la sécurité et contribuer au maintien de l’ordre public"
+    ],
+    "distractors": [
+      [
+        "Rendre la justice"
+      ],
+      [
+        "Voter le budget de l'État"
+      ],
+      [
+        "Diriger les communes"
+      ],
+      [
+        "Prononcer elle-même les condamnations pénales"
+      ]
+    ],
+    "explanation": "La police nationale protège les personnes et les biens, maintient l'ordre et constate les infractions. La police peut enquêter et constater des infractions. Le jugement relève d’une juridiction.",
+    "source": "https://www.prepa-examen.fr/question/role-police-csp/",
+    "official": true
+  },
+  {
+    "id": 1120,
+    "section": "duties",
+    "prompt": "Quel est un exemple d’assistance à personne en danger ?",
+    "correct": [
+      "Appeler les secours pour une personne blessée",
+      "Prévenir les secours pour une personne en danger"
+    ],
+    "distractors": [
+      [
+        "Filmer la scène avec son téléphone"
+      ],
+      [
+        "Regarder sans intervenir"
+      ],
+      [
+        "Partager l'information sur les réseaux sociaux"
+      ],
+      [
+        "Attendre un proche avant de donner l’alerte"
+      ]
+    ],
+    "explanation": "Porter assistance, c'est au minimum alerter les secours (15, 18, 112) ; ne rien faire est puni par la loi. L’assistance peut consister à appeler les secours lorsque l’intervention directe mettrait quelqu’un en danger.",
+    "source": "https://www.prepa-examen.fr/question/exemple-assistance-a-personne-danger-cr/",
+    "official": true
+  },
+  {
+    "id": 1121,
+    "section": "duties",
+    "prompt": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+    "correct": [
+      "Les limitations de vitesse sur la route",
+      "Imposer une vitesse maximale pour réduire les accidents"
+    ],
+    "distractors": [
+      [
+        "L'interdiction de voter"
+      ],
+      [
+        "L'interdiction de se marier"
+      ],
+      [
+        "L'obligation d'adhérer à un parti"
+      ],
+      [
+        "Interdire toutes les critiques des autorités"
+      ]
+    ],
+    "explanation": "Les limitations de vitesse restreignent la liberté de circuler pour protéger la vie de tous : c'est une limite justifiée par l'intérêt général. La limitation de vitesse encadre la circulation pour protéger les usagers de la route.",
+    "source": "https://www.prepa-examen.fr/question/exemple-illustre-limitation-liberte-proteger-interet-general-cr/",
+    "official": true
+  },
+  {
+    "id": 1122,
+    "section": "duties",
+    "prompt": "Quelle est l’attitude à avoir lorsque qu'on est témoin de violences ?",
+    "correct": [
+      "Alerter les secours ou la police",
+      "Se mettre en sécurité puis prévenir la police ou les secours"
+    ],
+    "distractors": [
+      [
+        "Ne rien faire pour rester neutre"
+      ],
+      [
+        "Intervenir seul par la force"
+      ],
+      [
+        "Attendre la fin pour juger la situation"
+      ],
+      [
+        "Diffuser la vidéo au lieu de signaler les violences"
+      ]
+    ],
+    "explanation": "Un témoin de violences doit alerter la police (17) ou les secours ; la non-assistance à personne en danger est punie. L’assistance n’exige pas de s’exposer à un danger. L’alerte doit donner des informations utiles sur le lieu et la situation.",
+    "source": "https://www.prepa-examen.fr/question/attitude-a-lorsque-temoin-violences-cr/",
+    "official": true
+  },
+  {
+    "id": 1123,
+    "section": "duties",
+    "prompt": "Quelle est l'infraction la plus grave ?",
+    "correct": [
+      "Le crime"
+    ],
+    "distractors": [
+      [
+        "La contravention"
+      ],
+      [
+        "La contredanse"
+      ],
+      [
+        "Le délit"
+      ],
+      [
+        "L’amende"
+      ],
+      [
+        "La faute civile"
+      ]
+    ],
+    "explanation": "En droit français, les infractions sont classées en 3 catégories par ordre croissant de gravité : contraventions, délits et crimes. Les infractions pénales sont classées en contraventions, délits et crimes, selon leur gravité.",
+    "source": "https://www.prepa-examen.fr/question/infraction-grave-cr/",
+    "official": true
+  },
+  {
+    "id": 1124,
+    "section": "duties",
+    "prompt": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+    "correct": [
+      "Respecter les lois",
+      "Se conformer aux lois françaises"
+    ],
+    "distractors": [
+      [
+        "Voter aux élections"
+      ],
+      [
+        "Parler uniquement français chez soi"
+      ],
+      [
+        "Adhérer à une religion"
+      ],
+      [
+        "S’inscrire obligatoirement sur les listes électorales"
+      ]
+    ],
+    "explanation": "Toute personne vivant en France, française ou étrangère, doit respecter les lois de la République. Le respect des lois s’applique à toutes les personnes concernées, quelle que soit leur nationalité.",
+    "source": "https://www.prepa-examen.fr/question/obligation-concerne-toutes-personnes-residant-france-soit-cr/",
+    "official": true
+  },
+  {
+    "id": 1125,
+    "section": "duties",
+    "prompt": "Quelle proposition représente un exemple de crime ?",
+    "correct": [
+      "Un meurtre",
+      "Un homicide volontaire qualifié de meurtre"
+    ],
+    "distractors": [
+      [
+        "Un vol à l'étalage"
+      ],
+      [
+        "Un excès de vitesse"
+      ],
+      [
+        "Un stationnement interdit"
+      ],
+      [
+        "Une escroquerie simple"
+      ]
+    ],
+    "explanation": "Le meurtre est un crime, jugé par la cour d'assises ; le vol simple est un délit, l'excès de vitesse une contravention. Le meurtre est un crime. Le vol simple et l’escroquerie simple sont des délits.",
+    "source": "https://www.prepa-examen.fr/question/proposition-represente-exemple-crime-cr/",
+    "official": true
+  },
+  {
+    "id": 1126,
+    "section": "duties",
+    "prompt": "Quelle proposition représente un exemple de délit ?",
+    "correct": [
+      "Un vol",
+      "Un vol simple"
+    ],
+    "distractors": [
+      [
+        "Un stationnement gênant"
+      ],
+      [
+        "Un meurtre"
+      ],
+      [
+        "Un feu rouge non respecté"
+      ],
+      [
+        "Un stationnement en double file"
+      ]
+    ],
+    "explanation": "Le vol est un délit, jugé par le tribunal correctionnel ; le meurtre est un crime, les infractions routières simples des contraventions. Le vol simple relève du tribunal correctionnel. Le meurtre et les contraventions relèvent d’autres catégories.",
+    "source": "https://www.prepa-examen.fr/question/proposition-represente-exemple-delit-cr/",
+    "official": true
+  },
+  {
+    "id": 1127,
+    "section": "duties",
+    "prompt": "Qui veille au maintien de l’ordre public ?",
+    "correct": [
+      "La police et la gendarmerie",
+      "Les services de police et de gendarmerie"
+    ],
+    "distractors": [
+      [
+        "Les pompiers"
+      ],
+      [
+        "Les maires seuls"
+      ],
+      [
+        "L'armée uniquement"
+      ],
+      [
+        "Les tribunaux administratifs seuls"
+      ]
+    ],
+    "explanation": "La police nationale et la gendarmerie assurent le maintien de l'ordre public sur tout le territoire. Les autorités administratives peuvent prendre des mesures de police. Les forces de sécurité contribuent à leur mise en œuvre.",
+    "source": "https://www.prepa-examen.fr/question/veille-maintien-ordre-public-cr/",
+    "official": true
+  },
+  {
+    "id": 1128,
+    "section": "duties",
+    "prompt": "S'agissant des déchets, quelle proposition est correcte ?",
+    "correct": [
+      "Ils doivent être triés et déposés dans les bacs prévus",
+      "On les trie et on les dépose dans la filière appropriée"
+    ],
+    "distractors": [
+      [
+        "On peut les brûler dans son jardin"
+      ],
+      [
+        "On peut les jeter dans la nature s'ils sont biodégradables"
+      ],
+      [
+        "Le tri est facultatif partout en France"
+      ],
+      [
+        "Tous les déchets recyclables, y compris les piles, vont dans le même bac"
+      ]
+    ],
+    "explanation": "Les déchets doivent être triés et déposés dans les conteneurs adaptés ; les brûler ou les abandonner est interdit. Le bac de tri n’est pas adapté à tous les produits. Les piles et appareils électriques ont des points de collecte dédiés.",
+    "source": "https://www.prepa-examen.fr/question/agissant-dechets-proposition-correcte-cr/",
+    "official": true
+  },
+  {
+    "id": 1129,
+    "section": "history",
+    "prompt": "Quel était le surnom de Louis XIV ?",
+    "correct": [
+      "Le Roi-Soleil"
+    ],
+    "distractors": [
+      [
+        "Le Vert Galant"
+      ],
+      [
+        "Saint Louis"
+      ],
+      [
+        "Le Roi Citoyen"
+      ],
+      [
+        "Le Bien-Aimé"
+      ]
+    ],
+    "explanation": "Louis XIV (1638-1715), qui fit construire le château de Versailles, était surnommé le Roi-Soleil. « Le Bien-Aimé » désigne Louis XV et « le Vert Galant » Henri IV.",
+    "source": "https://www.prepa-examen.fr/question/etait-surnom-louis-xiv-cr/",
+    "official": true
+  },
+  {
+    "id": 1130,
+    "section": "history",
+    "prompt": "Quel roi de France a été exécuté pendant la Révolution française ?",
+    "correct": [
+      "Louis XVI",
+      "Louis seize"
+    ],
+    "distractors": [
+      [
+        "Louis XIV"
+      ],
+      [
+        "Louis XV"
+      ],
+      [
+        "Charles X"
+      ],
+      [
+        "Louis XVIII"
+      ]
+    ],
+    "explanation": "Louis XVI a été guillotiné le 21 janvier 1793, pendant la Révolution française. Louis XVI a été guillotiné en janvier 1793, après son procès devant la Convention nationale.",
+    "source": "https://www.prepa-examen.fr/question/roi-france-a-ete-execute-pendant-revolution-cr/",
+    "official": true
+  },
+  {
+    "id": 1131,
+    "section": "history",
+    "prompt": "En quelle année Napoléon Ier est-il devenu empereur ?",
+    "correct": [
+      "1804",
+      "En 1804"
+    ],
+    "distractors": [
+      [
+        "1789"
+      ],
+      [
+        "1799"
+      ],
+      [
+        "1815"
+      ],
+      [
+        "1802"
+      ],
+      [
+        "1792"
+      ]
+    ],
+    "explanation": "Napoléon Bonaparte est proclamé empereur des Français le 18 mai 1804, puis sacré à Notre-Dame de Paris le 2 décembre 1804. 1802 correspond au consulat à vie. Napoléon devient empereur en 1804 et est sacré le 2 décembre.",
+    "source": "https://www.prepa-examen.fr/question/annee-napoleon-ier-devenu-empereur-cr/",
+    "official": true
+  },
+  {
+    "id": 1132,
+    "section": "history",
+    "prompt": "Lequel de ces personnages a un lien avec la République française ?",
+    "correct": [
+      "Marianne",
+      "Marianne, l’allégorie républicaine"
+    ],
+    "distractors": [
+      [
+        "Napoléon III"
+      ],
+      [
+        "Louis XIV"
+      ],
+      [
+        "Marie-Antoinette"
+      ],
+      [
+        "Louis XVIII"
+      ]
+    ],
+    "explanation": "Marianne est le symbole de la République française. Elle personnifie les valeurs républicaines. Marianne personnifie la République. Les autres personnages sont ici associés à des régimes monarchiques ou impériaux.",
+    "source": "https://www.prepa-examen.fr/question/lequel-personnages-a-lien-republique-francaise-csp/",
+    "official": true
+  },
+  {
+    "id": 1133,
+    "section": "history",
+    "prompt": "De quand date l'appel à la résistance du général de Gaulle ?",
+    "correct": [
+      "Du 18 juin 1940",
+      "Le 18 juin 1940"
+    ],
+    "distractors": [
+      [
+        "Du 11 novembre 1940"
+      ],
+      [
+        "Du 14 juillet 1940"
+      ],
+      [
+        "Du 8 mai 1945"
+      ],
+      [
+        "Le 22 juin 1940"
+      ]
+    ],
+    "explanation": "Le général de Gaulle a lancé son célèbre appel à la résistance le 18 juin 1940 depuis Londres. Le général de Gaulle s’exprime le 18 juin sur la BBC après l’annonce de la demande d’armistice par Pétain.",
+    "source": "https://www.prepa-examen.fr/question/quand-date-appel-a-resistance-general-gaulle-cr/",
+    "official": true
+  },
+  {
+    "id": 1134,
+    "section": "history",
+    "prompt": "Pourquoi la Shoah est-elle étudiée à l'école ?",
+    "correct": [
+      "Pour se souvenir et lutter contre le racisme",
+      "Pour comprendre le génocide des Juifs et transmettre la mémoire de ses victimes"
+    ],
+    "distractors": [
+      [
+        "C'est l'histoire de l'Allemagne seulement"
+      ],
+      [
+        "Pour créer une revanche contre l'Allemagne"
+      ],
+      [
+        "Le programme change selon les années"
+      ],
+      [
+        "Pour limiter ce génocide à l’histoire militaire française"
+      ]
+    ],
+    "explanation": "L'étude de la Shoah participe au devoir de mémoire et à la prévention du racisme, de l'antisémitisme et de la haine. L’étude permet aussi de comprendre l’antisémitisme, les persécutions et les mécanismes d’extermination.",
+    "source": "https://www.prepa-examen.fr/question/pourquoi-shoah-etudiee-a-ecole-cr/",
+    "official": true
+  },
+  {
+    "id": 1135,
+    "section": "history",
+    "prompt": "Quel pays a été colonisé par la France ?",
+    "correct": [
+      "Le Sénégal",
+      "Le Sénégal, devenu indépendant en 1960"
+    ],
+    "distractors": [
+      [
+        "Le Brésil"
+      ],
+      [
+        "Le Japon"
+      ],
+      [
+        "La Russie"
+      ],
+      [
+        "L’Angola"
+      ],
+      [
+        "Le Ghana"
+      ]
+    ],
+    "explanation": "Le Sénégal a fait partie de l'empire colonial français jusqu'à son indépendance en 1960. Le Sénégal a appartenu à l’Afrique-Occidentale française. L’Angola a été colonisé par le Portugal et le Ghana par le Royaume-Uni.",
+    "source": "https://www.prepa-examen.fr/question/pays-a-ete-colonise-france-cr/",
+    "official": true
+  },
+  {
+    "id": 1136,
+    "section": "history",
+    "prompt": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+    "correct": [
+      "Depuis la première élection au suffrage direct en 1965, après la réforme de 1962",
+      "La réforme date de 1962 et le premier scrutin présidentiel direct sous la Ve République a eu lieu en 1965"
+    ],
+    "distractors": [
+      [
+        "Depuis l’entrée en vigueur de la Constitution en 1958"
+      ],
+      [
+        "Depuis 1944"
+      ],
+      [
+        "Depuis 1969"
+      ],
+      [
+        "Depuis la révision de 2000"
+      ],
+      [
+        "Depuis le début de la Ve République en 1958"
+      ]
+    ],
+    "explanation": "La réforme date de 1962. La première élection présidentielle de la Ve République au suffrage universel direct a eu lieu en 1965.",
+    "source": "https://www.prepa-examen.fr/question/quand-francais-elisent-president-republique-suffrage-universel-nat/",
+    "official": true
+  },
+  {
+    "id": 1137,
+    "section": "history",
+    "prompt": "Quelle est la première étape de la construction européenne en 1951 ?",
+    "correct": [
+      "La création de la CECA",
+      "Le traité instituant la Communauté européenne du charbon et de l’acier"
+    ],
+    "distractors": [
+      [
+        "La signature du traité de Maastricht"
+      ],
+      [
+        "La création de l'OTAN"
+      ],
+      [
+        "La création de l'euro"
+      ],
+      [
+        "La création de la CEE par le traité de Rome"
+      ]
+    ],
+    "explanation": "La CECA est instituée par le traité de Paris de 1951. La CEE est créée en 1957.",
+    "source": "https://www.prepa-examen.fr/question/premiere-etape-construction-europeenne-1951-nat/",
+    "official": true
+  },
+  {
+    "id": 1138,
+    "section": "history",
+    "prompt": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+    "correct": [
+      "François Mitterrand",
+      "Sous la présidence de François Mitterrand"
+    ],
+    "distractors": [
+      [
+        "Charles de Gaulle"
+      ],
+      [
+        "Valéry Giscard d'Estaing"
+      ],
+      [
+        "Jacques Chirac"
+      ],
+      [
+        "Georges Pompidou"
+      ]
+    ],
+    "explanation": "La peine de mort a été abolie en 1981, sous la présidence de François Mitterrand, grâce à la loi portée par Robert Badinter. Robert Badinter, alors garde des Sceaux, a défendu l’abolition votée en 1981.",
+    "source": "https://www.prepa-examen.fr/question/durant-mandat-president-peine-mort-a-ete-cr/",
+    "official": true
+  },
+  {
+    "id": 1139,
+    "section": "history",
+    "prompt": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+    "correct": [
+      "La Première République",
+      "La République, dite Première République"
+    ],
+    "distractors": [
+      [
+        "L'Empire"
+      ],
+      [
+        "Le Consulat"
+      ],
+      [
+        "La monarchie absolue"
+      ],
+      [
+        "La monarchie constitutionnelle de 1791"
+      ]
+    ],
+    "explanation": "La Première République a été proclamée le 22 septembre 1792. La Convention abolit la royauté le 21 septembre 1792. Le Consulat et l’Empire surviennent plus tard.",
+    "source": "https://www.prepa-examen.fr/question/regime-politique-a-ete-mis-place-pendant-cr/",
+    "official": true
+  },
+  {
+    "id": 1140,
+    "section": "history",
+    "prompt": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+    "correct": [
+      "Jean Moulin",
+      "Jean Moulin, qui a unifié les mouvements de résistance intérieure"
+    ],
+    "distractors": [
+      [
+        "Napoléon Bonaparte"
+      ],
+      [
+        "Louis XVI"
+      ],
+      [
+        "Philippe Pétain"
+      ],
+      [
+        "Pierre Laval"
+      ]
+    ],
+    "explanation": "Jean Moulin est l'une des figures emblématiques de la Résistance française. Il a unifié les mouvements de résistance. Jean Moulin a présidé le Conseil national de la Résistance en 1943.",
+    "source": "https://www.prepa-examen.fr/question/etait-figure-resistance-francaise-pendant-seconde-guerre-cr/",
+    "official": true
+  },
+  {
+    "id": 1141,
+    "section": "history",
+    "prompt": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+    "correct": [
+      "Elles ont obtenu le droit de vote",
+      "Elles ont acquis le droit de voter et d’être élues"
+    ],
+    "distractors": [
+      [
+        "Elles ont obtenu le droit à la propriété"
+      ],
+      [
+        "Elles ont obtenu le droit de travailler"
+      ],
+      [
+        "Elles ont obtenu le droit de créer une entreprise"
+      ],
+      [
+        "Elles ont voté pour la première fois cette année-là"
+      ]
+    ],
+    "explanation": "L'ordonnance du 21 avril 1944 a accordé le droit de vote aux femmes françaises, qu'elles ont exercé pour la première fois lors des élections municipales de 1945. L’ordonnance date de 1944. Les premières élections auxquelles les femmes ont participé ont eu lieu en 1945.",
+    "source": "https://www.prepa-examen.fr/question/1944-a-change-femmes-cr/",
+    "official": true
+  },
+  {
+    "id": 1142,
+    "section": "history",
+    "prompt": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+    "correct": [
+      "L’ONU",
+      "L’Organisation des Nations unies"
+    ],
+    "distractors": [
+      [
+        "L’OTAN"
+      ],
+      [
+        "L’OCDE"
+      ],
+      [
+        "Le Fonds européen de développement"
+      ],
+      [
+        "L’Organisation mondiale du commerce"
+      ],
+      [
+        "Le Conseil de l’Europe, fondé en 1945"
+      ]
+    ],
+    "explanation": "La Charte de l’ONU est signée en 1945. Le Conseil de l’Europe date de 1949.",
+    "source": "https://www.prepa-examen.fr/question/organisation-a-ete-creee-1945-apres-seconde-cr/",
+    "official": true
+  },
+  {
+    "id": 1143,
+    "section": "history",
+    "prompt": "Quelle peine a été supprimée en 1981 ?",
+    "correct": [
+      "La peine de mort",
+      "La condamnation à mort"
+    ],
+    "distractors": [
+      [
+        "Les travaux d’intérêt général"
+      ],
+      [
+        "La prison à perpétuité"
+      ],
+      [
+        "L’amende pénale"
+      ],
+      [
+        "La réclusion criminelle à temps"
+      ]
+    ],
+    "explanation": "La loi du 9 octobre 1981 a aboli la peine de mort en France. La loi du 9 octobre 1981 porte abolition de la peine de mort. La réclusion criminelle demeure.",
+    "source": "https://www.prepa-examen.fr/question/peine-a-ete-supprimee-1981-cr/",
+    "official": true
+  },
+  {
+    "id": 1144,
+    "section": "history",
+    "prompt": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
+    "correct": [
+      "En 1999 pour les paiements scripturaux et en 2002 pour les espèces",
+      "Depuis 1999 pour les paiements sans espèces, avec mise en circulation du numéraire en 2002"
+    ],
+    "distractors": [
+      [
+        "En 1999 pour les pièces et billets"
+      ],
+      [
+        "En 1992 pour les paiements scripturaux"
+      ],
+      [
+        "En 2002 pour les paiements scripturaux et 2005 pour les espèces"
+      ],
+      [
+        "En 1995 pour les paiements scripturaux"
+      ],
+      [
+        "En 1999 pour l’introduction des billets et pièces"
+      ]
+    ],
+    "explanation": "Le 1er janvier 1999 marque l’introduction de l’euro pour les paiements scripturaux. Les espèces arrivent le 1er janvier 2002.",
+    "source": "https://www.prepa-examen.fr/question/annee-euro-devenue-monnaie-utilisee-france-cr/",
+    "official": true
+  },
+  {
+    "id": 1145,
+    "section": "history",
+    "prompt": "En quelle année a commencé la Première Guerre mondiale ?",
+    "correct": [
+      "1914",
+      "En 1914"
+    ],
+    "distractors": [
+      [
+        "1918"
+      ],
+      [
+        "1939"
+      ],
+      [
+        "1905"
+      ],
+      [
+        "1915"
+      ],
+      [
+        "1917"
+      ]
+    ],
+    "explanation": "La Première Guerre mondiale a commencé en 1914 et s'est achevée par l'armistice du 11 novembre 1918. Après l’attentat de Sarajevo en juin 1914, les déclarations de guerre s’enchaînent durant l’été.",
+    "source": "https://www.prepa-examen.fr/question/annee-a-commence-premiere-guerre-mondiale-cr/",
+    "official": true
+  },
+  {
+    "id": 1146,
+    "section": "history",
+    "prompt": "Où a eu lieu le débarquement en 1944 ?",
+    "correct": [
+      "En Normandie, pour le débarquement du 6 juin 1944",
+      "Sur les plages de Normandie pour le débarquement du 6 juin"
+    ],
+    "distractors": [
+      [
+        "En Bretagne"
+      ],
+      [
+        "Dans le Nord"
+      ],
+      [
+        "En Corse"
+      ],
+      [
+        "En Sicile"
+      ],
+      [
+        "À Dieppe"
+      ]
+    ],
+    "explanation": "La question vise le débarquement du 6 juin 1944. Un autre débarquement allié a eu lieu en Provence le 15 août de la même année.",
+    "source": "https://www.prepa-examen.fr/question/a-eu-lieu-debarquement-1944-cr/",
+    "official": true
+  },
+  {
+    "id": 1147,
+    "section": "history",
+    "prompt": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+    "correct": [
+      "L'Afrique",
+      "Le continent africain"
+    ],
+    "distractors": [
+      [
+        "L'Amérique du Sud"
+      ],
+      [
+        "L'Océanie"
+      ],
+      [
+        "L'Europe"
+      ],
+      [
+        "L’Amérique du Nord"
+      ]
+    ],
+    "explanation": "La plupart des colonies françaises d'Afrique ont accédé à l'indépendance entre 1956 et 1962. L’Afrique a connu de nombreuses indépendances, notamment celle de l’Algérie en 1962. La décolonisation a également touché d’autres continents.",
+    "source": "https://www.prepa-examen.fr/question/continent-a-ete-concerne-decolonisation-francaise-apres-cr/",
+    "official": true
+  },
+  {
+    "id": 1148,
+    "section": "history",
+    "prompt": "Que fête-t-on le 8 mai ?",
+    "correct": [
+      "La victoire de 1945, fin de la Seconde Guerre mondiale en Europe",
+      "La capitulation de l’Allemagne nazie en 1945"
+    ],
+    "distractors": [
+      [
+        "L'armistice de la Première Guerre mondiale, signé en 1918"
+      ],
+      [
+        "La fête du Travail"
+      ],
+      [
+        "La fête nationale, en souvenir de la prise de la Bastille"
+      ],
+      [
+        "La libération de Paris en août 1944"
+      ]
+    ],
+    "explanation": "Le 8 mai 1945 marque la capitulation de l'Allemagne nazie et la fin de la guerre en Europe. Le 8 mai renvoie à la victoire en Europe. La guerre se poursuit en Asie jusqu’à la capitulation du Japon.",
+    "source": "https://www.prepa-examen.fr/question/fete-8-mai-cr/",
+    "official": true
+  },
+  {
+    "id": 1149,
+    "section": "geography",
+    "prompt": "Quelle mer ou océan borde la France métropolitaine ?",
+    "correct": [
+      "La mer Méditerranée"
+    ],
+    "distractors": [
+      [
+        "La mer Noire"
+      ],
+      [
+        "La mer Rouge"
+      ],
+      [
+        "L'océan Pacifique"
+      ],
+      [
+        "La mer Adriatique"
+      ]
+    ],
+    "explanation": "La France métropolitaine est bordée par la Méditerranée, l'Atlantique, la Manche et la mer du Nord. La métropole donne aussi sur l’Atlantique et la Manche. Parmi les options, seule la Méditerranée borde la métropole.",
+    "source": "https://www.prepa-examen.fr/question/mer-ocean-borde-france-metropolitaine-cr/",
+    "official": true
+  },
+  {
+    "id": 1150,
+    "section": "geography",
+    "prompt": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+    "correct": [
+      "L'Espagne",
+      "L’Espagne, au sud des Pyrénées"
+    ],
+    "distractors": [
+      [
+        "Les Pays-Bas"
+      ],
+      [
+        "La Grèce"
+      ],
+      [
+        "Le Danemark"
+      ],
+      [
+        "La Croatie"
+      ]
+    ],
+    "explanation": "La France métropolitaine a des frontières avec l'Espagne, l'Italie, la Suisse, l'Allemagne, le Luxembourg, la Belgique, Monaco et l'Andorre. L’Espagne est l’un des voisins terrestres de la France métropolitaine. Les Pays-Bas ont une frontière avec la France sur l’île de Saint-Martin, hors métropole.",
+    "source": "https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/",
+    "official": true
+  },
+  {
+    "id": 1151,
+    "section": "geography",
+    "prompt": "Quelle ville française est un port maritime ?",
+    "correct": [
+      "Le Havre",
+      "Le Havre, à l’embouchure de la Seine"
+    ],
+    "distractors": [
+      [
+        "Clermont-Ferrand"
+      ],
+      [
+        "Limoges"
+      ],
+      [
+        "Reims"
+      ],
+      [
+        "Nancy"
+      ]
+    ],
+    "explanation": "La ville se trouve en Normandie, près de la Manche. Plusieurs villes françaises sont des ports, mais une seule figure parmi ces choix.",
+    "source": "https://www.prepa-examen.fr/question/ville-francaise-port-maritime-cr/",
+    "official": true
+  },
+  {
+    "id": 1152,
+    "section": "geography",
+    "prompt": "Quelle mer se situe entre la France et l'Angleterre ?",
+    "correct": [
+      "La Manche",
+      "La Manche, entre le sud de l’Angleterre et le nord de la France"
+    ],
+    "distractors": [
+      [
+        "La mer du Nord"
+      ],
+      [
+        "La mer d'Irlande"
+      ],
+      [
+        "La Méditerranée"
+      ],
+      [
+        "La mer Celtique"
+      ]
+    ],
+    "explanation": "La Manche sépare la France du Royaume-Uni ; le tunnel sous la Manche les relie depuis 1994. Le détroit du Pas-de-Calais assure la liaison avec la mer du Nord à l’est.",
+    "source": "https://www.prepa-examen.fr/question/mer-situe-france-angleterre-cr/",
+    "official": true
+  },
+  {
+    "id": 1153,
+    "section": "geography",
+    "prompt": "Qu'est ce que la France d'outre-mer ?",
+    "correct": [
+      "Les territoires français situés hors de la métropole",
+      "L’ensemble des territoires français ultramarins"
+    ],
+    "distractors": [
+      [
+        "Les bases militaires françaises"
+      ],
+      [
+        "Les anciennes colonies françaises"
+      ],
+      [
+        "Les ambassades françaises à l'étranger"
+      ],
+      [
+        "Tous les pays où le français est langue officielle"
+      ]
+    ],
+    "explanation": "Ces territoires ont des statuts divers, dont ceux de département et de région d’outre-mer ou de collectivité d’outre-mer.",
+    "source": "https://www.prepa-examen.fr/question/france-outre-mer-cr/",
+    "official": true
+  },
+  {
+    "id": 1154,
+    "section": "geography",
+    "prompt": "Quelle chaîne de montagnes est située entre la France et l’Espagne ?",
+    "correct": [
+      "Les Pyrénées",
+      "La chaîne pyrénéenne"
+    ],
+    "distractors": [
+      [
+        "Les Alpes"
+      ],
+      [
+        "Le Jura"
+      ],
+      [
+        "Les Vosges"
+      ],
+      [
+        "Le Massif central"
+      ]
+    ],
+    "explanation": "Les Pyrénées bordent aussi l’Andorre. Les Alpes se trouvent notamment du côté italien de la frontière française.",
+    "source": "https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/",
+    "official": true
+  },
+  {
+    "id": 1155,
+    "section": "geography",
+    "prompt": "Quelle île française se trouve dans l'océan Indien ?",
+    "correct": [
+      "La Réunion",
+      "L’île de La Réunion"
+    ],
+    "distractors": [
+      [
+        "La Guadeloupe"
+      ],
+      [
+        "La Martinique"
+      ],
+      [
+        "Saint-Pierre-et-Miquelon"
+      ],
+      [
+        "La Nouvelle-Calédonie"
+      ]
+    ],
+    "explanation": "La Réunion est un département d'outre-mer situé dans l'océan Indien, près de Madagascar. Mayotte est aussi dans l’océan Indien. Les îles proposées ici comme distracteurs se trouvent dans d’autres zones.",
+    "source": "https://www.prepa-examen.fr/question/ile-francaise-trouve-ocean-indien-cr/",
+    "official": true
+  },
+  {
+    "id": 1156,
+    "section": "geography",
+    "prompt": "Quelle est la population approximative de la France en 2025 ?",
+    "correct": [
+      "Environ 69 millions",
+      "De l’ordre de 69 millions d’habitants"
+    ],
+    "distractors": [
+      [
+        "Environ 66 millions"
+      ],
+      [
+        "Environ 72 millions"
+      ],
+      [
+        "Environ 60 millions"
+      ],
+      [
+        "Environ 75 millions"
+      ]
+    ],
+    "explanation": "L’Insee estime à environ 68,85 millions la population totale au 1er janvier 2025, dont environ 66,58 millions en métropole.",
+    "source": "https://www.insee.fr/fr/statistiques/5225246",
+    "official": true
+  },
+  {
+    "id": 1157,
+    "section": "geography",
+    "prompt": "Quel fleuve traverse Paris ?",
+    "correct": [
+      "La Seine",
+      "La Seine, qui traverse la capitale"
+    ],
+    "distractors": [
+      [
+        "La Garonne"
+      ],
+      [
+        "Le Rhône"
+      ],
+      [
+        "La Loire"
+      ],
+      [
+        "La Marne"
+      ]
+    ],
+    "explanation": "La Seine traverse Paris d'est en ouest. La Marne rejoint la Seine en amont de Paris. Les quais du centre de Paris bordent la Seine.",
+    "source": "https://www.prepa-examen.fr/question/fleuve-traverse-paris-cr/",
+    "official": true
+  },
+  {
+    "id": 1158,
+    "section": "geography",
+    "prompt": "Lequel de ces pays partage des frontières terrestres avec la France ?",
+    "correct": [
+      "L'Italie",
+      "L’Italie, qui jouxte la France dans les Alpes"
+    ],
+    "distractors": [
+      [
+        "Le Royaume-Uni"
+      ],
+      [
+        "Le Danemark"
+      ],
+      [
+        "L'Autriche"
+      ],
+      [
+        "La Suède"
+      ]
+    ],
+    "explanation": "La France partage une frontière avec l’Italie dans les Alpes. Le Royaume-Uni est séparé de la métropole par la Manche.",
+    "source": "https://www.prepa-examen.fr/question/lequel-pays-partage-frontieres-terrestres-france-cr/",
+    "official": true
+  },
+  {
+    "id": 1159,
+    "section": "geography",
+    "prompt": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+    "correct": [
+      "L'Allemagne",
+      "L’Allemagne, sur une partie de la frontière orientale"
+    ],
+    "distractors": [
+      [
+        "L'Espagne"
+      ],
+      [
+        "Le Portugal"
+      ],
+      [
+        "L'Italie"
+      ],
+      [
+        "Les Pays-Bas en Europe"
+      ]
+    ],
+    "explanation": "Au nord-est, la France est frontalière de la Belgique, du Luxembourg et de l'Allemagne. La France et l’Allemagne se touchent notamment le long du Rhin. Les Pays-Bas ne touchent pas la métropole.",
+    "source": "https://www.prepa-examen.fr/question/pays-a-frontiere-france-metropolitaine-nord-cr/",
+    "official": true
+  },
+  {
+    "id": 1160,
+    "section": "geography",
+    "prompt": "Où se trouvent les principales activités économiques en France ?",
+    "correct": [
+      "Dans les grandes agglomérations",
+      "Principalement dans les grandes aires urbaines"
+    ],
+    "distractors": [
+      [
+        "Dans les zones de montagne"
+      ],
+      [
+        "Uniquement sur les côtes"
+      ],
+      [
+        "Dans les zones frontalières uniquement"
+      ],
+      [
+        "Uniquement à Paris et dans les capitales régionales"
+      ]
+    ],
+    "explanation": "Les grandes agglomérations, Paris en tête, concentrent l'essentiel des activités économiques. Les grandes villes concentrent populations, emplois et services. Cela laisse une place importante à d’autres territoires selon les secteurs.",
+    "source": "https://www.prepa-examen.fr/question/trouvent-principales-activites-economiques-france-cr/",
+    "official": true
+  },
+  {
+    "id": 1161,
+    "section": "geography",
+    "prompt": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
+    "correct": [
+      "La France",
+      "La France, en nombre d’arrivées de touristes internationaux"
+    ],
+    "distractors": [
+      [
+        "L'Espagne"
+      ],
+      [
+        "Les États-Unis"
+      ],
+      [
+        "L'Italie"
+      ],
+      [
+        "L’Allemagne"
+      ]
+    ],
+    "explanation": "Le rang dépend de l’indicateur et de l’année retenus. Les recettes touristiques donnent un classement différent du nombre de visiteurs.",
+    "source": "https://www.prepa-examen.fr/question/parmi-pays-lequel-attire-visiteurs-chaque-annee-cr/",
+    "official": true
+  },
+  {
+    "id": 1162,
+    "section": "geography",
+    "prompt": "Où habite la majorité des Français ?",
+    "correct": [
+      "En ville",
+      "Dans les espaces urbains, en ville ou en banlieue"
+    ],
+    "distractors": [
+      [
+        "À la campagne"
+      ],
+      [
+        "En montagne"
+      ],
+      [
+        "Sur les îles"
+      ],
+      [
+        "Dans les communes faiblement peuplées en majorité"
+      ]
+    ],
+    "explanation": "Environ 80 % des Français vivent en zone urbaine. La population se concentre dans les espaces urbains. La part précise varie selon la définition statistique de l’urbain.",
+    "source": "https://www.prepa-examen.fr/question/habite-majorite-francais-cr/",
+    "official": true
+  },
+  {
+    "id": 1163,
+    "section": "geography",
+    "prompt": "Quelle région est la plus peuplée ?",
+    "correct": [
+      "L'Île-de-France",
+      "L’Île-de-France, région qui comprend Paris"
+    ],
+    "distractors": [
+      [
+        "La Bretagne"
+      ],
+      [
+        "La Normandie"
+      ],
+      [
+        "La Corse"
+      ],
+      [
+        "L’Occitanie"
+      ]
+    ],
+    "explanation": "L'Île-de-France, autour de Paris, compte plus de 12 millions d'habitants. C’est la région la plus peuplée. Superficie et nombre d’habitants sont deux critères différents.",
+    "source": "https://www.prepa-examen.fr/question/region-peuplee-cr/",
+    "official": true
+  },
+  {
+    "id": 1164,
+    "section": "geography",
+    "prompt": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+    "correct": [
+      "Bordeaux",
+      "Bordeaux, une grande métropole française"
+    ],
+    "distractors": [
+      [
+        "Romorantin-Lanthenay"
+      ],
+      [
+        "Troyes"
+      ],
+      [
+        "Aurillac"
+      ],
+      [
+        "Chartres"
+      ]
+    ],
+    "explanation": "Bordeaux figure parmi les plus grandes agglomérations selon les découpages usuels. Le classement précis dépend de l’unité géographique retenue.",
+    "source": "https://www.prepa-examen.fr/question/ville-francaise-partie-10-grandes-metropoles-pays-cr/",
+    "official": true
+  },
+  {
+    "id": 1165,
+    "section": "heritage",
+    "prompt": "Lequel de ces départements de France est le plus touristique ?",
+    "correct": [
+      "Paris",
+      "Le département de Paris"
+    ],
+    "distractors": [
+      [
+        "La Haute-Saône"
+      ],
+      [
+        "La Creuse"
+      ],
+      [
+        "Le Cantal"
+      ],
+      [
+        "L’Indre"
+      ]
+    ],
+    "explanation": "Paris concentre de nombreux sites touristiques. La fréquentation peut se mesurer par les visites, les nuitées ou les arrivées.",
+    "source": "https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/",
+    "official": true
+  },
+  {
+    "id": 1166,
+    "section": "heritage",
+    "prompt": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
+    "correct": [
+      "Lors des Journées européennes du patrimoine",
+      "À l’occasion des Journées européennes du patrimoine"
+    ],
+    "distractors": [
+      [
+        "Tous les samedis"
+      ],
+      [
+        "Pendant toutes les vacances scolaires"
+      ],
+      [
+        "Le 14 juillet uniquement"
+      ],
+      [
+        "Lors de chaque jour férié national"
+      ]
+    ],
+    "explanation": "Lors des Journées européennes du patrimoine (septembre), de nombreux lieux sont gratuits ; certains musées le sont aussi le premier dimanche du mois. De nombreux sites ouvrent exceptionnellement au public, souvent gratuitement. Les conditions et réservations peuvent varier.",
+    "source": "https://www.prepa-examen.fr/question/quand-visiter-gratuitement-lieux-culturels-france-cr/",
+    "official": true
+  },
+  {
+    "id": 1167,
+    "section": "heritage",
+    "prompt": "Combien de personnes parlent français dans le monde ?",
+    "correct": [
+      "Environ 396 millions",
+      "Près de 400 millions de francophones"
+    ],
+    "distractors": [
+      [
+        "Environ 200 millions"
+      ],
+      [
+        "Environ 300 millions"
+      ],
+      [
+        "Environ 500 millions"
+      ],
+      [
+        "Environ 600 millions"
+      ]
+    ],
+    "explanation": "L’OIF estime à 396 millions le nombre de francophones dans son rapport 2026, contre 321 millions dans l’édition 2022.",
+    "source": "https://www.francophonie.org/la-langue-francaise-dans-le-monde-305",
+    "official": true
+  },
+  {
+    "id": 1168,
+    "section": "heritage",
+    "prompt": "Qui était Marguerite Yourcenar ?",
+    "correct": [
+      "Une romancière et essayiste",
+      "Une écrivaine, autrice des Mémoires d’Hadrien"
+    ],
+    "distractors": [
+      [
+        "Une femme politique française"
+      ],
+      [
+        "Une actrice du cinéma muet"
+      ],
+      [
+        "Une physicienne du XXe siècle"
+      ],
+      [
+        "Une compositrice de musique classique"
+      ]
+    ],
+    "explanation": "Marguerite Yourcenar (1903-1987) est une romancière française, première femme à être élue à l'Académie française, en 1980. Marguerite Yourcenar est devenue la première femme élue à l’Académie française, en 1980.",
+    "source": "https://www.prepa-examen.fr/question/etait-marguerite-yourcenar-nat/",
+    "official": true
+  },
+  {
+    "id": 1169,
+    "section": "heritage",
+    "prompt": "Quel peintre est français ?",
+    "correct": [
+      "Claude Monet",
+      "Claude Monet, peintre associé à l’impressionnisme"
+    ],
+    "distractors": [
+      [
+        "Rembrandt"
+      ],
+      [
+        "Pablo Picasso"
+      ],
+      [
+        "Leonardo da Vinci"
+      ],
+      [
+        "Vincent van Gogh"
+      ]
+    ],
+    "explanation": "Claude Monet est un peintre français, figure majeure de l'impressionnisme. Van Gogh a travaillé en France, mais était néerlandais. Monet a peint Impression, soleil levant.",
+    "source": "https://www.prepa-examen.fr/question/peintre-francais-cr/",
+    "official": true
+  },
+  {
+    "id": 1170,
+    "section": "heritage",
+    "prompt": "Quel musée est situé à Paris ?",
+    "correct": [
+      "Le musée d'Orsay",
+      "Le musée d’Orsay, installé dans une ancienne gare"
+    ],
+    "distractors": [
+      [
+        "Le musée de Grenoble"
+      ],
+      [
+        "Le château de Versailles uniquement"
+      ],
+      [
+        "Le musée des Beaux-Arts de Lyon"
+      ],
+      [
+        "Le Centre Pompidou-Metz"
+      ]
+    ],
+    "explanation": "Le musée d'Orsay est situé à Paris et abrite une collection majeure d'art impressionniste. Le musée d’Orsay est à Paris. Le Centre Pompidou-Metz se trouve à Metz.",
+    "source": "https://www.prepa-examen.fr/question/musee-situe-a-paris-cr/",
+    "official": true
+  },
+  {
+    "id": 1171,
+    "section": "heritage",
+    "prompt": "Qui était Auguste Rodin ?",
+    "correct": [
+      "Un sculpteur français, notamment actif à la fin du XIXe siècle",
+      "Un sculpteur français, auteur du Penseur"
+    ],
+    "distractors": [
+      [
+        "Un peintre impressionniste"
+      ],
+      [
+        "Un architecte"
+      ],
+      [
+        "Un compositeur classique"
+      ],
+      [
+        "Un romancier naturaliste"
+      ]
+    ],
+    "explanation": "Rodin a travaillé à la fin du XIXe et au début du XXe siècle. Le Penseur est l’une de ses sculptures les plus connues.",
+    "source": "https://www.prepa-examen.fr/question/etait-auguste-rodin-nat/",
+    "official": true
+  },
+  {
+    "id": 1172,
+    "section": "heritage",
+    "prompt": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
+    "correct": [
+      "La quatrième",
+      "4e selon l’OIF en 2026"
+    ],
+    "distractors": [
+      [
+        "La troisième"
+      ],
+      [
+        "La cinquième"
+      ],
+      [
+        "La sixième"
+      ],
+      [
+        "La dixième"
+      ]
+    ],
+    "explanation": "Selon l’OIF en 2026, le français est quatrième par nombre total de locuteurs. Le classement dépend de la définition et de l’année.",
+    "source": "https://www.francophonie.org/la-langue-francaise-dans-le-monde-305",
+    "official": true
+  },
+  {
+    "id": 1173,
+    "section": "heritage",
+    "prompt": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
+    "correct": [
+      "Notre-Dame de Paris",
+      "Notre-Dame de Paris, sur l’île de la Cité"
+    ],
+    "distractors": [
+      [
+        "La cathédrale de Reims"
+      ],
+      [
+        "La basilique du Sacré-Cœur"
+      ],
+      [
+        "La cathédrale de Strasbourg"
+      ],
+      [
+        "Notre-Dame de Rouen"
+      ]
+    ],
+    "explanation": "Notre-Dame de Paris a été gravement endommagée par un incendie le 15 avril 2019, puis restaurée et rouverte en 2024. L’incendie du 15 avril 2019 a détruit la flèche et une partie de la toiture. La cathédrale a rouvert en 2024.",
+    "source": "https://www.prepa-examen.fr/question/cathedrale-celebre-a-ete-partie-detruite-incendie-cr/",
+    "official": true
+  },
+  {
+    "id": 1174,
+    "section": "heritage",
+    "prompt": "Qui était une écrivaine française célèbre ?",
+    "correct": [
+      "Simone de Beauvoir",
+      "Simone de Beauvoir, autrice du Deuxième Sexe"
+    ],
+    "distractors": [
+      [
+        "Agatha Christie"
+      ],
+      [
+        "Jane Austen"
+      ],
+      [
+        "Virginia Woolf"
+      ],
+      [
+        "Mary Shelley"
+      ]
+    ],
+    "explanation": "Simone de Beauvoir (1908-1986), autrice du « Deuxième Sexe », est une grande figure de la littérature française. Les autres autrices proposées sont britanniques. Simone de Beauvoir a notamment écrit sur la condition des femmes.",
+    "source": "https://www.prepa-examen.fr/question/etait-ecrivaine-francaise-celebre-cr/",
+    "official": true
+  },
+  {
+    "id": 1175,
+    "section": "heritage",
+    "prompt": "Qui était un célèbre musicien français ?",
+    "correct": [
+      "Claude Debussy",
+      "Claude Debussy, compositeur de La Mer"
+    ],
+    "distractors": [
+      [
+        "Wolfgang Amadeus Mozart"
+      ],
+      [
+        "Ludwig van Beethoven"
+      ],
+      [
+        "Giuseppe Verdi"
+      ],
+      [
+        "Maurice Maeterlinck"
+      ]
+    ],
+    "explanation": "Claude Debussy (1862-1918), compositeur de « Clair de lune », est un des plus grands musiciens français. Debussy a composé La Mer. Maeterlinck, auteur belge, a écrit la pièce adaptée par Debussy dans Pelléas et Mélisande.",
+    "source": "https://www.prepa-examen.fr/question/etait-celebre-musicien-francais-cr/",
+    "official": true
+  },
+  {
+    "id": 1176,
+    "section": "heritage",
+    "prompt": "Qui était Auguste Renoir ?",
+    "correct": [
+      "Un peintre impressionniste français",
+      "Un peintre français lié au mouvement impressionniste"
+    ],
+    "distractors": [
+      [
+        "Un sculpteur du XIXe siècle"
+      ],
+      [
+        "Un photographe pionnier"
+      ],
+      [
+        "Un compositeur romantique"
+      ],
+      [
+        "Un cinéaste français du XXe siècle"
+      ]
+    ],
+    "explanation": "Pierre-Auguste Renoir (1841-1919) est l'un des maîtres de l'impressionnisme français, connu pour ses scènes de la vie quotidienne et ses portraits. Le peintre Pierre-Auguste Renoir est le père de Jean Renoir, qui était cinéaste.",
+    "source": "https://www.prepa-examen.fr/question/etait-auguste-renoir-nat/",
+    "official": true
+  },
+  {
+    "id": 1177,
+    "section": "heritage",
+    "prompt": "Quelle fête est française ?",
+    "correct": [
+      "La fête nationale du 14 juillet",
+      "Le 14 Juillet, fête nationale française"
+    ],
+    "distractors": [
+      [
+        "La fête nationale belge"
+      ],
+      [
+        "La fête nationale suisse"
+      ],
+      [
+        "La fête nationale italienne"
+      ],
+      [
+        "Le 4 juillet, fête nationale américaine"
+      ]
+    ],
+    "explanation": "Le 14 juillet renvoie à la prise de la Bastille et à la Fête de la Fédération.",
+    "source": "https://www.prepa-examen.fr/question/fete-francaise-cr/",
+    "official": true
+  },
+  {
+    "id": 1178,
+    "section": "residence",
+    "prompt": "Quel mariage est reconnu par l'État ?",
+    "correct": [
+      "Le mariage civil célébré en mairie",
+      "Le mariage prononcé par un officier d’état civil"
+    ],
+    "distractors": [
+      [
+        "Le mariage religieux uniquement"
+      ],
+      [
+        "Le mariage coutumier"
+      ],
+      [
+        "Les fiançailles officielles"
+      ],
+      [
+        "Le PACS enregistré en mairie"
+      ]
+    ],
+    "explanation": "Seul le mariage civil a une valeur juridique en France. Le PACS produit des effets juridiques mais reste distinct du mariage. Un rite religieux seul ne tient pas lieu de mariage civil.",
+    "source": "https://www.prepa-examen.fr/question/mariage-reconnu-etat-cr/",
+    "official": true
+  },
+  {
+    "id": 1179,
+    "section": "residence",
+    "prompt": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+    "correct": [
+      "Pour le primaire public, à la mairie du domicile",
+      "À la mairie du domicile, pour une première inscription dans le primaire public"
+    ],
+    "distractors": [
+      [
+        "Au rectorat pour toute première inscription en maternelle"
+      ],
+      [
+        "Au ministère de l’Éducation nationale"
+      ],
+      [
+        "À la préfecture"
+      ],
+      [
+        "À la caisse d’allocations familiales"
+      ],
+      [
+        "À la préfecture ou à la police municipale"
+      ]
+    ],
+    "explanation": "La mairie établit l’inscription initiale. La direction de l’école procède ensuite à l’admission.",
+    "source": "https://www.prepa-examen.fr/question/aupres-institution-parents-peuvent-inscrire-leurs-enfants-csp/",
+    "official": true
+  },
+  {
+    "id": 1180,
+    "section": "residence",
+    "prompt": "En cas de divorce, qui exerce l'autorité parentale ?",
+    "correct": [
+      "Les deux parents conjointement, sauf décision contraire du juge",
+      "Les deux parents en principe, même après la séparation"
+    ],
+    "distractors": [
+      [
+        "Uniquement le parent qui a la garde"
+      ],
+      [
+        "Le juge décide toujours de supprimer un droit parental"
+      ],
+      [
+        "Uniquement le père"
+      ],
+      [
+        "Automatiquement le parent chez lequel l’enfant passe le plus de temps"
+      ]
+    ],
+    "explanation": "En cas de divorce, l'autorité parentale est en principe exercée conjointement par les deux parents. Le juge peut y déroger dans l'intérêt de l'enfant. Le divorce ne modifie pas à lui seul la dévolution de l’autorité parentale. Le juge peut en décider autrement dans l’intérêt de l’enfant.",
+    "source": "https://www.prepa-examen.fr/question/cas-divorce-exerce-autorite-parentale-cr/",
+    "official": true
+  },
+  {
+    "id": 1181,
+    "section": "residence",
+    "prompt": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+    "correct": [
+      "L'aide juridictionnelle",
+      "L’aide juridictionnelle, sous conditions"
+    ],
+    "distractors": [
+      [
+        "Le RSA"
+      ],
+      [
+        "La sécurité sociale"
+      ],
+      [
+        "La CAF"
+      ],
+      [
+        "L’allocation de soutien familial"
+      ]
+    ],
+    "explanation": "L'aide juridictionnelle permet aux personnes aux revenus modestes de bénéficier de l'assistance d'un avocat pris en charge (totalement ou partiellement) par l'État. L’aide juridictionnelle peut couvrir tout ou partie des frais de justice, selon la situation et les ressources.",
+    "source": "https://www.prepa-examen.fr/question/aide-permet-personnes-ont-difficultes-financieres-avocat-cr/",
+    "official": true
+  },
+  {
+    "id": 1182,
+    "section": "residence",
+    "prompt": "Où faut-il déclarer la naissance d'un enfant ?",
+    "correct": [
+      "À la mairie du lieu de naissance",
+      "Auprès de l’officier d’état civil du lieu de naissance"
+    ],
+    "distractors": [
+      [
+        "Au tribunal judiciaire"
+      ],
+      [
+        "À l’hôpital en s’adressant uniquement au service médical"
+      ],
+      [
+        "À la mairie du domicile quelle que soit la commune de naissance"
+      ],
+      [
+        "À la caisse d’assurance maladie"
+      ],
+      [
+        "À la mairie du domicile, quel que soit le lieu de naissance"
+      ]
+    ],
+    "explanation": "La déclaration se fait en principe dans les cinq jours. Certaines communes connaissent un délai particulier.",
+    "source": "https://www.prepa-examen.fr/question/faut-declarer-naissance-enfant-csp/",
+    "official": true
+  },
+  {
+    "id": 1183,
+    "section": "residence",
+    "prompt": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
+    "correct": [
+      "Pour l’épreuve pratique, avoir un résultat valide au code ou une dispense",
+      "Pour l’épreuve pratique, détenir un résultat au code encore valable ou bénéficier d’une dispense"
+    ],
+    "distractors": [
+      [
+        "Posséder déjà une voiture"
+      ],
+      [
+        "Être de nationalité française ou européenne"
+      ],
+      [
+        "Avoir plus de 21 ans"
+      ],
+      [
+        "Avoir obtenu le permis avant de passer le code"
+      ]
+    ],
+    "explanation": "Le code est normalement préalable à l’épreuve pratique. Certaines dispenses sont prévues selon la situation du candidat.",
+    "source": "https://www.prepa-examen.fr/question/conditions-passer-examen-permis-conduire-cr/",
+    "official": true
+  },
+  {
+    "id": 1184,
+    "section": "residence",
+    "prompt": "Un bail locatif est valide s'il est :",
+    "correct": [
+      "rédigé par écrit et signé par le bailleur et le locataire",
+      "établi par écrit et signé par les parties, conformément aux règles habituelles du bail d’habitation"
+    ],
+    "distractors": [
+      [
+        "validé par le maire de la commune"
+      ],
+      [
+        "validé par la préfecture"
+      ],
+      [
+        "enregistré au commissariat"
+      ],
+      [
+        "simplement annoncé à la mairie par le propriétaire"
+      ]
+    ],
+    "explanation": "Un bail écrit et signé protège les parties et correspond à la forme requise. Des droits peuvent subsister en présence d’un bail verbal exécuté.",
+    "source": "https://www.prepa-examen.fr/question/bail-locatif-valide-cr/",
+    "official": true
+  },
+  {
+    "id": 1185,
+    "section": "residence",
+    "prompt": "Où peut-on déposer un lave-vaisselle cassé ?",
+    "correct": [
+      "À la déchetterie",
+      "Dans une déchèterie acceptant les appareils électriques"
+    ],
+    "distractors": [
+      [
+        "Sur le trottoir"
+      ],
+      [
+        "Dans la poubelle ménagère"
+      ],
+      [
+        "Dans la cave de l'immeuble"
+      ],
+      [
+        "Dans le bac réservé aux emballages"
+      ]
+    ],
+    "explanation": "Les appareils électroménagers usagés se déposent en déchetterie ou sont repris par le vendeur lors d'un nouvel achat. Un appareil électrique relève d’une collecte dédiée. Une reprise par un distributeur peut aussi être possible.",
+    "source": "https://www.prepa-examen.fr/question/deposer-lave-vaisselle-casse-cr/",
+    "official": true
+  },
+  {
+    "id": 1186,
+    "section": "residence",
+    "prompt": "Quel numéro d'urgence permet d'appeler la police ?",
+    "correct": [
+      "Le 17",
+      "Le 17, Police secours"
+    ],
+    "distractors": [
+      [
+        "Le 15 (SAMU)"
+      ],
+      [
+        "Le 115 (urgence sociale)"
+      ],
+      [
+        "Le 18 (pompiers)"
+      ],
+      [
+        "Le 116 117 (permanence des soins ambulatoires)"
+      ]
+    ],
+    "explanation": "Le 17 joint police ou gendarmerie. Le 112 est généraliste et le 114 offre notamment un accès d’urgence par écrit.",
+    "source": "https://www.prepa-examen.fr/question/numero-urgence-permet-appeler-police-csp/",
+    "official": true
+  },
+  {
+    "id": 1187,
+    "section": "health",
+    "prompt": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+    "correct": [
+      "L’accès aux soins n’est pas réservé aux Français. La prise en charge varie selon la situation",
+      "Les soins sont accessibles sans condition de nationalité, avec une prise en charge qui dépend de la situation"
+    ],
+    "distractors": [
+      [
+        "Seuls les salariés peuvent consulter un médecin"
+      ],
+      [
+        "Les soins sont réservés aux personnes de nationalité française"
+      ],
+      [
+        "Il faut payer la totalité des soins avant d'être soigné"
+      ],
+      [
+        "Toute consultation est automatiquement gratuite"
+      ]
+    ],
+    "explanation": "Accès aux soins et remboursement sont des questions distinctes. La protection maladie et l’aide médicale de l’État répondent à des critères différents.",
+    "source": "https://www.prepa-examen.fr/question/concernant-acces-soins-proposition-correcte-csp/",
+    "official": true
+  },
+  {
+    "id": 1188,
+    "section": "health",
+    "prompt": "À qui est accessible la contraception ?",
+    "correct": [
+      "À toute personne, y compris les mineurs",
+      "Aux personnes majeures comme mineures, sans condition de mariage"
+    ],
+    "distractors": [
+      [
+        "Aux femmes mariées uniquement"
+      ],
+      [
+        "Aux personnes majeures uniquement"
+      ],
+      [
+        "Aux personnes ayant déjà un enfant"
+      ],
+      [
+        "Aux mineurs uniquement avec une autorisation parentale obligatoire"
+      ]
+    ],
+    "explanation": "La contraception est accessible à tous, y compris aux mineurs, gratuitement jusqu'à 25 ans. Les mineures peuvent accéder à la contraception dans le respect du secret. Certaines méthodes ont des conditions médicales.",
+    "source": "https://www.prepa-examen.fr/question/a-accessible-contraception-cr/",
+    "official": true
+  },
+  {
+    "id": 1189,
+    "section": "health",
+    "prompt": "Qu’est-ce que le principe de confidentialité dans le domaine de la santé ?",
+    "correct": [
+      "Les informations médicales sont protégées par le secret médical",
+      "Les professionnels doivent protéger les informations de santé"
+    ],
+    "distractors": [
+      [
+        "Le médecin informe l'employeur de l'état de santé du salarié"
+      ],
+      [
+        "Les diagnostics sont affichés en mairie"
+      ],
+      [
+        "La famille a toujours accès au dossier médical sans accord"
+      ],
+      [
+        "Le secret s’applique seulement lorsque le patient le demande par écrit"
+      ]
+    ],
+    "explanation": "Quelques transmissions sont légalement autorisées, notamment dans les conditions du partage d’informations entre professionnels.",
+    "source": "https://www.prepa-examen.fr/question/principe-confidentialite-domaine-sante-cr/",
+    "official": true
+  },
+  {
+    "id": 1190,
+    "section": "health",
+    "prompt": "L'inscription à l'Assurance maladie est :",
+    "correct": [
+      "Requise dans le régime compétent pour les personnes qui relèvent de l’assurance maladie française",
+      "Liée à l’activité professionnelle en France ou à une résidence stable et régulière selon la situation"
+    ],
+    "distractors": [
+      [
+        "Réservée aux personnes ayant un emploi à temps plein"
+      ],
+      [
+        "Automatiquement refusée à tout étranger"
+      ],
+      [
+        "Possible uniquement après la naturalisation"
+      ],
+      [
+        "Réservée aux personnes ayant un contrat à durée indéterminée"
+      ]
+    ],
+    "explanation": "La protection universelle maladie ouvre des droits par le travail ou la résidence stable et régulière. Les situations transfrontalières peuvent relever d’un autre régime.",
+    "source": "https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/",
+    "official": true
+  },
+  {
+    "id": 1191,
+    "section": "work",
+    "prompt": "Qui peut demander un congé parental d'éducation ?",
+    "correct": [
+      "L'un ou l'autre parent salarié",
+      "Chaque parent salarié qui remplit les conditions, indépendamment du sexe"
+    ],
+    "distractors": [
+      [
+        "Uniquement la mère salariée"
+      ],
+      [
+        "Seulement les fonctionnaires titulaires"
+      ],
+      [
+        "Le père salarié, si la mère refuse"
+      ],
+      [
+        "Uniquement le parent percevant les allocations familiales"
+      ]
+    ],
+    "explanation": "Le congé parental d'éducation est accessible aux deux parents salariés, qu'ils soient père ou mère, après la naissance ou l'adoption d'un enfant. Le congé parental d’éducation est ouvert sous condition d’ancienneté. Le droit à un congé et l’indemnisation éventuelle sont distincts.",
+    "source": "https://www.prepa-examen.fr/question/demander-conge-parental-education-cr/",
+    "official": true
+  },
+  {
+    "id": 1192,
+    "section": "work",
+    "prompt": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+    "correct": [
+      "Les litiges entre employeurs et salariés",
+      "Les litiges individuels liés au contrat de travail privé"
+    ],
+    "distractors": [
+      [
+        "Les conflits entre particuliers et administration"
+      ],
+      [
+        "Les affaires pénales"
+      ],
+      [
+        "Les divorces"
+      ],
+      [
+        "Les litiges entre deux entreprises commerciales"
+      ]
+    ],
+    "explanation": "Le conseil de prud'hommes est la juridiction compétente pour régler les litiges individuels entre employeurs et salariés. Le conseil peut statuer sur des salaires impayés ou un licenciement. Le juge administratif traite en principe les litiges de fonction publique.",
+    "source": "https://www.prepa-examen.fr/question/affaires-traitees-conseil-prud-hommes-cr/",
+    "official": true
+  },
+  {
+    "id": 1193,
+    "section": "work",
+    "prompt": "Travailler sans être déclaré est :",
+    "correct": [
+      "Illégal",
+      "interdit et susceptible de sanctions"
+    ],
+    "distractors": [
+      [
+        "Légal si c'est pour un particulier"
+      ],
+      [
+        "Autorisé pour les étudiants"
+      ],
+      [
+        "Autorisé pour les petits jobs"
+      ],
+      [
+        "autorisé si la rémunération est versée par virement"
+      ]
+    ],
+    "explanation": "Le travail dissimulé (travail au noir) est illégal en France. L'employeur risque des sanctions pénales ; le salarié non déclaré perd ses droits sociaux (chômage, retraite, maladie). Le mode de paiement ne remplace ni la déclaration d’embauche ni les autres obligations légales.",
+    "source": "https://www.prepa-examen.fr/question/travailler-etre-declare-cr/",
+    "official": true
+  },
+  {
+    "id": 1194,
+    "section": "work",
+    "prompt": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+    "correct": [
+      "les heures accomplies au-delà de la durée prévue sont encadrées et donnent lieu à compensation selon le régime applicable",
+      "le travail au-delà de la durée prévue est encadré et ouvre droit à compensation selon le régime applicable"
+    ],
+    "distractors": [
+      [
+        "le salarié doit toujours accepter sans compensation"
+      ],
+      [
+        "c'est interdit dans tous les cas"
+      ],
+      [
+        "le salarié perd ses jours de congés"
+      ],
+      [
+        "toute heure au-delà du contrat reste gratuite si le salarié est mensualisé"
+      ]
+    ],
+    "explanation": "Les heures supplémentaires et les heures complémentaires à temps partiel obéissent à des règles différentes.",
+    "source": "https://www.prepa-examen.fr/question/lorsqu-employeur-veut-salarie-travaille-longtemps-duree-cr/",
+    "official": true
+  },
+  {
+    "id": 1195,
+    "section": "work",
+    "prompt": "Quelle est la mission de France Travail ?",
+    "correct": [
+      "Accompagner les demandeurs d'emploi dans leur recherche",
+      "Aider les personnes à trouver un emploi et accompagner les employeurs dans le recrutement"
+    ],
+    "distractors": [
+      [
+        "Créer directement des emplois publics pour tous"
+      ],
+      [
+        "Contrôler les salaires des entreprises"
+      ],
+      [
+        "Délivrer les titres de séjour"
+      ],
+      [
+        "Trancher les contestations relatives aux licenciements"
+      ]
+    ],
+    "explanation": "France Travail accompagne les demandeurs d'emploi : inscription, conseil, formation et versement des allocations. France Travail accompagne, oriente et peut gérer l’indemnisation. Les litiges individuels de travail privé relèvent des prud’hommes.",
+    "source": "https://www.prepa-examen.fr/question/mission-france-travail-cr/",
+    "official": true
+  },
+  {
+    "id": 1196,
+    "section": "work",
+    "prompt": "Dans une entreprise, le droit syndical permet :",
+    "correct": [
+      "d'adhérer à un syndicat pour défendre ses intérêts",
+      "de rejoindre un syndicat pour défendre des intérêts professionnels"
+    ],
+    "distractors": [
+      [
+        "de licencier un collègue"
+      ],
+      [
+        "de fixer soi-même son salaire"
+      ],
+      [
+        "de refuser tous les contrats de travail proposés"
+      ],
+      [
+        "d’imposer à tous ses collègues l’adhésion syndicale"
+      ]
+    ],
+    "explanation": "Tout salarié peut librement adhérer à un syndicat pour défendre ses droits et intérêts professionnels. L’adhésion est libre. L’employeur ne peut pas sanctionner un salarié en raison de son appartenance syndicale.",
+    "source": "https://www.prepa-examen.fr/question/entreprise-droit-syndical-permet-cr/",
+    "official": true
+  },
+  {
+    "id": 1197,
+    "section": "work",
+    "prompt": "Dans une entreprise, le droit de grève autorise :",
+    "correct": [
+      "à cesser le travail pour défendre des revendications professionnelles",
+      "à interrompre collectivement le travail pour des revendications professionnelles"
+    ],
+    "distractors": [
+      [
+        "à s'absenter du travail pour n'importe quelle convenance personnelle"
+      ],
+      [
+        "à bloquer l'entreprise par la violence"
+      ],
+      [
+        "à être payé sans travailler"
+      ],
+      [
+        "à quitter son poste pour obtenir un avantage sans aucune revendication professionnelle"
+      ]
+    ],
+    "explanation": "La grève est une cessation collective du travail pour des revendications professionnelles ; elle ne peut être violente. Dans le secteur privé, la grève repose en principe sur un arrêt collectif et concerté. Elle suspend normalement le paiement des heures non travaillées.",
+    "source": "https://www.prepa-examen.fr/question/entreprise-droit-greve-autorise-cr/",
+    "official": true
+  },
+  {
+    "id": 1198,
+    "section": "work",
+    "prompt": "Quelles sont les conditions pour toucher les allocations chômage ?",
+    "correct": [
+      "Être inscrit à France Travail et remplir les conditions d’affiliation et de perte d’emploi, entre autres",
+      "S’inscrire comme demandeur d’emploi et remplir les conditions d’activité, de recherche et de perte d’emploi"
+    ],
+    "distractors": [
+      [
+        "Être de nationalité française et avoir moins de 50 ans"
+      ],
+      [
+        "Avoir plus de 40 ans"
+      ],
+      [
+        "N'avoir jamais travaillé"
+      ],
+      [
+        "S’inscrire suffit, quelle que soit l’activité exercée auparavant"
+      ]
+    ],
+    "explanation": "L’ARE dépend de plusieurs conditions. La perte involontaire d’emploi est le cas général, avec des exceptions prévues.",
+    "source": "https://www.prepa-examen.fr/question/conditions-toucher-allocations-chomage-cr/",
+    "official": true
+  },
+  {
+    "id": 1199,
+    "section": "school",
+    "prompt": "Qu'est-ce que l'école maternelle ?",
+    "correct": [
+      "La première école, pour les enfants de 3 à 6 ans",
+      "L’école du début de la scolarité, généralement entre trois et six ans"
+    ],
+    "distractors": [
+      [
+        "Une simple garderie facultative et payante"
+      ],
+      [
+        "Une école réservée aux filles"
+      ],
+      [
+        "Un établissement privé religieux"
+      ],
+      [
+        "La première année de l’école élémentaire"
+      ]
+    ],
+    "explanation": "L'école maternelle accueille les enfants de 3 à 6 ans ; elle est gratuite et obligatoire dès 3 ans. La maternelle comprend généralement petite, moyenne et grande sections. Le CP ouvre l’école élémentaire.",
+    "source": "https://www.prepa-examen.fr/question/ecole-maternelle-cr/",
+    "official": true
+  },
+  {
+    "id": 1200,
+    "section": "school",
+    "prompt": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+    "correct": [
+      "Le diplôme national du brevet",
+      "Le DNB, appelé aussi brevet des collèges"
+    ],
+    "distractors": [
+      [
+        "Le baccalauréat général"
+      ],
+      [
+        "Le certificat d'aptitude professionnelle (CAP)"
+      ],
+      [
+        "La licence"
+      ],
+      [
+        "Le brevet de technicien supérieur"
+      ]
+    ],
+    "explanation": "Le diplôme national du brevet (DNB) est passé en fin de 3e, dernière année du collège. Le DNB évalue des acquis du collège. Baccalauréat et CAP correspondent à d’autres niveaux ou parcours.",
+    "source": "https://www.prepa-examen.fr/question/comment-appelle-diplome-passe-eleves-a-fin-cr/",
+    "official": true
+  },
+  {
+    "id": 1201,
+    "section": "school",
+    "prompt": "Les parents d'élève ont le droit de :",
+    "correct": [
+      "élire des représentants de parents d'élèves",
+      "participer à l’élection de leurs représentants"
+    ],
+    "distractors": [
+      [
+        "choisir les enseignants de leur enfant"
+      ],
+      [
+        "modifier les programmes scolaires"
+      ],
+      [
+        "assister à tous les cours"
+      ],
+      [
+        "désigner directement le directeur de l’école"
+      ]
+    ],
+    "explanation": "Les parents participent à la vie de l'école : ils élisent chaque année leurs représentants aux conseils d'école et d'administration. Les représentants élus siègent notamment au conseil d’école ou au conseil d’administration selon l’établissement.",
+    "source": "https://www.prepa-examen.fr/question/parents-eleve-ont-droit-cr/",
+    "official": true
+  },
+  {
+    "id": 1202,
+    "section": "school",
+    "prompt": "Qui peut manger à la cantine scolaire ?",
+    "correct": [
+      "Tous les élèves lorsque la cantine de l’école primaire existe",
+      "En primaire, tous les élèves lorsque la cantine existe"
+    ],
+    "distractors": [
+      [
+        "Les enfants dont les parents travaillent"
+      ],
+      [
+        "Les élèves de nationalité française uniquement"
+      ],
+      [
+        "Les enfants boursiers uniquement"
+      ],
+      [
+        "Uniquement les élèves qui habitent à côté de l’école"
+      ]
+    ],
+    "explanation": "L’article L131-13 du code de l’éducation consacre un droit à l’inscription en primaire lorsqu’un service de restauration existe.",
+    "source": "https://www.prepa-examen.fr/question/manger-a-cantine-scolaire-cr/",
+    "official": true
+  },
+  {
+    "id": 1203,
+    "section": "school",
+    "prompt": "À quel âge commence l'instruction obligatoire des enfants ?",
+    "correct": [
+      "3 ans",
+      "À l’âge de trois ans"
+    ],
+    "distractors": [
+      [
+        "6 ans"
+      ],
+      [
+        "2 ans"
+      ],
+      [
+        "7 ans"
+      ],
+      [
+        "5 ans"
+      ]
+    ],
+    "explanation": "Depuis 2019, l'instruction obligatoire commence à 3 ans en France. L’obligation d’instruction va de trois à seize ans. Une obligation de formation distincte s’applique ensuite jusqu’à dix-huit ans.",
+    "source": "https://www.prepa-examen.fr/question/a-age-commence-instruction-obligatoire-enfants-csp/",
+    "official": true
+  },
+  {
+    "id": 1204,
+    "section": "school",
+    "prompt": "Quel est l'âge de la majorité ?",
+    "correct": [
+      "18 ans",
+      "Dix-huit ans"
+    ],
+    "distractors": [
+      [
+        "16 ans"
+      ],
+      [
+        "21 ans"
+      ],
+      [
+        "25 ans"
+      ],
+      [
+        "17 ans"
+      ]
+    ],
+    "explanation": "La majorité est fixée à 18 ans : on devient alors pleinement responsable et on acquiert le droit de vote. La majorité civile est fixée à dix-huit ans. Une émancipation éventuelle ne modifie pas l’âge légal de la majorité.",
+    "source": "https://www.prepa-examen.fr/question/age-majorite-cr/",
+    "official": true
+  },
+  {
+    "id": 1205,
+    "section": "school",
+    "prompt": "À l'école, il est interdit aux parents de :",
+    "correct": [
+      "insulter ou menacer un membre de l'équipe éducative",
+      "adresser des menaces ou insultes à un personnel de l’école"
+    ],
+    "distractors": [
+      [
+        "rencontrer les enseignants"
+      ],
+      [
+        "participer aux réunions de parents d'élèves"
+      ],
+      [
+        "accompagner les sorties scolaires"
+      ],
+      [
+        "demander un rendez-vous à la direction"
+      ]
+    ],
+    "explanation": "Le respect est dû à l'équipe éducative : insultes ou menaces envers un enseignant sont punies par la loi. Le dialogue avec l’école est possible. Les menaces ou injures peuvent entraîner des sanctions.",
+    "source": "https://www.prepa-examen.fr/question/a-ecole-interdit-parents-cr/",
+    "official": true
+  },
+  {
+    "id": 1206,
+    "section": "school",
+    "prompt": "Quel motif d'absence est accepté par l'école ?",
+    "correct": [
+      "La maladie de l’enfant",
+      "Un problème de santé empêchant l’enfant de venir en cours"
+    ],
+    "distractors": [
+      [
+        "Une sortie de loisirs choisie sans autorisation"
+      ],
+      [
+        "Un départ en vacances anticipé"
+      ],
+      [
+        "Un rendez-vous pour des achats personnels"
+      ],
+      [
+        "Une activité de loisirs non autorisée pendant les cours"
+      ]
+    ],
+    "explanation": "Les parents préviennent l’établissement. Un certificat est exigé en cas de maladie contagieuse, selon les règles applicables.",
+    "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20583",
+    "official": true
+  },
+  {
+    "id": 1207,
+    "section": "school",
+    "prompt": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+    "correct": [
+      "Dans les cas prévus, six mois d’emprisonnement et 7 500 euros d’amende",
+      "Jusqu’à six mois de prison et 7 500 euros d’amende dans les cas prévus"
+    ],
+    "distractors": [
+      [
+        "La perte de l'autorité parentale automatiquement"
+      ],
+      [
+        "Une amende de 100 €"
+      ],
+      [
+        "Une simple lettre d'avertissement"
+      ],
+      [
+        "Jusqu’à deux mois de prison et 750 euros d’amende"
+      ]
+    ],
+    "explanation": "L’article 227-17-1 du code pénal vise notamment le défaut d’inscription malgré une mise en demeure, sans excuse valable.",
+    "source": "https://www.prepa-examen.fr/question/parents-respectent-obligation-instruction-leurs-enfants-sanction-nat/",
+    "official": true
+  },
+  {
+    "id": 1208,
+    "section": "school",
+    "prompt": "Quand ont lieu les vacances scolaires de Noël ?",
+    "correct": [
+      "Fin décembre et début janvier",
+      "Autour de Noël et du Nouvel An"
+    ],
+    "distractors": [
+      [
+        "Au début du mois de novembre"
+      ],
+      [
+        "Au milieu du mois de février"
+      ],
+      [
+        "À la fin du mois de janvier"
+      ],
+      [
+        "De la mi-janvier à la fin janvier"
+      ]
+    ],
+    "explanation": "Les vacances de Noël durent environ deux semaines, autour du 25 décembre et du 1er janvier. Les dates précises sont fixées chaque année par le calendrier scolaire.",
+    "source": "https://www.prepa-examen.fr/question/quand-ont-lieu-vacances-scolaires-noel-cr/",
+    "official": true
+  },
+  {
+    "id": 1209,
+    "section": "school",
+    "prompt": "À l'école, un enfant en situation de handicap :",
+    "correct": [
+      "a le droit d'être scolarisé, avec un accompagnement adapté",
+      "a droit à la scolarisation et à des adaptations selon ses besoins"
+    ],
+    "distractors": [
+      [
+        "ne peut pas aller à l'école ordinaire"
+      ],
+      [
+        "doit rester à la maison"
+      ],
+      [
+        "paie des frais de scolarité plus élevés que les autres"
+      ],
+      [
+        "ne peut être scolarisé qu’avec une autorisation valable un an"
+      ]
+    ],
+    "explanation": "Tout enfant en situation de handicap a droit à une scolarisation, si besoin avec un accompagnant (AESH) ou un dispositif adapté (ULIS). Des mesures adaptées peuvent être prévues dans un projet personnalisé de scolarisation. L’accompagnement dépend des besoins de l’élève.",
+    "source": "https://www.prepa-examen.fr/question/a-ecole-enfant-situation-handicap-cr/",
+    "official": true
   },
   {
     "id": 7,
@@ -146,7 +5507,8 @@
       [
         "Laisser chaque agent fixer ses critères religieux"
       ]
-    ]
+    ],
+    "explanation": "Le principe d’égalité du service public interdit une priorité fondée sur les convictions religieuses."
   },
   {
     "id": 8,
@@ -165,7 +5527,8 @@
       [
         "L’accord du responsable religieux du quartier"
       ]
-    ]
+    ],
+    "explanation": "Les critères liés aux besoins des familles peuvent être objectifs. La religion n’est pas un critère d’admission légitime."
   },
   {
     "id": 9,
@@ -185,7 +5548,8 @@
       [
         "La liberté d’association"
       ]
-    ]
+    ],
+    "explanation": "La critique d’une décision publique relève de la liberté d’expression dans les limites prévues par la loi."
   },
   {
     "id": 10,
@@ -204,7 +5568,8 @@
       [
         "Demander à ce que la mairie établisse une liste de religions autorisées"
       ]
-    ]
+    ],
+    "explanation": "La neutralité du service public interdit de conditionner une prestation à une adhésion religieuse."
   },
   {
     "id": 11,
@@ -223,7 +5588,8 @@
       [
         "Réserver les dons en échange d’un soutien électoral"
       ]
-    ]
+    ],
+    "explanation": "La fraternité se traduit ici par une aide apportée en fonction des besoins des personnes."
   },
   {
     "id": 12,
@@ -242,239 +5608,8 @@
       [
         "La liberté de croire dépend d’une autorisation préfectorale"
       ]
-    ]
-  },
-  {
-    "id": 13,
-    "section": "vote",
-    "prompt": "Quels représentants sont élus lors des élections législatives ?",
-    "correct": [
-      "Les députés",
-      "Les membres de l’Assemblée nationale"
     ],
-    "distractors": [
-      [
-        "Les sénateurs"
-      ],
-      [
-        "Les conseillers municipaux"
-      ],
-      [
-        "Les conseillers régionaux"
-      ],
-      [
-        "Les députés européens"
-      ]
-    ]
-  },
-  {
-    "id": 14,
-    "section": "vote",
-    "prompt": "Quelle est la durée du mandat du président de la République ?",
-    "correct": [
-      "Cinq ans"
-    ],
-    "distractors": [
-      [
-        "Quatre ans"
-      ],
-      [
-        "Six ans"
-      ],
-      [
-        "Sept ans"
-      ],
-      [
-        "Trois ans"
-      ]
-    ]
-  },
-  {
-    "id": 15,
-    "section": "vote",
-    "prompt": "Que signifie le secret du vote ?",
-    "correct": [
-      "Le choix de chaque électeur reste confidentiel",
-      "Personne ne peut exiger de connaître le choix d’un électeur"
-    ],
-    "distractors": [
-      [
-        "Les résultats ne sont pas rendus publics"
-      ],
-      [
-        "Le dépouillement est réservé aux candidats"
-      ],
-      [
-        "La liste des candidats reste confidentielle"
-      ]
-    ]
-  },
-  {
-    "id": 16,
-    "section": "institutions",
-    "prompt": "Qui nomme le Premier ministre ?",
-    "correct": [
-      "Le président de la République",
-      "Le chef de l’État"
-    ],
-    "distractors": [
-      [
-        "Le président du Sénat"
-      ],
-      [
-        "Le président de l’Assemblée nationale"
-      ],
-      [
-        "Le président du Conseil constitutionnel"
-      ],
-      [
-        "Le ministre de l’Intérieur"
-      ]
-    ]
-  },
-  {
-    "id": 17,
-    "section": "institutions",
-    "prompt": "Quelles assemblées composent le Parlement français ?",
-    "correct": [
-      "L’Assemblée nationale et le Sénat"
-    ],
-    "distractors": [
-      [
-        "L’Assemblée nationale et le Conseil constitutionnel"
-      ],
-      [
-        "Le Sénat et le Conseil d’État"
-      ],
-      [
-        "L’Assemblée nationale et le Conseil des ministres"
-      ],
-      [
-        "Le Sénat et le Conseil économique, social et environnemental"
-      ]
-    ]
-  },
-  {
-    "id": 18,
-    "section": "europe",
-    "prompt": "Quelle institution est élue directement par les citoyens de l’Union européenne ?",
-    "correct": [
-      "Le Parlement européen"
-    ],
-    "distractors": [
-      [
-        "La Commission européenne"
-      ],
-      [
-        "Le Conseil européen"
-      ],
-      [
-        "La Cour de justice de l’Union européenne"
-      ],
-      [
-        "La Banque centrale européenne"
-      ]
-    ]
-  },
-  {
-    "id": 19,
-    "section": "rights",
-    "prompt": "Quel texte adopté en 1789 proclame notamment la liberté et l’égalité en droits ?",
-    "correct": [
-      "La Déclaration des droits de l’homme et du citoyen"
-    ],
-    "distractors": [
-      [
-        "La Déclaration universelle des droits de l’homme"
-      ],
-      [
-        "La Constitution de la Ve République"
-      ],
-      [
-        "La Charte des droits fondamentaux de l’Union européenne"
-      ]
-    ]
-  },
-  {
-    "id": 20,
-    "section": "rights",
-    "prompt": "Quelle liberté permet de créer une association avec d’autres personnes ?",
-    "correct": [
-      "La liberté d’association"
-    ],
-    "distractors": [
-      [
-        "La liberté de circulation"
-      ],
-      [
-        "La liberté de conscience"
-      ],
-      [
-        "La liberté de la presse"
-      ]
-    ]
-  },
-  {
-    "id": 21,
-    "section": "duties",
-    "prompt": "À quoi servent notamment les impôts ?",
-    "correct": [
-      "À financer les services publics",
-      "À financer des dépenses collectives comme l’école et les infrastructures"
-    ],
-    "distractors": [
-      [
-        "À rémunérer uniquement les élus"
-      ],
-      [
-        "À financer uniquement les entreprises privées"
-      ],
-      [
-        "À remplacer les cotisations des associations"
-      ]
-    ]
-  },
-  {
-    "id": 22,
-    "section": "duties",
-    "prompt": "En France, à partir de quel âge l’instruction est-elle obligatoire ?",
-    "correct": [
-      "Trois ans"
-    ],
-    "distractors": [
-      [
-        "Quatre ans"
-      ],
-      [
-        "Cinq ans"
-      ],
-      [
-        "Six ans"
-      ],
-      [
-        "Sept ans"
-      ]
-    ]
-  },
-  {
-    "id": 23,
-    "section": "duties",
-    "prompt": "Qui est tenu de respecter les lois françaises sur le territoire français ?",
-    "correct": [
-      "Toute personne présente en France",
-      "Chacun, quelle que soit sa nationalité"
-    ],
-    "distractors": [
-      [
-        "Uniquement les citoyens français"
-      ],
-      [
-        "Uniquement les résidents permanents"
-      ],
-      [
-        "Uniquement les personnes inscrites sur les listes électorales"
-      ]
-    ]
+    "explanation": "La laïcité protège la liberté de conscience. La neutralité de l’État ne supprime pas la liberté de conviction."
   },
   {
     "id": 24,
@@ -493,7 +5628,8 @@
       [
         "Une condition liée à l’assurance du logement"
       ]
-    ]
+    ],
+    "explanation": "L’origine fait partie des critères de discrimination interdits dans l’accès au logement."
   },
   {
     "id": 25,
@@ -512,7 +5648,8 @@
       [
         "Une procédure normale de période d’essai"
       ]
-    ]
+    ],
+    "explanation": "L’employeur ne peut écarter une candidature en raison d’une grossesse."
   },
   {
     "id": 26,
@@ -531,7 +5668,8 @@
       [
         "La commune peut supprimer cette obligation sur simple demande"
       ]
-    ]
+    ],
+    "explanation": "L’instruction est obligatoire de trois à seize ans, indépendamment de la nationalité de l’enfant."
   },
   {
     "id": 27,
@@ -550,7 +5688,8 @@
       [
         "Le mariage impose le versement de tous les salaires sur un compte commun"
       ]
-    ]
+    ],
+    "explanation": "Le code civil reconnaît à chacun des époux la libre disposition de ses gains après contribution aux charges du mariage."
   },
   {
     "id": 28,
@@ -569,7 +5708,8 @@
       [
         "Demander à son employeur d’annuler la convocation"
       ]
-    ]
+    ],
+    "explanation": "La dispense de siéger doit être demandée à l’autorité compétente et motivée. Le juré ne peut pas désigner un remplaçant."
   },
   {
     "id": 29,
@@ -589,260 +5729,7 @@
       [
         "L’obligation de prouver son innocence"
       ]
-    ]
-  },
-  {
-    "id": 30,
-    "section": "history",
-    "prompt": "En quelle année a commencé la Révolution française ?",
-    "correct": [
-      "1789"
     ],
-    "distractors": [
-      [
-        "1776"
-      ],
-      [
-        "1792"
-      ],
-      [
-        "1804"
-      ],
-      [
-        "1815"
-      ]
-    ]
-  },
-  {
-    "id": 31,
-    "section": "history",
-    "prompt": "En quelle année les femmes ont-elles obtenu le droit de vote en France ?",
-    "correct": [
-      "1944"
-    ],
-    "distractors": [
-      [
-        "1936"
-      ],
-      [
-        "1945"
-      ],
-      [
-        "1946"
-      ],
-      [
-        "1958"
-      ]
-    ]
-  },
-  {
-    "id": 32,
-    "section": "history",
-    "prompt": "En quelle année a été adoptée la Constitution de la Ve République ?",
-    "correct": [
-      "1958"
-    ],
-    "distractors": [
-      [
-        "1944"
-      ],
-      [
-        "1946"
-      ],
-      [
-        "1962"
-      ],
-      [
-        "1968"
-      ]
-    ]
-  },
-  {
-    "id": 33,
-    "section": "geography",
-    "prompt": "Quelle ville est située sur la Garonne ?",
-    "correct": [
-      "Toulouse"
-    ],
-    "distractors": [
-      [
-        "Lyon"
-      ],
-      [
-        "Nantes"
-      ],
-      [
-        "Strasbourg"
-      ],
-      [
-        "Rouen"
-      ]
-    ]
-  },
-  {
-    "id": 34,
-    "section": "geography",
-    "prompt": "Quel territoire français est situé en Amérique du Sud ?",
-    "correct": [
-      "La Guyane"
-    ],
-    "distractors": [
-      [
-        "La Guadeloupe"
-      ],
-      [
-        "La Martinique"
-      ],
-      [
-        "La Réunion"
-      ],
-      [
-        "Mayotte"
-      ]
-    ]
-  },
-  {
-    "id": 35,
-    "section": "geography",
-    "prompt": "Quel massif montagneux sépare une partie de la France et de l’Espagne ?",
-    "correct": [
-      "Les Pyrénées"
-    ],
-    "distractors": [
-      [
-        "Les Alpes"
-      ],
-      [
-        "Le Jura"
-      ],
-      [
-        "Les Vosges"
-      ],
-      [
-        "Le Massif central"
-      ]
-    ]
-  },
-  {
-    "id": 36,
-    "section": "heritage",
-    "prompt": "Dans quelle ville se trouve le musée du Louvre ?",
-    "correct": [
-      "Paris"
-    ],
-    "distractors": [
-      [
-        "Lyon"
-      ],
-      [
-        "Marseille"
-      ],
-      [
-        "Bordeaux"
-      ],
-      [
-        "Lille"
-      ]
-    ]
-  },
-  {
-    "id": 37,
-    "section": "heritage",
-    "prompt": "Qui a écrit Les Misérables ?",
-    "correct": [
-      "Victor Hugo"
-    ],
-    "distractors": [
-      [
-        "Émile Zola"
-      ],
-      [
-        "Alexandre Dumas"
-      ],
-      [
-        "Gustave Flaubert"
-      ],
-      [
-        "Honoré de Balzac"
-      ]
-    ]
-  },
-  {
-    "id": 38,
-    "section": "residence",
-    "prompt": "À quoi sert un titre de séjour ?",
-    "correct": [
-      "À justifier du droit de séjourner en France",
-      "À attester que son titulaire est autorisé à séjourner en France"
-    ],
-    "distractors": [
-      [
-        "À prouver la nationalité française"
-      ],
-      [
-        "À tenir lieu de passeport"
-      ],
-      [
-        "À attester du domicile actuel"
-      ]
-    ]
-  },
-  {
-    "id": 39,
-    "section": "health",
-    "prompt": "Quel numéro permet de joindre directement le SAMU en cas d’urgence médicale ?",
-    "correct": [
-      "Le 15"
-    ],
-    "distractors": [
-      [
-        "Le 17"
-      ],
-      [
-        "Le 18"
-      ],
-      [
-        "Le 115"
-      ]
-    ]
-  },
-  {
-    "id": 40,
-    "section": "work",
-    "prompt": "Quel document précise normalement le salaire brut et les cotisations d’un salarié pour une période de paie ?",
-    "correct": [
-      "Le bulletin de paie",
-      "La fiche de paie"
-    ],
-    "distractors": [
-      [
-        "Le certificat de travail"
-      ],
-      [
-        "Le contrat de travail"
-      ],
-      [
-        "L’attestation employeur destinée à France Travail"
-      ]
-    ]
-  },
-  {
-    "id": 41,
-    "section": "school",
-    "prompt": "Quelle démarche permet de demander une première inscription à l’école primaire publique de sa commune ?",
-    "correct": [
-      "S’adresser à la mairie pour l’inscription"
-    ],
-    "distractors": [
-      [
-        "S’adresser à la caisse d’assurance maladie"
-      ],
-      [
-        "Déposer une demande à la préfecture"
-      ],
-      [
-        "S’inscrire auprès de France Travail"
-      ]
-    ]
+    "explanation": "La présomption d’innocence protège la personne mise en cause. Il appartient à l’accusation d’établir la culpabilité."
   }
 ]
