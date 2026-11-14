@@ -58,13 +58,18 @@ function scoreText() {
   return `${data.score.correct} ${label} sur ${data.score.total}`;
 }
 
+function resetScoreButton() {
+  const disabled = data.score.total === 0 ? ' disabled' : '';
+  return `<button data-action="resetScore"${disabled}>Réinitialiser le score</button>`;
+}
+
 function home() {
   const examLabel = !data.exam ? 'Commencer' : data.exam.finished ? 'Nouvel examen' : 'Reprendre l’examen';
   return `<h1>Préparez l’examen civique</h1>
     <p>${bank.filter(question => question.official).length} questions officielles de connaissance · ${bank.filter(question => !question.official).length} mises en situation d’entraînement</p>
     <div class="grid">
     <section class="card"><h2>Entraînement</h2><p>Correction immédiate, sans limite de temps.</p>
-    <p><strong>${scoreText()}</strong></p>
+    <div class="row"><p><strong>${scoreText()}</strong></p>${resetScoreButton()}</div>
     <label for="theme">Thème</label><select id="theme"><option value="all">Tous les thèmes</option>
     ${groups.map((group, index) => `<option value="${index}" ${filter === String(index) ? 'selected' : ''}>${group.title}</option>`).join('')}
     </select><button class="primary" data-action="practice">S’entraîner</button></section>
@@ -98,7 +103,7 @@ function practiceView() {
   const question = data.practice.question;
   const answered = question.answer !== null;
   return `<section class="card"><div class="row"><button data-action="home">Accueil</button>
-    <p class="meta">${scoreText()}</p></div><p class="meta">${theme(question)}</p>
+    <p class="meta">${scoreText()}</p>${resetScoreButton()}</div><p class="meta">${theme(question)}</p>
     ${questionMarkup(question, true)}
     ${answered ? `<p role="status"><strong>${question.options[question.answer].correct ? 'Bonne réponse.' : 'Réponse incorrecte.'}</strong>
       ${escape(question.options.find(option => option.correct).text)}</p>${explanationMarkup(question)}` : ''}
@@ -208,6 +213,10 @@ app.addEventListener('click', event => {
     case 'nextPractice': nextPractice(); break;
     case 'exam': startExam(); break;
     case 'review': screen = 'result'; break;
+    case 'resetScore':
+      if (!data.score.total || !confirm('Réinitialiser le score cumulé de l’entraînement ?')) return;
+      data.score = { correct: 0, total: 0 };
+      break;
     case 'jump': data.exam.index = index; break;
     case 'finish':
       if (!confirm('Terminer l’examen et afficher la correction ?')) return;
