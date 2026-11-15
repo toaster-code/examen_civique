@@ -24,6 +24,7 @@ try {
 data.favorites ??= [];
 data.practiceRuns ??= {};
 data.reports ??= [];
+data.examScores ??= [];
 
 function save() {
   try { localStorage.setItem(key, JSON.stringify(data)); } catch {}
@@ -155,6 +156,18 @@ function fullPracticeStatus() {
   return `Entraînement complet · ${answered} / ${bank.length} questions traitées`;
 }
 
+const examDateFormat = new Intl.DateTimeFormat('fr-FR', { dateStyle: 'medium', timeStyle: 'short' });
+
+function examScoresView() {
+  return `<section class="card"><h2>Derniers résultats de l’examen blanc</h2>
+    ${data.examScores.length ? `<ol>${data.examScores.map(result => `<li>
+      <strong>${escape(result.name)}</strong> · ${result.score}/40 ·
+      <time datetime="${new Date(result.completedAt).toISOString()}">${examDateFormat.format(result.completedAt)}</time>
+    </li>`).join('')}</ol>` : '<p>Aucun résultat signé pour le moment.</p>'}
+    <p class="meta">Les 20 derniers résultats signés sur ce navigateur.</p>
+    </section>`;
+}
+
 function home() {
   const examLabel = !data.exam ? 'Commencer' : data.exam.finished ? 'Nouvel examen' : 'Reprendre l’examen';
   return `<h1>Préparez l’examen civique</h1>
@@ -174,7 +187,7 @@ function home() {
     <p>28 questions de connaissance et 12 mises en situation d’entraînement.</p>
     <button class="primary" data-action="exam">${examLabel}</button>
     ${data.exam?.finished ? '<button data-action="review">Dernier résultat</button>' : ''}
-    </section></div>${favoritesView()}
+    </section></div>${examScoresView()}${favoritesView()}
     <section class="card"><h2>Signalements <span class="meta">(${data.reports.length})</span></h2>
     <button data-action="reports">Analyser les questions signalées</button></section>`;
 }
@@ -232,12 +245,23 @@ function examView() {
       data-action="jump" data-index="${position}">${position + 1}</button>`).join('')}</nav></section>`;
 }
 
+function examScore() {
+  return data.exam.questions.filter(question => question.options[question.answer]?.correct).length;
+}
+
 function resultView() {
   const { questions, expired } = data.exam;
-  const correct = questions.filter(question => question.options[question.answer]?.correct).length;
+  const correct = examScore();
   return `<section class="card"><button data-action="home">Accueil</button>
     <h1 style="margin-top:16px">${correct}/40 · ${correct >= 32 ? 'Seuil atteint' : 'Seuil non atteint'}</h1>
     <p>${expired ? 'Temps écoulé. ' : ''}Seuil de réussite : 32 bonnes réponses.</p>
+    ${data.exam.signed ? '<p role="status">Résultat enregistré dans le tableau.</p>' : `<form id="exam-score-form">
+      <label for="exam-score-name">Signez votre résultat (facultatif)</label>
+      <div class="row">
+        <input id="exam-score-name" name="playerName" type="text" maxlength="60" autocomplete="nickname" required>
+        <button class="primary" type="submit">Enregistrer le résultat</button>
+      </div>
+    </form>`}
     <h2>Correction</h2>${questions.map((question, index) => {
       const choice = question.options[question.answer];
       const status = choice ? (choice.correct ? 'Correct' : 'Incorrect') : 'Sans réponse';
@@ -301,6 +325,7 @@ function startExam() {
 
 function finishExam(expired) {
   data.exam.finished = true;
+  data.exam.completedAt = expired ? data.exam.deadline : Date.now();
   data.exam.expired = expired;
   if (screen === 'exam') screen = 'result';
   save();
@@ -331,6 +356,27 @@ app.addEventListener('change', event => {
 });
 
 app.addEventListener('submit', event => {
+  if (event.target.id === 'exam-score-form') {
+    event.preventDefault();
+    if (screen !== 'result' || !data.exam?.finished || data.exam.signed) return;
+    const field = event.target.elements.playerName;
+    const name = field.value.trim().slice(0, 60);
+    if (!name) {
+      field.value = '';
+      field.reportValidity();
+      return;
+    }
+    data.examScores.unshift({
+      name,
+      score: examScore(),
+      completedAt: data.exam.completedAt ?? Date.now()
+    });
+    data.examScores = data.examScores.slice(0, 20);
+    data.exam.signed = true;
+    save();
+    render();
+    return;
+  }
   if (event.target.id !== 'report-form') return;
   event.preventDefault();
   const { id, prompt, options, answer, explanation } = reportingQuestion;
