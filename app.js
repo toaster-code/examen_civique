@@ -129,8 +129,12 @@ function explanationMarkup(question) {
 function practiceView() {
   const question = data.practice.question;
   const answered = question.answer !== null;
+  const favoritesOnly = data.practice.filter === 'favorites';
+  const score = favoritesOnly
+    ? '<p class="meta">Entraînement des favoris · Hors score</p>'
+    : `<p class="meta">${scoreText()}</p>${resetScoreButton()}`;
   return `<section class="card"><div class="row"><button data-action="home">Accueil</button>
-    <p class="meta">${scoreText()}</p>${resetScoreButton()}</div><p class="meta">${theme(question)}${isScenario(question) ? ' · Mise en situation' : ''}</p>
+    ${score}</div><p class="meta">${theme(question)}${isScenario(question) ? ' · Mise en situation' : ''}</p>
     ${questionMarkup(question, true)}
     ${answered ? `<p role="status"><strong>${question.options[question.answer].correct ? 'Bonne réponse.' : 'Réponse incorrecte.'}</strong>
       ${escape(question.options.find(option => option.correct).text)}</p>${explanationMarkup(question)}` : ''}
@@ -296,8 +300,10 @@ app.addEventListener('click', event => {
       } else if (data.practice.question.answer === null) {
         const question = data.practice.question;
         question.answer = index;
-        data.score.total++;
-        if (question.options[index].correct) data.score.correct++;
+        if (data.practice.filter !== 'favorites') {
+          data.score.total++;
+          if (question.options[index].correct) data.score.correct++;
+        }
       }
       break;
     }
