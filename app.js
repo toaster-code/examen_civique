@@ -148,11 +148,12 @@ function fullPracticeStatus() {
 function home() {
   const examLabel = !data.exam ? 'Commencer' : data.exam.finished ? 'Nouvel examen' : 'Reprendre l’examen';
   return `<h1>Préparez l’examen civique</h1>
-    <p>${bank.filter(question => question.official).length} questions officielles de connaissance · ${bank.filter(isScenario).length} mises en situation d’entraînement</p>
+    <p>${bank.filter(question => question.official).length} questions officielles de connaissance · ${bank.filter(isScenario).length} mises en situation d’entraînement · ${bank.filter(question => question.supplemental).length} questions complémentaires</p>
     <div class="grid">
     <section class="card"><h2>Entraînement</h2><p>Correction immédiate, sans limite de temps.</p>
     <div class="row"><p><strong>${scoreText()}</strong></p>${resetScoreButton()}</div>
     <label for="theme">Thème ou type de question</label><select id="theme"><option value="all" ${filter === 'all' ? 'selected' : ''}>Tous les thèmes (entraînement complet)</option>
+    <option value="supplemental" ${filter === 'supplemental' ? 'selected' : ''}>Questions complémentaires</option>
     <option value="cases" ${filter === 'cases' ? 'selected' : ''}>Mises en situation</option>
     ${groups.map((group, index) => `<option value="${index}" ${filter === String(index) ? 'selected' : ''}>${group.title}</option>`).join('')}
     </select><button class="primary" data-action="practice"
@@ -286,6 +287,7 @@ function nextPractice() {
     const eligible = bank.filter(question => {
       if (filter === 'favorites') return data.favorites.includes(question.id);
       if (filter === 'cases') return isScenario(question);
+      if (filter === 'supplemental') return question.supplemental;
       return theme(question) === groups[Number(filter)].title;
     });
     practice.remaining = shuffle(eligible.map(question => question.id));
@@ -300,7 +302,7 @@ function nextPractice() {
 function startExam() {
   if (!data.exam || data.exam.finished) {
     const questions = Object.entries(quotas).flatMap(([section, count]) =>
-      shuffle(bank.filter(question => question.section === section)).slice(0, count));
+      shuffle(bank.filter(question => question.section === section && !question.supplemental)).slice(0, count));
     data.exam = { questions: shuffle(questions).map(createQuestion), index: 0, deadline: Date.now() + 45 * 60000 };
   }
   screen = 'exam';
@@ -430,7 +432,7 @@ fetch('questions.json').then(response => {
 }).then(questions => {
   bank = questions;
   for (const [section, count] of Object.entries(quotas)) {
-    if (bank.filter(question => question.section === section).length < count) {
+    if (bank.filter(question => question.section === section && !question.supplemental).length < count) {
       throw new Error(`Insufficient questions for ${section}`);
     }
   }
