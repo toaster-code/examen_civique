@@ -12,12 +12,14 @@ const themeBySection = new Map(groups.flatMap(group =>
 const key = 'civique-cr-v1';
 const app = document.querySelector('#app');
 let bank;
+let questionsById;
 let screen = 'home';
 let filter = 'all';
 let data = { score: { correct: 0, total: 0 }, exam: null, practice: null };
 try {
   data = JSON.parse(localStorage.getItem(key)) ?? data;
 } catch {}
+data.favorites ??= [];
 
 function save() {
   try { localStorage.setItem(key, JSON.stringify(data)); } catch {}
@@ -67,6 +69,26 @@ function resetScoreButton() {
   return `<button data-action="resetScore"${disabled}>Réinitialiser le score</button>`;
 }
 
+function favoriteButton(question) {
+  const starred = data.favorites.includes(question.id);
+  return `<button class="favorite-star" data-action="favorite" data-index="${question.id}"
+    aria-label="Favori" aria-pressed="${starred}">${starred ? '★' : '☆'}</button>`;
+}
+
+function favoritesView() {
+  const favorites = data.favorites.map(id => questionsById.get(id));
+  const count = favorites.length;
+  return `<section class="card"><h2>Favoris <span class="meta">(${count})</span></h2>
+    ${count ? `<button class="primary" data-action="trainFavorites">S’entraîner sur les favoris</button>
+    <details class="favorites-list"><summary>Voir les questions favorites</summary>
+    <ul>${favorites.map(question => `<li class="favorite-item">
+      <span>${escape(question.prompt)}</span>
+      <button data-action="favorite" data-index="${question.id}"
+        aria-label="Retirer des favoris : ${escape(question.prompt)}">Retirer</button>
+    </li>`).join('')}</ul></details>` : '<p>Ajoutez une question à vos favoris en touchant son étoile.</p>'}
+    </section>`;
+}
+
 function home() {
   const examLabel = !data.exam ? 'Commencer' : data.exam.finished ? 'Nouvel examen' : 'Reprendre l’examen';
   return `<h1>Préparez l’examen civique</h1>
@@ -74,7 +96,7 @@ function home() {
     <div class="grid">
     <section class="card"><h2>Entraînement</h2><p>Correction immédiate, sans limite de temps.</p>
     <div class="row"><p><strong>${scoreText()}</strong></p>${resetScoreButton()}</div>
-    <label for="theme">Thème ou type de question</label><select id="theme"><option value="all">Tous les thèmes</option>
+    <label for="theme">Thème ou type de question</label><select id="theme"><option value="all" ${filter === 'all' ? 'selected' : ''}>Tous les thèmes</option>
     <option value="cases" ${filter === 'cases' ? 'selected' : ''}>Mises en situation</option>
     ${groups.map((group, index) => `<option value="${index}" ${filter === String(index) ? 'selected' : ''}>${group.title}</option>`).join('')}
     </select><button class="primary" data-action="practice">S’entraîner</button></section>
@@ -82,11 +104,11 @@ function home() {
     <p>28 questions de connaissance et 12 mises en situation d’entraînement.</p>
     <button class="primary" data-action="exam">${examLabel}</button>
     ${data.exam?.finished ? '<button data-action="review">Dernier résultat</button>' : ''}
-    </section></div>`;
+    </section></div>${favoritesView()}`;
 }
 
 function questionMarkup(question, practice) {
-  return `<h2>${escape(question.prompt)}</h2><div class="answers">${question.options.map((option, index) => {
+  return `<div class="question-heading"><h2>${escape(question.prompt)}</h2>${favoriteButton(question)}</div><div class="answers">${question.options.map((option, index) => {
     const locked = practice && question.answer !== null;
     const style = locked && option.correct ? 'good' :
       question.answer === index ? (locked ? 'bad' : 'selected') : '';
@@ -112,7 +134,7 @@ function practiceView() {
     ${questionMarkup(question, true)}
     ${answered ? `<p role="status"><strong>${question.options[question.answer].correct ? 'Bonne réponse.' : 'Réponse incorrecte.'}</strong>
       ${escape(question.options.find(option => option.correct).text)}</p>${explanationMarkup(question)}` : ''}
-    <button class="primary" data-action="nextPractice" ${answered ? '' : 'disabled'}>Question suivante</button></section>`;
+    <button class="primary" data-action="nextPractice" ${answered || (data.practice.filter === 'favorites' && !data.favorites.includes(question.id)) ? '' : 'disabled'}>Question suivante</button></section>`;
 }
 
 function examView() {
@@ -141,26 +163,46 @@ function resultView() {
       const choice = question.options[question.answer];
       const status = choice ? (choice.correct ? 'Correct' : 'Incorrect') : 'Sans réponse';
       return `<details><summary>${index + 1}. ${escape(question.prompt)} · ${status}</summary>
+        ${favoriteButton(question)}
         <p>Votre réponse : ${escape(choice?.text ?? '—')}<br>Bonne réponse :
         ${escape(question.options.find(option => option.correct).text)}</p>${explanationMarkup(question)}</details>`;
     }).join('')}</section>`;
 }
 
 function render() {
+  const favoritesOpen = app.querySelector('.favorites-list')?.open;
   app.innerHTML = { home, practice: practiceView, exam: examView, result: resultView }[screen]();
+  if (screen === 'home' && favoritesOpen) {
+    const list = app.querySelector('.favorites-list');
+    if (list) list.open = true;
+  }
   if (screen === 'exam') updateClock();
 }
 
-function startPractice() {
-  if (data.practice?.filter !== filter) data.practice = { filter, remaining: [], question: null };
-  if (!data.practice.question) nextPractice();
+function startPractice(practiceFilter) {
+  if (practiceFilter === 'favorites' && !data.favorites.length) return;
+  if (data.practice?.filter !== practiceFilter) {
+    data.practice = { filter: practiceFilter, remaining: [], question: null };
+  }
   screen = 'practice';
+  if (!data.practice.question || (practiceFilter === 'favorites' && !data.favorites.includes(data.practice.question.id))) {
+    nextPractice();
+  }
 }
 
 function nextPractice() {
   const practice = data.practice;
+  const filter = practice.filter;
+  if (filter === 'favorites') {
+    if (!data.favorites.length) {
+      screen = 'home';
+      return;
+    }
+    practice.remaining = practice.remaining.filter(id => data.favorites.includes(id));
+  }
   if (!practice.remaining.length) {
     const eligible = bank.filter(question => {
+      if (filter === 'favorites') return data.favorites.includes(question.id);
       if (filter === 'all') return true;
       if (filter === 'cases') return isScenario(question);
       return theme(question) === groups[Number(filter)].title;
@@ -171,7 +213,7 @@ function nextPractice() {
     }
   }
   const id = practice.remaining.pop();
-  practice.question = createQuestion(bank.find(question => question.id === id));
+  practice.question = createQuestion(questionsById.get(id));
 }
 
 function startExam() {
@@ -218,7 +260,24 @@ app.addEventListener('click', event => {
   const index = Number(button.dataset.index);
   switch (button.dataset.action) {
     case 'home': screen = 'home'; break;
-    case 'practice': startPractice(); break;
+    case 'practice': startPractice(filter); break;
+    case 'trainFavorites': startPractice('favorites'); break;
+    case 'favorite': {
+      if (!questionsById.has(index)) return;
+      const starred = !data.favorites.includes(index);
+      data.favorites = starred ? [...data.favorites, index] : data.favorites.filter(id => id !== index);
+      if (screen !== 'home') {
+        button.setAttribute('aria-pressed', starred);
+        button.textContent = starred ? '★' : '☆';
+        const next = app.querySelector('[data-action="nextPractice"]');
+        if (data.practice?.filter === 'favorites' && next && data.practice.question.answer === null) {
+          next.disabled = starred;
+        }
+        save();
+        return;
+      }
+      break;
+    }
     case 'nextPractice': nextPractice(); break;
     case 'exam': startExam(); break;
     case 'review': screen = 'result'; break;
@@ -257,7 +316,8 @@ fetch('questions.json').then(response => {
       throw new Error(`Insufficient questions for ${section}`);
     }
   }
-  const questionsById = new Map(bank.map(question => [question.id, question]));
+  questionsById = new Map(bank.map(question => [question.id, question]));
+  data.favorites = data.favorites.filter(id => questionsById.has(id));
   if (data.practice) {
     const current = data.practice.question;
     if (current) {
@@ -273,7 +333,7 @@ fetch('questions.json').then(response => {
     }
   }
   save();
-  filter = data.practice?.filter ?? 'all';
+  filter = data.practice?.filter === 'favorites' ? 'all' : data.practice?.filter ?? 'all';
   if (data.exam && !data.exam.finished && Date.now() >= data.exam.deadline) finishExam(true);
   render();
   setInterval(updateClock, 250);
