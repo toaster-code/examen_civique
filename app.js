@@ -13,6 +13,7 @@ const key = 'civique-cr-v1';
 const app = document.querySelector('#app');
 let bank;
 let questionsById;
+let activePractice;
 let screen = 'home';
 let filter = 'all';
 let data = { score: { correct: 0, total: 0 }, exam: null, practice: null };
@@ -20,6 +21,7 @@ try {
   data = JSON.parse(localStorage.getItem(key)) ?? data;
 } catch {}
 data.favorites ??= [];
+data.fullPractice ??= null;
 
 function save() {
   try { localStorage.setItem(key, JSON.stringify(data)); } catch {}
@@ -69,7 +71,7 @@ function scoreText() {
 }
 
 function resetScoreButton() {
-  const disabled = data.score.total === 0 ? ' disabled' : '';
+  const disabled = data.score.total === 0 && !data.fullPractice ? ' disabled' : '';
   return `<button data-action="resetScore"${disabled}>Réinitialiser le score</button>`;
 }
 
@@ -93,6 +95,18 @@ function favoritesView() {
     </section>`;
 }
 
+function fullPracticeComplete() {
+  return data.fullPractice?.answered.length === bank.length;
+}
+
+function fullPracticeStatus() {
+  const answered = data.fullPractice?.answered.length ?? 0;
+  if (fullPracticeComplete()) {
+    return 'Entraînement complet terminé. Réinitialisez le score pour recommencer.';
+  }
+  return `Entraînement complet · ${answered} / ${bank.length} questions traitées`;
+}
+
 function home() {
   const examLabel = !data.exam ? 'Commencer' : data.exam.finished ? 'Nouvel examen' : 'Reprendre l’examen';
   return `<h1>Préparez l’examen civique</h1>
@@ -100,10 +114,12 @@ function home() {
     <div class="grid">
     <section class="card"><h2>Entraînement</h2><p>Correction immédiate, sans limite de temps.</p>
     <div class="row"><p><strong>${scoreText()}</strong></p>${resetScoreButton()}</div>
-    <label for="theme">Thème ou type de question</label><select id="theme"><option value="all" ${filter === 'all' ? 'selected' : ''}>Tous les thèmes</option>
+    <label for="theme">Thème ou type de question</label><select id="theme"><option value="all" ${filter === 'all' ? 'selected' : ''}>Tous les thèmes (entraînement complet)</option>
     <option value="cases" ${filter === 'cases' ? 'selected' : ''}>Mises en situation</option>
     ${groups.map((group, index) => `<option value="${index}" ${filter === String(index) ? 'selected' : ''}>${group.title}</option>`).join('')}
-    </select><button class="primary" data-action="practice">S’entraîner</button></section>
+    </select><button class="primary" data-action="practice"
+    ${filter === 'all' && fullPracticeComplete() ? 'disabled' : ''}>S’entraîner</button>
+    <p class="meta">${fullPracticeStatus()}</p></section>
     <section class="card"><h2>Examen blanc</h2><p>40 questions · 45 minutes · seuil de réussite 32/40.</p>
     <p>28 questions de connaissance et 12 mises en situation d’entraînement.</p>
     <button class="primary" data-action="exam">${examLabel}</button>
@@ -131,18 +147,21 @@ function explanationMarkup(question) {
 }
 
 function practiceView() {
-  const question = data.practice.question;
+  const question = activePractice.question;
   const answered = question.answer !== null;
-  const favoritesOnly = data.practice.filter === 'favorites';
+  const favoritesOnly = activePractice.filter === 'favorites';
+  const fullPractice = activePractice.filter === 'all';
   const score = favoritesOnly
     ? '<p class="meta">Entraînement des favoris · Hors score</p>'
     : `<p class="meta">${scoreText()}</p>${resetScoreButton()}`;
   return `<section class="card"><div class="row"><button data-action="home">Accueil</button>
     ${score}</div><p class="meta">${theme(question)}${isScenario(question) ? ' · Mise en situation' : ''}</p>
+    ${fullPractice ? `<p class="meta">${fullPracticeStatus()}</p>` : ''}
     ${questionMarkup(question, true)}
     ${answered ? `<p role="status"><strong>${question.options[question.answer].correct ? 'Bonne réponse.' : 'Réponse incorrecte.'}</strong>
       ${escape(question.options.find(option => option.correct).text)}</p>${explanationMarkup(question)}` : ''}
-    <button class="primary" data-action="nextPractice" ${answered || (data.practice.filter === 'favorites' && !data.favorites.includes(question.id)) ? '' : 'disabled'}>Question suivante</button></section>`;
+    ${fullPractice && fullPracticeComplete() ? '' : `<button class="primary" data-action="nextPractice"
+    ${answered || (favoritesOnly && !data.favorites.includes(question.id)) ? '' : 'disabled'}>Question suivante</button>`}</section>`;
 }
 
 function examView() {
@@ -188,18 +207,31 @@ function render() {
 }
 
 function startPractice(practiceFilter) {
-  if (practiceFilter === 'favorites' && !data.favorites.length) return;
-  if (data.practice?.filter !== practiceFilter) {
-    data.practice = { filter: practiceFilter, remaining: [], question: null };
+  if (practiceFilter === 'all') {
+    if (fullPracticeComplete()) return;
+    data.fullPractice ??= {
+      filter: 'all',
+      remaining: shuffle(bank.map(question => question.id)),
+      question: null,
+      answered: []
+    };
+    activePractice = data.fullPractice;
+  } else {
+    if (practiceFilter === 'favorites' && !data.favorites.length) return;
+    if (data.practice?.filter !== practiceFilter) {
+      data.practice = { filter: practiceFilter, remaining: [], question: null };
+    }
+    activePractice = data.practice;
   }
   screen = 'practice';
-  if (!data.practice.question || (practiceFilter === 'favorites' && !data.favorites.includes(data.practice.question.id))) {
+  if (!activePractice.question || (practiceFilter === 'favorites' && !data.favorites.includes(activePractice.question.id))) {
     nextPractice();
   }
 }
 
 function nextPractice() {
-  const practice = data.practice;
+  const practice = activePractice;
+  if (practice.filter === 'all' && !practice.remaining.length) return;
   const filter = practice.filter;
   if (filter === 'favorites') {
     if (!data.favorites.length) {
@@ -211,7 +243,6 @@ function nextPractice() {
   if (!practice.remaining.length) {
     const eligible = bank.filter(question => {
       if (filter === 'favorites') return data.favorites.includes(question.id);
-      if (filter === 'all') return true;
       if (filter === 'cases') return isScenario(question);
       return theme(question) === groups[Number(filter)].title;
     });
@@ -255,7 +286,9 @@ function updateClock() {
 }
 
 app.addEventListener('change', event => {
-  if (event.target.id === 'theme') filter = event.target.value;
+  if (event.target.id !== 'theme') return;
+  filter = event.target.value;
+  app.querySelector('[data-action="practice"]').disabled = filter === 'all' && fullPracticeComplete();
 });
 
 app.addEventListener('click', event => {
@@ -278,7 +311,7 @@ app.addEventListener('click', event => {
         button.setAttribute('aria-pressed', starred);
         button.textContent = starred ? '★' : '☆';
         const next = app.querySelector('[data-action="nextPractice"]');
-        if (data.practice?.filter === 'favorites' && next && data.practice.question.answer === null) {
+        if (screen === 'practice' && activePractice.filter === 'favorites' && next && activePractice.question.answer === null) {
           next.disabled = starred;
         }
         save();
@@ -290,8 +323,11 @@ app.addEventListener('click', event => {
     case 'exam': startExam(); break;
     case 'review': screen = 'result'; break;
     case 'resetScore':
-      if (!data.score.total || !confirm('Réinitialiser le score cumulé de l’entraînement ?')) return;
+      if ((!data.score.total && !data.fullPractice) ||
+          !confirm('Réinitialiser le score et recommencer l’entraînement complet depuis le début ?')) return;
       data.score = { correct: 0, total: 0 };
+      data.fullPractice = null;
+      if (screen === 'practice' && activePractice.filter === 'all') startPractice('all');
       break;
     case 'jump': data.exam.index = index; break;
     case 'finish':
@@ -301,10 +337,11 @@ app.addEventListener('click', event => {
     case 'answer': {
       if (screen === 'exam') {
         data.exam.questions[data.exam.index].answer = index;
-      } else if (data.practice.question.answer === null) {
-        const question = data.practice.question;
+      } else if (activePractice.question.answer === null) {
+        const question = activePractice.question;
         question.answer = index;
-        if (data.practice.filter !== 'favorites') {
+        if (activePractice.filter === 'all') activePractice.answered.push(question.id);
+        if (activePractice.filter !== 'favorites') {
           data.score.total++;
           if (question.options[index].correct) data.score.correct++;
         }
@@ -328,13 +365,29 @@ fetch('questions.json').then(response => {
   }
   questionsById = new Map(bank.map(question => [question.id, question]));
   data.favorites = data.favorites.filter(id => questionsById.has(id));
-  if (data.practice) {
-    const current = data.practice.question;
+  if (data.practice?.filter === 'all') {
+    const previous = data.practice;
+    if (questionsById.has(previous.question?.id) && previous.remaining.every(id => questionsById.has(id))) {
+      const pending = new Set(previous.remaining);
+      if (previous.question.answer === null) pending.add(previous.question.id);
+      data.fullPractice ??= { ...previous, answered: bank.map(question => question.id).filter(id => !pending.has(id)) };
+    }
+    data.practice = null;
+  }
+  for (const practice of [data.practice, data.fullPractice]) {
+    if (!practice) continue;
+    const current = practice.question;
     if (current) {
       const updated = questionsById.get(current.id);
-      data.practice.question = updated ? { ...updated, options: current.options, answer: current.answer } : null;
+      practice.question = updated ? { ...updated, options: current.options, answer: current.answer } : null;
     }
-    data.practice.remaining = data.practice.remaining.filter(id => questionsById.has(id));
+    practice.remaining = practice.remaining.filter(id => questionsById.has(id));
+  }
+  if (data.fullPractice) {
+    const full = data.fullPractice;
+    full.answered = full.answered.filter(id => questionsById.has(id));
+    const known = new Set([...full.answered, ...full.remaining, full.question?.id]);
+    full.remaining.unshift(...shuffle(bank.map(question => question.id).filter(id => !known.has(id))));
   }
   if (data.exam) {
     for (const question of data.exam.questions) {
