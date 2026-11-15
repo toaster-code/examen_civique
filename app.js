@@ -17,12 +17,12 @@ let activePractice;
 let reportingQuestion;
 let screen = 'home';
 let filter = 'all';
-let data = { score: { correct: 0, total: 0 }, exam: null, practice: null };
+let data = { score: { correct: 0, total: 0 }, exam: null };
 try {
   data = JSON.parse(localStorage.getItem(key)) ?? data;
 } catch {}
 data.favorites ??= [];
-data.fullPractice ??= null;
+data.practiceRuns ??= {};
 data.reports ??= [];
 
 function save() {
@@ -73,7 +73,7 @@ function scoreText() {
 }
 
 function resetScoreButton() {
-  const disabled = data.score.total === 0 && !data.fullPractice ? ' disabled' : '';
+  const disabled = data.score.total === 0 && !Object.keys(data.practiceRuns).length ? ' disabled' : '';
   return `<button data-action="resetScore"${disabled}>Réinitialiser le score</button>`;
 }
 
@@ -87,7 +87,8 @@ function favoritesView() {
   const favorites = data.favorites.map(id => questionsById.get(id));
   const count = favorites.length;
   return `<section class="card"><h2>Favoris <span class="meta">(${count})</span></h2>
-    ${count ? `<button class="primary" data-action="trainFavorites">S’entraîner sur les favoris</button>
+    ${count ? `<button class="primary" data-action="trainFavorites" ${practiceComplete(data.practiceRuns.favorites) ? 'disabled' : ''}>S’entraîner sur les favoris</button>
+    ${practiceComplete(data.practiceRuns.favorites) ? `<p class="meta">${practiceEndMessage}</p>` : ''}
     <details class="favorites-list"><summary>Voir les questions favorites</summary>
     <ul>${favorites.map(question => `<li class="favorite-item">
       <span>${escape(question.prompt)}</span>
@@ -133,15 +134,24 @@ function reportsView() {
     </section>`;
 }
 
-function fullPracticeComplete() {
-  return data.fullPractice?.answered.length === bank.length;
+const practiceEndMessage = 'Entraînement terminé. Réinitialisez le score pour recommencer.';
+
+function eligibleQuestions(practiceFilter) {
+  if (practiceFilter === 'all') return bank;
+  if (practiceFilter === 'favorites') return bank.filter(question => data.favorites.includes(question.id));
+  if (practiceFilter === 'cases') return bank.filter(isScenario);
+  if (practiceFilter === 'supplemental') return bank.filter(question => question.supplemental);
+  return bank.filter(question => theme(question) === groups[Number(practiceFilter)]?.title);
+}
+
+function practiceComplete(practice) {
+  return !!practice && !practice.remaining.length &&
+    (practice.question?.answer !== null ||
+      (practice.filter === 'favorites' && !data.favorites.includes(practice.question?.id)));
 }
 
 function fullPracticeStatus() {
-  const answered = data.fullPractice?.answered.length ?? 0;
-  if (fullPracticeComplete()) {
-    return 'Entraînement complet terminé. Réinitialisez le score pour recommencer.';
-  }
+  const answered = data.practiceRuns.all?.answered.length ?? 0;
   return `Entraînement complet · ${answered} / ${bank.length} questions traitées`;
 }
 
@@ -157,7 +167,8 @@ function home() {
     <option value="cases" ${filter === 'cases' ? 'selected' : ''}>Mises en situation</option>
     ${groups.map((group, index) => `<option value="${index}" ${filter === String(index) ? 'selected' : ''}>${group.title}</option>`).join('')}
     </select><button class="primary" data-action="practice"
-    ${filter === 'all' && fullPracticeComplete() ? 'disabled' : ''}>S’entraîner</button>
+    ${practiceComplete(data.practiceRuns[filter]) ? 'disabled' : ''}>S’entraîner</button>
+    <p class="meta" id="practice-end" ${practiceComplete(data.practiceRuns[filter]) ? '' : 'hidden'}>${practiceEndMessage}</p>
     <p class="meta">${fullPracticeStatus()}</p></section>
     <section class="card"><h2>Examen blanc</h2><p>40 questions · 45 minutes · seuil de réussite 32/40.</p>
     <p>28 questions de connaissance et 12 mises en situation d’entraînement.</p>
@@ -201,7 +212,7 @@ function practiceView() {
     ${questionMarkup(question, true)}
     ${answered ? `<p role="status"><strong>${question.options[question.answer].correct ? 'Bonne réponse.' : 'Réponse incorrecte.'}</strong>
       ${escape(question.options.find(option => option.correct).text)}</p>${explanationMarkup(question)}` : ''}
-    ${fullPractice && fullPracticeComplete() ? '' : `<button class="primary" data-action="nextPractice"
+    ${practiceComplete(activePractice) ? `<p class="meta" role="status">${practiceEndMessage}</p>` : `<button class="primary" data-action="nextPractice"
     ${answered || (favoritesOnly && !data.favorites.includes(question.id)) ? '' : 'disabled'}>Question suivante</button>`}</section>`;
 }
 
@@ -249,54 +260,34 @@ function render() {
   if (screen === 'exam') updateClock();
 }
 
+function refreshPractice(practice) {
+  const eligible = new Set(eligibleQuestions(practice.filter).map(question => question.id));
+  practice.remaining = practice.remaining.filter(id => eligible.has(id));
+  const known = new Set([...practice.answered, ...practice.remaining, practice.question?.id]);
+  const additions = [...eligible].filter(id => !known.has(id));
+  practice.remaining.unshift(...additions.reverse());
+}
+
 function startPractice(practiceFilter) {
-  if (practiceFilter === 'all') {
-    if (fullPracticeComplete()) return;
-    data.fullPractice ??= {
-      filter: 'all',
-      remaining: shuffle(bank.map(question => question.id)),
-      question: null,
-      answered: []
-    };
-    activePractice = data.fullPractice;
-  } else {
-    if (practiceFilter === 'favorites' && !data.favorites.length) return;
-    if (data.practice?.filter !== practiceFilter) {
-      data.practice = { filter: practiceFilter, remaining: [], question: null };
-    }
-    activePractice = data.practice;
-  }
+  const eligible = eligibleQuestions(practiceFilter);
+  if (!eligible.length || practiceComplete(data.practiceRuns[practiceFilter])) return;
+  data.practiceRuns[practiceFilter] ??= {
+    filter: practiceFilter,
+    remaining: shuffle(eligible.map(question => question.id)),
+    question: null,
+    answered: []
+  };
+  activePractice = data.practiceRuns[practiceFilter];
   screen = 'practice';
-  if (!activePractice.question || (practiceFilter === 'favorites' && !data.favorites.includes(activePractice.question.id))) {
+  if (!activePractice.question ||
+      (practiceFilter === 'favorites' && !data.favorites.includes(activePractice.question.id))) {
     nextPractice();
   }
 }
 
 function nextPractice() {
-  const practice = activePractice;
-  if (practice.filter === 'all' && !practice.remaining.length) return;
-  const filter = practice.filter;
-  if (filter === 'favorites') {
-    if (!data.favorites.length) {
-      screen = 'home';
-      return;
-    }
-    practice.remaining = practice.remaining.filter(id => data.favorites.includes(id));
-  }
-  if (!practice.remaining.length) {
-    const eligible = bank.filter(question => {
-      if (filter === 'favorites') return data.favorites.includes(question.id);
-      if (filter === 'cases') return isScenario(question);
-      if (filter === 'supplemental') return question.supplemental;
-      return theme(question) === groups[Number(filter)].title;
-    });
-    practice.remaining = shuffle(eligible.map(question => question.id));
-    if (practice.remaining.length > 1 && practice.remaining.at(-1) === practice.question?.id) {
-      practice.remaining.unshift(practice.remaining.pop());
-    }
-  }
-  const id = practice.remaining.pop();
-  practice.question = createQuestion(questionsById.get(id));
+  if (!activePractice.remaining.length) return;
+  activePractice.question = createQuestion(questionsById.get(activePractice.remaining.pop()));
 }
 
 function startExam() {
@@ -332,7 +323,11 @@ function updateClock() {
 app.addEventListener('change', event => {
   if (event.target.id !== 'theme') return;
   filter = event.target.value;
-  app.querySelector('[data-action="practice"]').disabled = filter === 'all' && fullPracticeComplete();
+  data.practiceFilter = filter;
+  const completed = practiceComplete(data.practiceRuns[filter]);
+  app.querySelector('[data-action="practice"]').disabled = completed;
+  app.querySelector('#practice-end').hidden = !completed;
+  save();
 });
 
 app.addEventListener('submit', event => {
@@ -380,13 +375,16 @@ app.addEventListener('click', event => {
       if (!questionsById.has(index)) return;
       const starred = !data.favorites.includes(index);
       data.favorites = starred ? [...data.favorites, index] : data.favorites.filter(id => id !== index);
+      if (data.practiceRuns.favorites) refreshPractice(data.practiceRuns.favorites);
+      if (screen === 'practice' && activePractice.filter === 'favorites') {
+        save();
+        render();
+        app.querySelector('.favorite-star')?.focus();
+        return;
+      }
       if (screen !== 'home') {
         button.setAttribute('aria-pressed', starred);
         button.textContent = starred ? '★' : '☆';
-        const next = app.querySelector('[data-action="nextPractice"]');
-        if (screen === 'practice' && activePractice.filter === 'favorites' && next && activePractice.question.answer === null) {
-          next.disabled = starred;
-        }
         save();
         return;
       }
@@ -396,11 +394,11 @@ app.addEventListener('click', event => {
     case 'exam': startExam(); break;
     case 'review': screen = 'result'; break;
     case 'resetScore':
-      if ((!data.score.total && !data.fullPractice) ||
-          !confirm('Réinitialiser le score et recommencer l’entraînement complet depuis le début ?')) return;
+      if ((!data.score.total && !Object.keys(data.practiceRuns).length) ||
+          !confirm('Réinitialiser le score et recommencer tous les entraînements depuis le début ?')) return;
       data.score = { correct: 0, total: 0 };
-      data.fullPractice = null;
-      if (screen === 'practice' && activePractice.filter === 'all') startPractice('all');
+      data.practiceRuns = {};
+      if (screen === 'practice') startPractice(activePractice.filter);
       break;
     case 'jump': data.exam.index = index; break;
     case 'finish':
@@ -413,7 +411,9 @@ app.addEventListener('click', event => {
       } else if (activePractice.question.answer === null) {
         const question = activePractice.question;
         question.answer = index;
-        if (activePractice.filter === 'all') activePractice.answered.push(question.id);
+        if (activePractice.filter !== 'favorites' || data.favorites.includes(question.id)) {
+          activePractice.answered.push(question.id);
+        }
         if (activePractice.filter !== 'favorites') {
           data.score.total++;
           if (question.options[index].correct) data.score.correct++;
@@ -438,29 +438,30 @@ fetch('questions.json').then(response => {
   }
   questionsById = new Map(bank.map(question => [question.id, question]));
   data.favorites = data.favorites.filter(id => questionsById.has(id));
-  if (data.practice?.filter === 'all') {
+  if (data.practice) {
     const previous = data.practice;
-    if (questionsById.has(previous.question?.id) && previous.remaining.every(id => questionsById.has(id))) {
-      const pending = new Set(previous.remaining);
-      if (previous.question.answer === null) pending.add(previous.question.id);
-      data.fullPractice ??= { ...previous, answered: bank.map(question => question.id).filter(id => !pending.has(id)) };
+    const pending = new Set(previous.remaining);
+    if (previous.question?.answer === null) pending.add(previous.question.id);
+    if (previous.question && questionsById.has(previous.question.id) &&
+        previous.remaining.every(id => questionsById.has(id))) {
+      data.practiceRuns[previous.filter] ??= {
+        ...previous,
+        answered: eligibleQuestions(previous.filter).map(question => question.id).filter(id => !pending.has(id))
+      };
     }
-    data.practice = null;
+    data.practiceFilter ??= previous.filter;
   }
-  for (const practice of [data.practice, data.fullPractice]) {
-    if (!practice) continue;
+  if (data.fullPractice) data.practiceRuns.all ??= data.fullPractice;
+  delete data.practice;
+  delete data.fullPractice;
+  for (const practice of Object.values(data.practiceRuns)) {
     const current = practice.question;
     if (current) {
       const updated = questionsById.get(current.id);
       practice.question = updated ? { ...updated, options: current.options, answer: current.answer } : null;
     }
-    practice.remaining = practice.remaining.filter(id => questionsById.has(id));
-  }
-  if (data.fullPractice) {
-    const full = data.fullPractice;
-    full.answered = full.answered.filter(id => questionsById.has(id));
-    const known = new Set([...full.answered, ...full.remaining, full.question?.id]);
-    full.remaining.unshift(...shuffle(bank.map(question => question.id).filter(id => !known.has(id))));
+    practice.answered = practice.answered.filter(id => questionsById.has(id));
+    refreshPractice(practice);
   }
   if (data.exam) {
     for (const question of data.exam.questions) {
@@ -469,7 +470,7 @@ fetch('questions.json').then(response => {
     }
   }
   save();
-  filter = data.practice?.filter === 'favorites' ? 'all' : data.practice?.filter ?? 'all';
+  filter = data.practiceFilter === 'favorites' ? 'all' : data.practiceFilter ?? 'all';
   if (data.exam && !data.exam.finished && Date.now() >= data.exam.deadline) finishExam(true);
   render();
   setInterval(updateClock, 250);
