@@ -14,6 +14,7 @@ const app = document.querySelector('#app');
 let bank;
 let questionsById;
 let activePractice;
+let reportingQuestion;
 let screen = 'home';
 let filter = 'all';
 let data = { score: { correct: 0, total: 0 }, exam: null, practice: null };
@@ -22,6 +23,7 @@ try {
 } catch {}
 data.favorites ??= [];
 data.fullPractice ??= null;
+data.reports ??= [];
 
 function save() {
   try { localStorage.setItem(key, JSON.stringify(data)); } catch {}
@@ -95,6 +97,42 @@ function favoritesView() {
     </section>`;
 }
 
+function reportButton(question) {
+  return `<div class="report-control"><button data-action="report" data-index="${question.id}">Signaler</button>
+    <span id="report-status-${question.id}" class="meta" role="status"></span></div>`;
+}
+
+function reportDialog() {
+  return `<dialog id="report-dialog" aria-labelledby="report-title">
+    <form id="report-form">
+      <h2 id="report-title">Signaler une question</h2>
+      <p>Les choix affichés seront enregistrés pour la révision.</p>
+      <label for="report-note">Quel problème avez-vous remarqué ? (facultatif)</label>
+      <textarea id="report-note" name="note" rows="3" maxlength="1000"></textarea>
+      <div class="row">
+        <button type="button" data-action="cancelReport">Annuler</button>
+        <button class="primary" type="submit">Enregistrer</button>
+      </div>
+    </form>
+    </dialog>`;
+}
+
+function reportsView() {
+  return `<section class="card"><button data-action="home">Accueil</button>
+    <h2>Signalements (${data.reports.length})</h2>
+    ${data.reports.length ? data.reports.map((report, index) => `<details>
+      <summary>${escape(report.prompt)}</summary>
+      <p class="meta">Question n° ${report.questionId}</p>
+      <ul>${report.options.map((option, position) => `<li>${'ABCD'[position]}. ${escape(option.text)}
+        ${option.correct ? '<strong> · Indiquée comme correcte</strong>' : ''}
+        ${position === report.answer ? ' · Votre choix' : ''}</li>`).join('')}</ul>
+      ${report.explanation ? `<p><strong>Explication du quiz</strong><br>${escape(report.explanation)}</p>` : ''}
+      ${report.note ? `<p><strong>Votre remarque</strong><br>${escape(report.note)}</p>` : ''}
+      <button data-action="removeReport" data-index="${index}">Supprimer le signalement</button>
+    </details>`).join('') : '<p>Aucune question signalée.</p>'}
+    </section>`;
+}
+
 function fullPracticeComplete() {
   return data.fullPractice?.answered.length === bank.length;
 }
@@ -124,7 +162,9 @@ function home() {
     <p>28 questions de connaissance et 12 mises en situation d’entraînement.</p>
     <button class="primary" data-action="exam">${examLabel}</button>
     ${data.exam?.finished ? '<button data-action="review">Dernier résultat</button>' : ''}
-    </section></div>${favoritesView()}`;
+    </section></div>${favoritesView()}
+    <section class="card"><h2>Signalements <span class="meta">(${data.reports.length})</span></h2>
+    <button data-action="reports">Analyser les questions signalées</button></section>`;
 }
 
 function questionMarkup(question, practice) {
@@ -135,7 +175,7 @@ function questionMarkup(question, practice) {
     return `<button class="option ${style}" data-action="answer" data-index="${index}"
       aria-pressed="${question.answer === index}" ${locked ? 'disabled' : ''}>
       <strong>${'ABCD'[index]}.</strong> ${escape(option.text)}</button>`;
-  }).join('')}</div>`;
+  }).join('')}${reportButton(question)}</div>`;
 }
 
 function explanationMarkup(question) {
@@ -190,7 +230,7 @@ function resultView() {
       const choice = question.options[question.answer];
       const status = choice ? (choice.correct ? 'Correct' : 'Incorrect') : 'Sans réponse';
       return `<details><summary>${index + 1}. ${escape(question.prompt)} · ${status}</summary>
-        ${favoriteButton(question)}
+        ${favoriteButton(question)} ${reportButton(question)}
         <p>Votre réponse : ${escape(choice?.text ?? '—')}<br>Bonne réponse :
         ${escape(question.options.find(option => option.correct).text)}</p>${explanationMarkup(question)}</details>`;
     }).join('')}</section>`;
@@ -198,7 +238,9 @@ function resultView() {
 
 function render() {
   const favoritesOpen = app.querySelector('.favorites-list')?.open;
-  app.innerHTML = { home, practice: practiceView, exam: examView, result: resultView }[screen]();
+  const view = { home, practice: practiceView, exam: examView, result: resultView, reports: reportsView }[screen];
+  const canReport = screen === 'practice' || screen === 'exam' || screen === 'result';
+  app.innerHTML = view() + (canReport ? reportDialog() : '');
   if (screen === 'home' && favoritesOpen) {
     const list = app.querySelector('.favorites-list');
     if (list) list.open = true;
@@ -291,6 +333,17 @@ app.addEventListener('change', event => {
   app.querySelector('[data-action="practice"]').disabled = filter === 'all' && fullPracticeComplete();
 });
 
+app.addEventListener('submit', event => {
+  if (event.target.id !== 'report-form') return;
+  event.preventDefault();
+  const { id, prompt, options, answer, explanation } = reportingQuestion;
+  const note = event.target.elements.note.value.trim();
+  data.reports.push({ questionId: id, prompt, options, answer, explanation, note });
+  save();
+  app.querySelector('#report-dialog').close();
+  app.querySelector(`#report-status-${id}`).textContent = 'Signalement enregistré.';
+});
+
 app.addEventListener('click', event => {
   const button = event.target.closest('button[data-action]');
   if (!button) return;
@@ -303,6 +356,24 @@ app.addEventListener('click', event => {
     case 'home': screen = 'home'; break;
     case 'practice': startPractice(filter); break;
     case 'trainFavorites': startPractice('favorites'); break;
+    case 'reports': screen = 'reports'; break;
+    case 'removeReport':
+      if (!confirm('Supprimer ce signalement ?')) return;
+      data.reports.splice(index, 1);
+      break;
+    case 'report': {
+      reportingQuestion = screen === 'practice'
+        ? activePractice.question
+        : data.exam.questions.find(question => question.id === index);
+      const dialog = app.querySelector('#report-dialog');
+      dialog.querySelector('form').reset();
+      app.querySelector(`#report-status-${index}`).textContent = '';
+      dialog.showModal();
+      return;
+    }
+    case 'cancelReport':
+      app.querySelector('#report-dialog').close();
+      return;
     case 'favorite': {
       if (!questionsById.has(index)) return;
       const starred = !data.favorites.includes(index);
