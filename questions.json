@@ -5731,5 +5731,2205 @@
       ]
     ],
     "explanation": "La présomption d’innocence protège la personne mise en cause. Il appartient à l’accusation d’établir la culpabilité."
+  },
+  {
+    "id": 2035,
+    "section": "work",
+    "prompt": "Lors d’un recrutement, quelles informations l’employeur peut-il demander ?",
+    "correct": [
+      "Celles qui ont un lien direct et nécessaire avec le poste"
+    ],
+    "distractors": [
+      [
+        "Les projets de grossesse"
+      ],
+      [
+        "Les opinions politiques"
+      ],
+      [
+        "La religion du candidat"
+      ]
+    ],
+    "explanation": "Les questions de recrutement doivent servir à apprécier la capacité à occuper l’emploi ou les aptitudes professionnelles.",
+    "source": "https://www.prepa-examen.fr/question/cadre-entretien-embauche-demander-candidat-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2037,
+    "section": "health",
+    "prompt": "En quelle année sont prises les ordonnances fondatrices de la Sécurité sociale moderne ?",
+    "correct": [
+      "1945"
+    ],
+    "distractors": [
+      [
+        "1936"
+      ],
+      [
+        "1946"
+      ],
+      [
+        "1958"
+      ]
+    ],
+    "explanation": "Les ordonnances des 4 et 19 octobre 1945 organisent la Sécurité sociale après la Libération.",
+    "source": "https://www.prepa-examen.fr/question/quand-securite-sociale-a-ete-etablie-france-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2040,
+    "section": "secular",
+    "prompt": "À quelle date l’École célèbre-t-elle chaque année la laïcité ?",
+    "correct": [
+      "Le 9 décembre"
+    ],
+    "distractors": [
+      [
+        "Le 9 mai"
+      ],
+      [
+        "Le 20 novembre"
+      ],
+      [
+        "Le 10 décembre"
+      ]
+    ],
+    "explanation": "Le 9 décembre rappelle la loi de séparation des Églises et de l’État de 1905.",
+    "source": "https://www.prepa-examen.fr/question/jour-celebre-officiellement-laicite-france-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2041,
+    "section": "secular",
+    "prompt": "Quel texte pose le cadre général de la séparation des cultes et de l’État ?",
+    "correct": [
+      "La loi du 9 décembre 1905"
+    ],
+    "distractors": [
+      [
+        "La loi du 1er juillet 1901"
+      ],
+      [
+        "La loi du 15 mars 2004"
+      ],
+      [
+        "La loi du 29 juillet 1881"
+      ]
+    ],
+    "explanation": "La loi de 1905 protège la liberté de conscience et organise la séparation. La loi de 2004 traite des signes religieux à l’école publique.",
+    "source": "https://www.prepa-examen.fr/question/texte-considere-texte-fondateur-laicite-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2042,
+    "section": "secular",
+    "prompt": "Une usagère se rend en mairie avec un signe religieux qui laisse son visage visible. Quelle règle générale s’applique ?",
+    "correct": [
+      "Elle peut garder son signe, sous réserve des règles applicables au service"
+    ],
+    "distractors": [
+      [
+        "Elle est soumise à la neutralité des agents"
+      ],
+      [
+        "La mairie peut interdire tout signe religieux à tous ses usagers"
+      ],
+      [
+        "Elle doit obtenir l’accord préalable du préfet"
+      ]
+    ],
+    "explanation": "L’obligation générale de neutralité concerne les agents. Les usagers restent soumis aux règles de sécurité, d’identification et de bon fonctionnement du service.",
+    "source": "https://www.prepa-examen.fr/question/visiteur-porter-signe-religieux-batiment-public-mairie-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2044,
+    "section": "rights",
+    "prompt": "Un résident étranger souhaite créer une association culturelle avec des amis. Quelle réponse lui donner ?",
+    "correct": [
+      "Il peut participer à sa création en respectant les règles territoriales applicables"
+    ],
+    "distractors": [
+      [
+        "Il doit attendre sa naturalisation"
+      ],
+      [
+        "Il faut être élu au conseil municipal"
+      ],
+      [
+        "Seule une mairie peut créer ce type d’association"
+      ]
+    ],
+    "explanation": "La liberté d’association ne dépend pas de la nationalité. La déclaration donne à l’association des capacités juridiques propres.",
+    "source": "https://www.prepa-examen.fr/question/pedro-france-veut-creer-association-culturelle-possible-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2046,
+    "section": "values",
+    "prompt": "Quel comportement illustre le racisme ?",
+    "correct": [
+      "Rabaisser une personne en raison de son origine réelle ou supposée"
+    ],
+    "distractors": [
+      [
+        "Contester un argument sur ses faits"
+      ],
+      [
+        "Faire appliquer une même règle à tous"
+      ],
+      [
+        "Refuser une candidature uniquement faute de diplôme requis"
+      ]
+    ],
+    "explanation": "Le racisme peut se traduire par des propos, des discriminations ou des violences liées à une origine réelle ou supposée.",
+    "source": "https://www.prepa-examen.fr/question/racisme-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2047,
+    "section": "work",
+    "prompt": "Une femme mariée veut travailler ou créer une entreprise. De quelle autorisation de son conjoint a-t-elle besoin ?",
+    "correct": [
+      "D’aucune autorisation conjugale"
+    ],
+    "distractors": [
+      [
+        "D’un accord écrit pour un emploi salarié"
+      ],
+      [
+        "D’une signature du conjoint pour toute création"
+      ],
+      [
+        "D’une autorisation du conjoint pour percevoir un salaire"
+      ]
+    ],
+    "explanation": "L’article 223 du code civil reconnaît à chaque époux la liberté d’exercer une profession.",
+    "source": "https://www.prepa-examen.fr/question/france-femme-doit-autorisation-mari-travailler-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2048,
+    "section": "values",
+    "prompt": "Quel exemple traduit la solidarité nationale ?",
+    "correct": [
+      "Les prélèvements collectifs participent au financement de la protection sociale"
+    ],
+    "distractors": [
+      [
+        "Les aides sont réservées aux membres d’un même parti"
+      ],
+      [
+        "Chaque prestation dépend exclusivement d’un don privé"
+      ],
+      [
+        "Les soins collectifs sont payés uniquement par les personnes malades"
+      ]
+    ],
+    "explanation": "La solidarité répartit certaines charges et certains risques au sein de la collectivité.",
+    "source": "https://www.prepa-examen.fr/question/principe-solidarite-nationale-france-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2049,
+    "section": "values",
+    "prompt": "Quelle action relève de la philanthropie ?",
+    "correct": [
+      "Soutenir volontairement une action d’intérêt général par un don"
+    ],
+    "distractors": [
+      [
+        "Verser une cotisation fiscale obligatoire"
+      ],
+      [
+        "Investir uniquement pour toucher un dividende"
+      ],
+      [
+        "Acheter une prestation pour son seul usage"
+      ]
+    ],
+    "explanation": "Le soutien philanthropique peut prendre la forme d’un don financier, matériel ou de temps au service d’une cause.",
+    "source": "https://www.prepa-examen.fr/question/philanthropie-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2050,
+    "section": "institutions",
+    "prompt": "À quels textes le préambule de 1958 renvoie-t-il notamment ?",
+    "correct": [
+      "À la Déclaration de 1789, au préambule de 1946 et à la Charte de l’environnement"
+    ],
+    "distractors": [
+      [
+        "Au code civil, au code pénal et au code du travail"
+      ],
+      [
+        "Aux seuls traités de Rome et de Maastricht"
+      ],
+      [
+        "À la Constitution de 1791 uniquement"
+      ]
+    ],
+    "explanation": "Ces textes protègent des droits et principes qui servent au contrôle de constitutionnalité.",
+    "source": "https://www.prepa-examen.fr/question/preambule-constitution-1958-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2051,
+    "section": "values",
+    "prompt": "Quelle liberté le Conseil constitutionnel a-t-il rattachée au principe de fraternité en 2018 ?",
+    "correct": [
+      "Aider autrui dans un but humanitaire, indépendamment de la régularité de son séjour"
+    ],
+    "distractors": [
+      [
+        "Faciliter sans limite l’entrée irrégulière sur le territoire"
+      ],
+      [
+        "Dispense générale de respecter les titres de séjour"
+      ],
+      [
+        "Obligation de naturaliser toute personne aidée"
+      ]
+    ],
+    "explanation": "La décision du 6 juillet 2018 distingue l’aide humanitaire et la lutte contre l’entrée irrégulière sur le territoire.",
+    "source": "https://www.prepa-examen.fr/question/principe-fraternite-a-permis-conseil-constitutionnel-consacrer-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2052,
+    "section": "values",
+    "prompt": "Quelle mesure illustre la recherche d’une égalité effective ?",
+    "correct": [
+      "Adapter l’accès à un bâtiment public pour que chacun puisse effectivement y entrer"
+    ],
+    "distractors": [
+      [
+        "Déclarer l’accès égal en gardant uniquement un escalier"
+      ],
+      [
+        "Garantir un accès aux seules personnes sans handicap"
+      ],
+      [
+        "Supprimer l’accès au public pour obtenir une règle uniforme"
+      ]
+    ],
+    "explanation": "L’égalité effective s’intéresse aux obstacles concrets qui empêchent certaines personnes d’exercer un droit.",
+    "source": "https://www.prepa-examen.fr/question/principe-egalite-reelle-opposition-a-egalite-formelle-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2054,
+    "section": "vote",
+    "prompt": "Comment les membres de l’Assemblée nationale sont-ils désignés ?",
+    "correct": [
+      "Par les électeurs au suffrage universel direct"
+    ],
+    "distractors": [
+      [
+        "Par les élus locaux au suffrage indirect"
+      ],
+      [
+        "Par nomination du chef de l’État"
+      ],
+      [
+        "Par un vote du Sénat"
+      ]
+    ],
+    "explanation": "Les députés sont élus directement dans des circonscriptions. Le suffrage indirect concerne notamment l’élection des sénateurs.",
+    "source": "https://www.prepa-examen.fr/question/elit-deputes-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2061,
+    "section": "institutions",
+    "prompt": "Combien la France compte-t-elle de départements dans le décompte usuel, outre-mer compris ?",
+    "correct": [
+      "101"
+    ],
+    "distractors": [
+      [
+        "96"
+      ],
+      [
+        "18"
+      ],
+      [
+        "13"
+      ]
+    ],
+    "explanation": "On compte 96 départements métropolitains et cinq départements d’outre-mer.",
+    "source": "https://www.prepa-examen.fr/question/combien-y-a-departements-france-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2065,
+    "section": "europe",
+    "prompt": "Combien d’États appartenaient à l’Union européenne début 2025 ?",
+    "correct": [
+      "27"
+    ],
+    "distractors": [
+      [
+        "28"
+      ],
+      [
+        "26"
+      ],
+      [
+        "30"
+      ]
+    ],
+    "explanation": "L’Union compte 27 membres depuis la sortie du Royaume-Uni en 2020.",
+    "source": "https://www.prepa-examen.fr/question/combien-etats-font-partie-union-europeenne-1er-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2068,
+    "section": "europe",
+    "prompt": "Par quel mode de scrutin les députés européens sont-ils désignés ?",
+    "correct": [
+      "Par les citoyens de l’Union au suffrage universel direct"
+    ],
+    "distractors": [
+      [
+        "Par les gouvernements réunis au Conseil européen"
+      ],
+      [
+        "Par les parlements nationaux uniquement"
+      ],
+      [
+        "Par la Commission européenne"
+      ]
+    ],
+    "explanation": "Le Parlement européen est élu directement, selon des modalités nationales dans un cadre européen.",
+    "source": "https://www.prepa-examen.fr/question/elit-deputes-europeens-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2090,
+    "section": "vote",
+    "prompt": "Comment les électeurs participent-ils au choix du président de la République française ?",
+    "correct": [
+      "Ils votent directement lors de l’élection présidentielle"
+    ],
+    "distractors": [
+      [
+        "Ils donnent mandat aux sénateurs pour choisir le président"
+      ],
+      [
+        "Ils élisent le président à travers le conseil municipal"
+      ],
+      [
+        "Ils votent seulement pour confirmer un choix du Gouvernement"
+      ]
+    ],
+    "explanation": "Depuis la réforme de 1962, l’élection présidentielle se fait au suffrage universel direct.",
+    "source": "https://www.prepa-examen.fr/question/comment-president-republique-designe-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2091,
+    "section": "vote",
+    "prompt": "Que signifie « suffrage universel » ?",
+    "correct": [
+      "Le corps électoral n’est pas limité à une classe sociale ou aux contribuables les plus aisés"
+    ],
+    "distractors": [
+      [
+        "Le vote est réservé aux propriétaires"
+      ],
+      [
+        "Tous les résidents votent à tous les scrutins sans condition"
+      ],
+      [
+        "Le vote est toujours indirect"
+      ]
+    ],
+    "explanation": "L’universalité du suffrage reste compatible avec des conditions légales d’âge, de droits civiques ou de nationalité.",
+    "source": "https://www.prepa-examen.fr/question/election-suffrage-universel-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2092,
+    "section": "institutions",
+    "prompt": "À qui la Constitution attribue-t-elle la souveraineté nationale ?",
+    "correct": [
+      "Au peuple"
+    ],
+    "distractors": [
+      [
+        "Au président seul"
+      ],
+      [
+        "Au Parlement seul"
+      ],
+      [
+        "Au Conseil constitutionnel"
+      ]
+    ],
+    "explanation": "L’article 3 précise que le peuple exerce la souveraineté par ses représentants et par la voie du référendum.",
+    "source": "https://www.prepa-examen.fr/question/a-appartient-souverainete-nationale-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2093,
+    "section": "europe",
+    "prompt": "Qui compose le Parlement européen ?",
+    "correct": [
+      "Les députés européens élus"
+    ],
+    "distractors": [
+      [
+        "Les chefs d’État ou de gouvernement"
+      ],
+      [
+        "Les membres de la Commission"
+      ],
+      [
+        "Les juges de la Cour de justice de l’UE"
+      ]
+    ],
+    "explanation": "Les chefs d’État ou de gouvernement siègent au Conseil européen. Les élus siègent au Parlement européen.",
+    "source": "https://www.prepa-examen.fr/question/siege-parlement-europeen-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2094,
+    "section": "institutions",
+    "prompt": "À quoi sert un amendement lors de l’examen d’un texte de loi ?",
+    "correct": [
+      "À proposer une modification du texte discuté"
+    ],
+    "distractors": [
+      [
+        "À promulguer la loi"
+      ],
+      [
+        "À dissoudre l’Assemblée"
+      ],
+      [
+        "À déclarer le texte inconstitutionnel"
+      ]
+    ],
+    "explanation": "Le droit d’amendement appartient aux membres du Parlement et au Gouvernement, sous les conditions prévues.",
+    "source": "https://www.prepa-examen.fr/question/droit-amendement-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2095,
+    "section": "institutions",
+    "prompt": "Comment appelle-t-on une initiative législative déposée par un parlementaire ?",
+    "correct": [
+      "Une proposition de loi"
+    ],
+    "distractors": [
+      [
+        "Un projet de loi du Gouvernement"
+      ],
+      [
+        "Un décret d’application"
+      ],
+      [
+        "Une ordonnance"
+      ]
+    ],
+    "explanation": "Une initiative du Gouvernement prend la forme d’un projet de loi. Le Parlement peut être à l’origine d’une proposition.",
+    "source": "https://www.prepa-examen.fr/question/proposition-loi-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2096,
+    "section": "vote",
+    "prompt": "Quelle limite s’applique aux mandats présidentiels consécutifs ?",
+    "correct": [
+      "Deux mandats consécutifs au maximum"
+    ],
+    "distractors": [
+      [
+        "Un seul mandat dans toute une vie"
+      ],
+      [
+        "Trois mandats consécutifs"
+      ],
+      [
+        "Aucune limite"
+      ]
+    ],
+    "explanation": "La Constitution limite le nombre de mandats successifs. Cette règle est distincte de la durée de cinq ans de chaque mandat.",
+    "source": "https://www.prepa-examen.fr/question/combien-fois-president-etre-reelu-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2097,
+    "section": "institutions",
+    "prompt": "Quelle distinction fait la Constitution entre loi et règlement ?",
+    "correct": [
+      "Elle définit le domaine de la loi, tandis que les autres matières relèvent en principe du règlement"
+    ],
+    "distractors": [
+      [
+        "Toute mesure réglementaire est une loi"
+      ],
+      [
+        "Le Parlement vote les décrets ordinaires"
+      ],
+      [
+        "Le règlement peut toujours contredire une loi"
+      ]
+    ],
+    "explanation": "Les articles 34 et 37 délimitent ces matières. Un règlement peut aussi préciser les conditions d’application d’une loi.",
+    "source": "https://www.prepa-examen.fr/question/difference-loi-reglement-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2098,
+    "section": "institutions",
+    "prompt": "Quelle catégorie d’infractions relève du tribunal correctionnel ?",
+    "correct": [
+      "Les délits"
+    ],
+    "distractors": [
+      [
+        "Les crimes en général"
+      ],
+      [
+        "Les contraventions ordinaires"
+      ],
+      [
+        "Les litiges locatifs civils"
+      ]
+    ],
+    "explanation": "Un vol simple est un exemple de délit. Une contravention relève du tribunal de police.",
+    "source": "https://www.prepa-examen.fr/question/tribunal-correctionnel-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2099,
+    "section": "institutions",
+    "prompt": "Quelle responsabilité appartient notamment au conseil régional ?",
+    "correct": [
+      "Les lycées publics et les transports régionaux"
+    ],
+    "distractors": [
+      [
+        "L’état civil municipal"
+      ],
+      [
+        "Le RSA et l’aide sociale à l’enfance"
+      ],
+      [
+        "La direction des tribunaux"
+      ]
+    ],
+    "explanation": "Le département s’occupe notamment de l’action sociale. La région a des compétences telles que les lycées et le développement économique.",
+    "source": "https://www.prepa-examen.fr/question/role-conseil-regional-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2100,
+    "section": "institutions",
+    "prompt": "Qu’est-ce qui différencie le préfet du président du conseil départemental ?",
+    "correct": [
+      "Le premier représente l’État, le second dirige l’exécutif départemental"
+    ],
+    "distractors": [
+      [
+        "Les deux sont élus par les mêmes conseillers municipaux"
+      ],
+      [
+        "Le préfet préside de droit le conseil départemental"
+      ],
+      [
+        "Le président du conseil dirige les services de l’État"
+      ]
+    ],
+    "explanation": "Le préfet est nommé. Le président du conseil départemental est élu par les conseillers départementaux.",
+    "source": "https://www.prepa-examen.fr/question/difference-prefet-president-conseil-departemental-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2101,
+    "section": "institutions",
+    "prompt": "En politique de défense, quel est le principe général de la dissuasion nucléaire ?",
+    "correct": [
+      "Décourager une agression contre les intérêts vitaux en faisant craindre une riposte"
+    ],
+    "distractors": [
+      [
+        "Remplacer la diplomatie dans tous les conflits"
+      ],
+      [
+        "Assurer la police des frontières terrestres"
+      ],
+      [
+        "Organiser la défense civile municipale"
+      ]
+    ],
+    "explanation": "La dissuasion cherche à prévenir une agression par l’effet de la menace perçue.",
+    "source": "https://www.prepa-examen.fr/question/dissuasion-nucleaire-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2102,
+    "section": "vote",
+    "prompt": "Un électeur glisse une enveloppe vide dans l’urne. Comment son vote est-il compté ?",
+    "correct": [
+      "Comme un vote blanc"
+    ],
+    "distractors": [
+      [
+        "Comme un vote nul"
+      ],
+      [
+        "Comme une abstention"
+      ],
+      [
+        "Comme un suffrage pour la liste arrivée en tête"
+      ]
+    ],
+    "explanation": "Les votes blancs sont comptés séparément et ne sont pas compris dans les suffrages exprimés.",
+    "source": "https://www.prepa-examen.fr/question/vote-blanc-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2103,
+    "section": "vote",
+    "prompt": "Un électeur inscrit ne participe pas au scrutin. Comment appelle-t-on ce comportement ?",
+    "correct": [
+      "L’abstention"
+    ],
+    "distractors": [
+      [
+        "Le vote nul"
+      ],
+      [
+        "Le vote blanc"
+      ],
+      [
+        "Le vote par procuration"
+      ]
+    ],
+    "explanation": "S’il vote valablement par procuration, il participe au scrutin. Le vote blanc suppose de participer sans choisir de candidat ou de liste.",
+    "source": "https://www.prepa-examen.fr/question/abstention-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2104,
+    "section": "institutions",
+    "prompt": "Dans certains régimes parlementaires, pourquoi une motion de censure est-elle dite « constructive » ?",
+    "correct": [
+      "Parce qu’elle désigne un successeur au chef du gouvernement renversé"
+    ],
+    "distractors": [
+      [
+        "Parce qu’elle oblige à dissoudre le parlement"
+      ],
+      [
+        "Parce qu’elle modifie automatiquement la constitution"
+      ],
+      [
+        "Parce qu’elle est proposée par le gouvernement"
+      ]
+    ],
+    "explanation": "Ce mécanisme, utilisé notamment en Allemagne, diffère de la motion de censure française prévue à l’article 49.",
+    "source": "https://www.prepa-examen.fr/question/motion-censure-constructive-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2105,
+    "section": "institutions",
+    "prompt": "À quel moment intervient le contrôle de constitutionnalité d’une loi dit « a priori » ?",
+    "correct": [
+      "Avant sa promulgation"
+    ],
+    "distractors": [
+      [
+        "Uniquement après sa première application"
+      ],
+      [
+        "Lors d’une procédure pénale devant le tribunal"
+      ],
+      [
+        "Après abrogation de la loi"
+      ]
+    ],
+    "explanation": "Le contrôle avant promulgation relève de l’article 61. Une QPC peut concerner une disposition législative déjà en vigueur.",
+    "source": "https://www.prepa-examen.fr/question/controle-constitutionnalite-a-priori-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2107,
+    "section": "institutions",
+    "prompt": "À quoi sert une révision constitutionnelle ?",
+    "correct": [
+      "À modifier le texte de la Constitution selon une procédure particulière"
+    ],
+    "distractors": [
+      [
+        "À approuver chaque décret ministériel"
+      ],
+      [
+        "À vérifier le calcul des impôts"
+      ],
+      [
+        "À modifier automatiquement toutes les lois ordinaires"
+      ]
+    ],
+    "explanation": "La Constitution prévoit une procédure de révision, notamment à son article 89.",
+    "source": "https://www.prepa-examen.fr/question/revision-constitution-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2108,
+    "section": "geography",
+    "prompt": "Combien de régions se trouvent en France métropolitaine ?",
+    "correct": [
+      "13"
+    ],
+    "distractors": [
+      [
+        "18"
+      ],
+      [
+        "22"
+      ],
+      [
+        "96"
+      ]
+    ],
+    "explanation": "Le nombre total de régions, outre-mer compris, est de 18 dans le décompte usuel.",
+    "source": "https://www.prepa-examen.fr/question/combien-y-a-regions-france-metropolitaine-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2116,
+    "section": "heritage",
+    "prompt": "Pour quel type d’œuvres Molière est-il principalement connu ?",
+    "correct": [
+      "Les comédies de théâtre"
+    ],
+    "distractors": [
+      [
+        "Les symphonies classiques"
+      ],
+      [
+        "Les romans naturalistes"
+      ],
+      [
+        "Les peintures impressionnistes"
+      ]
+    ],
+    "explanation": "Molière a notamment écrit Tartuffe et Le Malade imaginaire.",
+    "source": "https://www.prepa-examen.fr/question/etait-moliere-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2122,
+    "section": "heritage",
+    "prompt": "Quelle œuvre est associée à la philosophe Simone de Beauvoir ?",
+    "correct": [
+      "Le Deuxième Sexe"
+    ],
+    "distractors": [
+      [
+        "L’Étranger"
+      ],
+      [
+        "Le Rouge et le Noir"
+      ],
+      [
+        "Les Mémoires d’Hadrien"
+      ]
+    ],
+    "explanation": "L’essai Le Deuxième Sexe a paru en 1949.",
+    "source": "https://www.prepa-examen.fr/question/etait-simone-beauvoir-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2123,
+    "section": "heritage",
+    "prompt": "Quel écrivain a publié La Peste et reçu le prix Nobel de littérature en 1957 ?",
+    "correct": [
+      "Albert Camus"
+    ],
+    "distractors": [
+      [
+        "Jean-Paul Sartre"
+      ],
+      [
+        "Victor Hugo"
+      ],
+      [
+        "Marcel Proust"
+      ]
+    ],
+    "explanation": "Camus a aussi écrit L’Étranger. Sartre est l’auteur de La Nausée.",
+    "source": "https://www.prepa-examen.fr/question/etait-albert-camus-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2155,
+    "section": "geography",
+    "prompt": "Quel sommet est le point culminant de France ?",
+    "correct": [
+      "Le mont Blanc"
+    ],
+    "distractors": [
+      [
+        "Le puy de Dôme"
+      ],
+      [
+        "Le pic du Midi de Bigorre"
+      ],
+      [
+        "Le Vignemale"
+      ]
+    ],
+    "explanation": "Le mont Blanc se situe dans les Alpes. Le Vignemale se trouve dans les Pyrénées.",
+    "source": "https://www.prepa-examen.fr/question/haute-montagne-france-europe-occidentale-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2157,
+    "section": "heritage",
+    "prompt": "Quel rôle Rouget de Lisle a-t-il joué dans l’histoire de l’hymne français ?",
+    "correct": [
+      "Il a composé le chant devenu La Marseillaise"
+    ],
+    "distractors": [
+      [
+        "Il a écrit la Constitution de 1958"
+      ],
+      [
+        "Il a institué le 14 juillet"
+      ],
+      [
+        "Il a peint La Liberté guidant le peuple"
+      ]
+    ],
+    "explanation": "En 1792, il compose le Chant de guerre pour l’armée du Rhin.",
+    "source": "https://www.prepa-examen.fr/question/etait-monsieur-rouget-lisle-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2158,
+    "section": "history",
+    "prompt": "Quels facteurs éclairent le déclenchement de la Révolution française ?",
+    "correct": [
+      "La crise financière de la monarchie et la contestation des privilèges"
+    ],
+    "distractors": [
+      [
+        "La défaite de 1870 et la Commune de Paris"
+      ],
+      [
+        "La succession de Louis XIV en 1715"
+      ],
+      [
+        "La dissolution du Parlement européen"
+      ]
+    ],
+    "explanation": "La crise des finances royales conduit à la réunion des États généraux en 1789, dans un contexte de tensions sociales et politiques.",
+    "source": "https://www.prepa-examen.fr/question/cause-principale-revolution-francaise-1789-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2159,
+    "section": "history",
+    "prompt": "À quoi renvoie la Terreur durant la Révolution française ?",
+    "correct": [
+      "À une période de répression politique intense en 1793-1794"
+    ],
+    "distractors": [
+      [
+        "À la restauration de la monarchie en 1814"
+      ],
+      [
+        "À l’occupation de la France en 1940"
+      ],
+      [
+        "À la Commune de Paris de 1871"
+      ]
+    ],
+    "explanation": "Le Tribunal révolutionnaire et les exécutions sont associés à cette période.",
+    "source": "https://www.prepa-examen.fr/question/terreur-pendant-revolution-francaise-1793-1794-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2160,
+    "section": "history",
+    "prompt": "Quelle île accueille Napoléon après son abdication de 1814 ?",
+    "correct": [
+      "L’île d’Elbe"
+    ],
+    "distractors": [
+      [
+        "Sainte-Hélène"
+      ],
+      [
+        "La Corse"
+      ],
+      [
+        "Les Baléares"
+      ]
+    ],
+    "explanation": "Sainte-Hélène correspond au second exil, après Waterloo en 1815.",
+    "source": "https://www.prepa-examen.fr/question/napoleon-a-ete-exile-apres-premiere-abdication-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2161,
+    "section": "history",
+    "prompt": "Qu’a vécu Simone Veil pendant la Seconde Guerre mondiale ?",
+    "correct": [
+      "Elle a été déportée et a survécu à la Shoah"
+    ],
+    "distractors": [
+      [
+        "Elle a dirigé le Conseil national de la Résistance"
+      ],
+      [
+        "Elle a organisé le débarquement de Provence"
+      ],
+      [
+        "Elle a présidé le Parlement européen pendant la guerre"
+      ]
+    ],
+    "explanation": "Simone Veil a été déportée à Auschwitz-Birkenau. Sa carrière politique, dont la présidence du Parlement européen, est postérieure.",
+    "source": "https://www.prepa-examen.fr/question/etait-simone-veil-lien-seconde-guerre-mondiale-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2162,
+    "section": "heritage",
+    "prompt": "Quel sport arrive en tête par nombre de licenciés dans les fédérations sportives françaises ?",
+    "correct": [
+      "Le football"
+    ],
+    "distractors": [
+      [
+        "Le judo"
+      ],
+      [
+        "Le rugby à XV"
+      ],
+      [
+        "Le handball"
+      ]
+    ],
+    "explanation": "La popularité peut se mesurer de différentes façons. Cette question retient le nombre de licences fédérales.",
+    "source": "https://www.prepa-examen.fr/question/sport-populaire-france-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2163,
+    "section": "heritage",
+    "prompt": "Que désigne la gastronomie d’un pays ?",
+    "correct": [
+      "Ses traditions culinaires et l’art de préparer et d’apprécier les repas"
+    ],
+    "distractors": [
+      [
+        "Le classement de ses établissements scolaires"
+      ],
+      [
+        "L’ensemble de ses cultures agricoles uniquement"
+      ],
+      [
+        "Le règlement sanitaire de ses restaurants"
+      ]
+    ],
+    "explanation": "La gastronomie comprend notamment les recettes, les savoir-faire et les usages du repas.",
+    "source": "https://www.prepa-examen.fr/question/gastronomie-francaise-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2164,
+    "section": "heritage",
+    "prompt": "Quel site français est classé au patrimoine mondial de l’UNESCO ?",
+    "correct": [
+      "Le Mont-Saint-Michel et sa baie"
+    ],
+    "distractors": [
+      [
+        "Le stade de France"
+      ],
+      [
+        "Le centre commercial des Quatre Temps"
+      ],
+      [
+        "La tour Montparnasse"
+      ]
+    ],
+    "explanation": "Le Mont-Saint-Michel et sa baie font l’objet d’une inscription au patrimoine mondial depuis 1979.",
+    "source": "https://www.prepa-examen.fr/question/site-francais-inscrit-patrimoine-mondial-unesco-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2166,
+    "section": "history",
+    "prompt": "Quelle période correspond à la IVe République ?",
+    "correct": [
+      "1946-1958"
+    ],
+    "distractors": [
+      [
+        "1870-1940"
+      ],
+      [
+        "1940-1944"
+      ],
+      [
+        "1958-1969"
+      ]
+    ],
+    "explanation": "La IVe République succède au Gouvernement provisoire. La Constitution de 1958 ouvre la Ve République.",
+    "source": "https://www.prepa-examen.fr/question/ive-republique-1946-1958-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2167,
+    "section": "history",
+    "prompt": "Pourquoi les ouvriers s’organisent-ils au XIXe siècle ?",
+    "correct": [
+      "Pour défendre notamment des salaires et des conditions de travail"
+    ],
+    "distractors": [
+      [
+        "Pour rétablir les privilèges de naissance"
+      ],
+      [
+        "Pour supprimer toutes les formes d’assurance"
+      ],
+      [
+        "Pour interdire les sociétés de secours mutuels"
+      ]
+    ],
+    "explanation": "L’industrialisation s’accompagne de mobilisations ouvrières, de grèves et du développement des syndicats.",
+    "source": "https://www.prepa-examen.fr/question/mouvement-ouvrier-xixe-siecle-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2168,
+    "section": "heritage",
+    "prompt": "Quel surnom désigne couramment Paris ?",
+    "correct": [
+      "La Ville Lumière"
+    ],
+    "distractors": [
+      [
+        "La Cité des Papes"
+      ],
+      [
+        "La Ville Rose"
+      ],
+      [
+        "La Cité phocéenne"
+      ]
+    ],
+    "explanation": "La Ville Rose désigne Toulouse, la Cité phocéenne Marseille et la Cité des Papes Avignon.",
+    "source": "https://www.prepa-examen.fr/question/surnom-paris-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2169,
+    "section": "symbols",
+    "prompt": "Quelle interprétation historique est souvent donnée aux couleurs du drapeau tricolore ?",
+    "correct": [
+      "Il associe le bleu et le rouge liés à Paris au blanc historiquement lié à la monarchie"
+    ],
+    "distractors": [
+      [
+        "Il reprend trois couleurs choisies pour représenter les fleuves"
+      ],
+      [
+        "Il reprend le drapeau européen"
+      ],
+      [
+        "Il représente les trois chambres du Parlement"
+      ]
+    ],
+    "explanation": "Le tricolore se forme durant la Révolution. L’article 2 de la Constitution en fait l’emblème national.",
+    "source": "https://www.prepa-examen.fr/question/drapeau-tricolore-represente-historiquement-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2170,
+    "section": "geography",
+    "prompt": "Quel est l’ordre de grandeur de la superficie de la France métropolitaine ?",
+    "correct": [
+      "Environ 550 000 km²"
+    ],
+    "distractors": [
+      [
+        "Environ 150 000 km²"
+      ],
+      [
+        "Environ 900 000 km²"
+      ],
+      [
+        "Environ 1,5 million de km²"
+      ]
+    ],
+    "explanation": "Les conventions de mesure produisent de légers écarts mais l’ordre de grandeur reste proche de 550 000 km².",
+    "source": "https://www.prepa-examen.fr/question/superficie-france-metropolitaine-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2171,
+    "section": "heritage",
+    "prompt": "Sur quelle liste de l’UNESCO le repas gastronomique des Français a-t-il été inscrit ?",
+    "correct": [
+      "Le patrimoine culturel immatériel de l’humanité"
+    ],
+    "distractors": [
+      [
+        "La liste des réserves de biosphère"
+      ],
+      [
+        "La liste des sites naturels du patrimoine mondial"
+      ],
+      [
+        "Le registre des archives du monde"
+      ]
+    ],
+    "explanation": "L’inscription porte sur une pratique sociale du repas, inscrite en 2010.",
+    "source": "https://www.prepa-examen.fr/question/gauloiserie-cuisine-francaise-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2172,
+    "section": "europe",
+    "prompt": "Quelle avancée le traité de Maastricht a-t-il engagée en matière monétaire ?",
+    "correct": [
+      "La création progressive d’une union économique et monétaire"
+    ],
+    "distractors": [
+      [
+        "Le retour obligatoire aux monnaies nationales"
+      ],
+      [
+        "La création immédiate des billets en euros en 1992"
+      ],
+      [
+        "L’adoption de la livre sterling par tous les membres"
+      ]
+    ],
+    "explanation": "Signé en 1992, le traité prépare l’union monétaire. Les pièces et billets en euros circulent à partir de 2002.",
+    "source": "https://www.prepa-examen.fr/question/traite-maastricht-1992-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2173,
+    "section": "history",
+    "prompt": "Quel rôle Charles de Gaulle joue-t-il à partir de 1940 ?",
+    "correct": [
+      "Il dirige la France libre"
+    ],
+    "distractors": [
+      [
+        "Il dirige le gouvernement de Vichy"
+      ],
+      [
+        "Il organise le régime du Second Empire"
+      ],
+      [
+        "Il commande les forces allemandes d’occupation"
+      ]
+    ],
+    "explanation": "Après son appel du 18 juin, de Gaulle fédère les forces qui poursuivent la lutte depuis l’étranger.",
+    "source": "https://www.prepa-examen.fr/question/etait-charles-gaulle-historiquement-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2174,
+    "section": "heritage",
+    "prompt": "Quel ensemble est exposé dans le département des Antiquités égyptiennes du Louvre ?",
+    "correct": [
+      "Des objets de l’Égypte ancienne"
+    ],
+    "distractors": [
+      [
+        "La collection des avions de la Grande Guerre"
+      ],
+      [
+        "Les manuscrits de la Bibliothèque nationale dans leur ensemble"
+      ],
+      [
+        "Les sculptures de l’île de Pâques du musée du quai Branly"
+      ]
+    ],
+    "explanation": "Le Louvre possède de grandes collections archéologiques, notamment des sculptures, sarcophages et objets de l’Égypte ancienne.",
+    "source": "https://www.prepa-examen.fr/question/louvre-contient-collection-majeure-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2175,
+    "section": "rights",
+    "prompt": "Quel texte de 1789 énonce des droits comme la liberté, la propriété et la sûreté ?",
+    "correct": [
+      "La Déclaration des droits de l’homme et du citoyen"
+    ],
+    "distractors": [
+      [
+        "La Charte de l’environnement"
+      ],
+      [
+        "La Déclaration universelle de 1948"
+      ],
+      [
+        "Le code civil de 1804"
+      ]
+    ],
+    "explanation": "La Déclaration de 1789 figure parmi les textes de référence du contrôle de constitutionnalité.",
+    "source": "https://www.prepa-examen.fr/question/texte-fondateur-etablissant-droits-devoirs-chaque-citoyen-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2176,
+    "section": "rights",
+    "prompt": "Une personne encore mariée peut-elle célébrer un second mariage civil en France ?",
+    "correct": [
+      "Non, le premier mariage doit avoir pris fin"
+    ],
+    "distractors": [
+      [
+        "Oui, avec l’accord écrit du premier conjoint"
+      ],
+      [
+        "Oui, si les actes sont établis dans des communes différentes"
+      ],
+      [
+        "Oui, après une simple séparation de fait"
+      ]
+    ],
+    "explanation": "L’article 147 du code civil interdit de contracter un second mariage avant la dissolution du premier.",
+    "source": "https://www.prepa-examen.fr/question/legal-etre-marie-a-plusieurs-personnes-meme-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2208,
+    "section": "duties",
+    "prompt": "Parmi ces comportements, lequel relève d’un devoir civique ?",
+    "correct": [
+      "Contribuer aux charges publiques lorsque l’impôt est dû"
+    ],
+    "distractors": [
+      [
+        "S’inscrire à un parti politique"
+      ],
+      [
+        "Pratiquer une religion reconnue"
+      ],
+      [
+        "Acheter un logement dans sa commune"
+      ]
+    ],
+    "explanation": "La contribution finance les dépenses communes. L’appartenance politique et religieuse relève du libre choix.",
+    "source": "https://www.prepa-examen.fr/question/devoirs-principaux-citoyen-francais-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2209,
+    "section": "work",
+    "prompt": "Des salariés souhaitent constituer un syndicat pour défendre leurs intérêts. L’employeur doit-il l’autoriser ?",
+    "correct": [
+      "Non, la liberté syndicale protège la création de syndicats selon les règles applicables"
+    ],
+    "distractors": [
+      [
+        "Oui, dès que le syndicat veut représenter des salariés"
+      ],
+      [
+        "Oui, à défaut d’un accord du préfet"
+      ],
+      [
+        "Oui, sauf si tous les salariés sont fonctionnaires"
+      ]
+    ],
+    "explanation": "L’accord de l’employeur n’est pas requis pour constituer un syndicat. Les conditions de représentation dans l’entreprise sont distinctes.",
+    "source": "https://www.prepa-examen.fr/question/ibrahim-veut-fonder-syndicat-entreprise-possible-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2210,
+    "section": "rights",
+    "prompt": "Un message public impute à une personne identifiable un fait précis qui porte atteinte à son honneur. Quelle qualification peut s’appliquer ?",
+    "correct": [
+      "La diffamation"
+    ],
+    "distractors": [
+      [
+        "L’injure sans imputation de fait"
+      ],
+      [
+        "Le vote nul"
+      ],
+      [
+        "Le délit d’outrage au drapeau"
+      ]
+    ],
+    "explanation": "La diffamation implique l’imputation d’un fait précis. Une injure peut être outrageante sans imputer de fait précis.",
+    "source": "https://www.prepa-examen.fr/question/diffamation-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2211,
+    "section": "rights",
+    "prompt": "En quelle année l’ONU adopte-t-elle la Convention relative aux droits de l’enfant ?",
+    "correct": [
+      "1989"
+    ],
+    "distractors": [
+      [
+        "1948"
+      ],
+      [
+        "1959"
+      ],
+      [
+        "1992"
+      ]
+    ],
+    "explanation": "La Convention de 1989 se distingue de la Déclaration des droits de l’enfant adoptée en 1959.",
+    "source": "https://www.prepa-examen.fr/question/convention-internationale-droits-enfant-cide-a-ete-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2212,
+    "section": "rights",
+    "prompt": "À quoi sert le droit d’asile ?",
+    "correct": [
+      "À demander une protection lorsqu’on craint certaines persécutions ou atteintes graves"
+    ],
+    "distractors": [
+      [
+        "À obtenir automatiquement un permis de conduire"
+      ],
+      [
+        "À obtenir un visa de tourisme sans formalités"
+      ],
+      [
+        "À acquérir immédiatement la nationalité"
+      ]
+    ],
+    "explanation": "Le statut de réfugié et la protection subsidiaire répondent à des critères distincts. Une demande ne garantit pas une décision favorable.",
+    "source": "https://www.prepa-examen.fr/question/droit-asile-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2213,
+    "section": "residence",
+    "prompt": "À quoi servent les actes d’état civil ?",
+    "correct": [
+      "À constater officiellement des faits comme la naissance, le mariage ou le décès"
+    ],
+    "distractors": [
+      [
+        "À enregistrer les impôts payés"
+      ],
+      [
+        "À établir le casier judiciaire"
+      ],
+      [
+        "À recenser les propriétaires de véhicules"
+      ]
+    ],
+    "explanation": "Un acte d’état civil constate un événement ou une situation personnelle, dans les conditions fixées par la loi.",
+    "source": "https://www.prepa-examen.fr/question/etat-civil-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2215,
+    "section": "rights",
+    "prompt": "Qu’est-ce qu’une garde à vue dans une enquête pénale ?",
+    "correct": [
+      "Une mesure de contrainte qui permet de retenir un suspect à la disposition des enquêteurs"
+    ],
+    "distractors": [
+      [
+        "Une peine décidée après un jugement"
+      ],
+      [
+        "Une mesure réservée aux témoins sans soupçon"
+      ],
+      [
+        "Un placement automatique en prison après une plainte"
+      ]
+    ],
+    "explanation": "La mesure est encadrée. La personne bénéficie notamment du droit de demander un avocat.",
+    "source": "https://www.prepa-examen.fr/question/garde-a-vue-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2216,
+    "section": "rights",
+    "prompt": "Que recense le casier judiciaire ?",
+    "correct": [
+      "Des condamnations pénales et certaines autres décisions prévues par la loi"
+    ],
+    "distractors": [
+      [
+        "Toutes les plaintes déposées, même classées"
+      ],
+      [
+        "Toutes les dettes privées"
+      ],
+      [
+        "Les diplômes et permis de conduire"
+      ]
+    ],
+    "explanation": "Les bulletins du casier n’ont pas le même contenu ni les mêmes destinataires.",
+    "source": "https://www.prepa-examen.fr/question/casier-judiciaire-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2217,
+    "section": "rights",
+    "prompt": "Comment un « testing » peut-il révéler une discrimination à l’embauche ?",
+    "correct": [
+      "En comparant les réponses à des candidatures comparables qui diffèrent sur un critère étudié"
+    ],
+    "distractors": [
+      [
+        "En confrontant les salaires nationaux de secteurs différents"
+      ],
+      [
+        "En demandant uniquement un avis à l’employeur"
+      ],
+      [
+        "En comptant les offres sans examiner les réponses"
+      ]
+    ],
+    "explanation": "Le test cherche à isoler un critère, par exemple l’origine supposée, en gardant les autres caractéristiques comparables.",
+    "source": "https://www.prepa-examen.fr/question/testing-anti-discrimination-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2218,
+    "section": "rights",
+    "prompt": "Des messages humiliants sont envoyés de manière répétée à une personne sur les réseaux sociaux. Quel phénomène cela peut-il caractériser ?",
+    "correct": [
+      "Un cyberharcèlement"
+    ],
+    "distractors": [
+      [
+        "Un litige sur le droit de vote"
+      ],
+      [
+        "Une simple formalité administrative"
+      ],
+      [
+        "Une publication de données en open data"
+      ]
+    ],
+    "explanation": "Le harcèlement peut se produire en ligne. Plusieurs auteurs peuvent être impliqués selon la situation.",
+    "source": "https://www.prepa-examen.fr/question/cyberharcelement-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2219,
+    "section": "rights",
+    "prompt": "Quel droit du RGPD permet, sous certaines conditions, de récupérer des données fournies à un service dans un format réutilisable ?",
+    "correct": [
+      "Le droit à la portabilité"
+    ],
+    "distractors": [
+      [
+        "Le droit d’opposition"
+      ],
+      [
+        "Le droit à l’effacement"
+      ],
+      [
+        "Le droit de rectification"
+      ]
+    ],
+    "explanation": "La portabilité vise certains traitements automatisés fondés sur le consentement ou un contrat. Elle facilite la réutilisation ou le transfert des données.",
+    "source": "https://cnil-d10.cnil.fr/fr/passer-laction/les-droits-des-personnes-sur-leurs-donnees",
+    "supplemental": true
+  },
+  {
+    "id": 2221,
+    "section": "rights",
+    "prompt": "Que protège en principe l’inviolabilité du domicile ?",
+    "correct": [
+      "Le droit de s’opposer à une entrée non autorisée hors des exceptions prévues par la loi"
+    ],
+    "distractors": [
+      [
+        "Le droit d’interdire toute perquisition, quelles que soient les conditions"
+      ],
+      [
+        "Le droit du propriétaire d’entrer librement chez son locataire"
+      ],
+      [
+        "Le droit de perquisitionner chez son voisin"
+      ]
+    ],
+    "explanation": "Le domicile est protégé contre les intrusions. Des exceptions, comme les perquisitions, sont encadrées par la loi.",
+    "source": "https://www.prepa-examen.fr/question/inviolabilite-domicile-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2222,
+    "section": "institutions",
+    "prompt": "Quel effet peut avoir une grâce individuelle du président de la République ?",
+    "correct": [
+      "Dispenser de tout ou partie de l’exécution de la peine"
+    ],
+    "distractors": [
+      [
+        "Remplacer la condamnation par un acquittement"
+      ],
+      [
+        "Abroger l’infraction pour tous"
+      ],
+      [
+        "Effacer automatiquement les droits de la victime"
+      ]
+    ],
+    "explanation": "Même si l’exécution de la peine est remise, la condamnation demeure. La grâce est distincte de l’amnistie.",
+    "source": "https://www.prepa-examen.fr/question/grace-presidentielle-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2223,
+    "section": "rights",
+    "prompt": "Quelle mesure judiciaire peut protéger une victime de violences au sein du couple ?",
+    "correct": [
+      "Une ordonnance de protection"
+    ],
+    "distractors": [
+      [
+        "Un mandat de procuration électorale"
+      ],
+      [
+        "Une attestation de droits sociaux"
+      ],
+      [
+        "Un arrêté municipal de stationnement"
+      ]
+    ],
+    "explanation": "Le juge aux affaires familiales peut prononcer des mesures telles qu’une interdiction de contact dans les conditions prévues.",
+    "source": "https://www.prepa-examen.fr/question/droit-a-protection-contre-violences-conjugales-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2224,
+    "section": "residence",
+    "prompt": "Qu’illustre le droit du sol en matière de nationalité française ?",
+    "correct": [
+      "La naissance en France peut ouvrir un droit à la nationalité selon des conditions légales"
+    ],
+    "distractors": [
+      [
+        "Toute naissance en France donne immédiatement la nationalité dans tous les cas"
+      ],
+      [
+        "Seule la nationalité des grands-parents compte"
+      ],
+      [
+        "La nationalité dépend exclusivement du domicile au jour de la demande"
+      ]
+    ],
+    "explanation": "Pour un enfant né en France de parents étrangers, les conditions de résidence peuvent jouer. Le double droit du sol obéit à une règle distincte.",
+    "source": "https://www.prepa-examen.fr/question/droit-sol-france-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2225,
+    "section": "rights",
+    "prompt": "Une extension du voisin semble dépasser la limite de votre terrain. Quelle démarche est adaptée ?",
+    "correct": [
+      "Vérifier les limites de propriété, rechercher un accord et, si nécessaire, saisir la juridiction compétente"
+    ],
+    "distractors": [
+      [
+        "Démolir soi-même la partie qui dépasse"
+      ],
+      [
+        "Se fier uniquement au plan cadastral pour trancher définitivement"
+      ],
+      [
+        "Demander à la police de décider de la propriété du terrain"
+      ]
+    ],
+    "explanation": "Un géomètre-expert peut aider à déterminer les limites si elles sont contestées. En cas de litige, un juge peut être saisi.",
+    "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3037",
+    "supplemental": true
+  },
+  {
+    "id": 2228,
+    "section": "health",
+    "prompt": "À quel organisme un assuré du régime général adresse-t-il normalement sa demande de remboursement de soins ?",
+    "correct": [
+      "À sa caisse primaire d’assurance maladie"
+    ],
+    "distractors": [
+      [
+        "À la CAF"
+      ],
+      [
+        "À l’Urssaf"
+      ],
+      [
+        "À l’agence régionale de santé"
+      ]
+    ],
+    "explanation": "La CPAM gère les remboursements du régime général. La carte Vitale permet souvent l’envoi électronique de la feuille de soins.",
+    "source": "https://www.prepa-examen.fr/question/aupres-organisme-faut-demander-remboursement-frais-sante-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2229,
+    "section": "health",
+    "prompt": "À quoi sert généralement une complémentaire santé ?",
+    "correct": [
+      "À compléter les remboursements de l’assurance maladie selon le contrat"
+    ],
+    "distractors": [
+      [
+        "À remplacer systématiquement toute couverture publique"
+      ],
+      [
+        "À fixer les tarifs des consultations"
+      ],
+      [
+        "À déclarer les naissances"
+      ]
+    ],
+    "explanation": "La complémentaire peut prendre en charge certains restes à payer dans les limites prévues par ses garanties.",
+    "source": "https://www.prepa-examen.fr/question/a-quoi-sert-mutuelle-sante-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2232,
+    "section": "work",
+    "prompt": "Que désigne le sigle SMIC ?",
+    "correct": [
+      "Le salaire minimum interprofessionnel de croissance"
+    ],
+    "distractors": [
+      [
+        "La durée légale du travail à temps plein"
+      ],
+      [
+        "Le plafond de remboursement des soins"
+      ],
+      [
+        "Un dispositif de retraite complémentaire"
+      ]
+    ],
+    "explanation": "Le SMIC fixe un minimum de rémunération horaire, sous réserve de règles particulières pour certaines catégories.",
+    "source": "https://www.prepa-examen.fr/question/smic-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2233,
+    "section": "work",
+    "prompt": "Quel service public peut accompagner une personne qui commence sa recherche d’emploi ?",
+    "correct": [
+      "France Travail"
+    ],
+    "distractors": [
+      [
+        "Le conseil de prud’hommes"
+      ],
+      [
+        "L’inspection du travail comme agence de placement"
+      ],
+      [
+        "La caisse primaire d’assurance maladie"
+      ]
+    ],
+    "explanation": "L’inscription à France Travail peut donner accès à des services d’accompagnement. Elle ne conditionne pas le droit de postuler.",
+    "source": "https://www.prepa-examen.fr/question/premiere-demarche-a-realiser-chercher-emploi-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2234,
+    "section": "work",
+    "prompt": "Quelle est la durée légale hebdomadaire de référence pour un salarié à temps complet en France ?",
+    "correct": [
+      "35 heures"
+    ],
+    "distractors": [
+      [
+        "32 heures"
+      ],
+      [
+        "39 heures"
+      ],
+      [
+        "48 heures"
+      ]
+    ],
+    "explanation": "La durée légale sert de référence. Elle ne se confond pas avec les durées maximales et n’interdit pas les heures supplémentaires.",
+    "source": "https://www.prepa-examen.fr/question/duree-legale-temps-travail-semaine-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2236,
+    "section": "work",
+    "prompt": "Un ressortissant non européen veut exercer une activité indépendante en France. Quel point doit-il vérifier ?",
+    "correct": [
+      "Que son droit au séjour permet l’activité indépendante envisagée"
+    ],
+    "distractors": [
+      [
+        "Que tout titre de séjour autorise automatiquement cette activité"
+      ],
+      [
+        "Que seule la nationalité française permet de créer une entreprise"
+      ],
+      [
+        "Qu’une inscription en mairie remplace le titre de séjour"
+      ]
+    ],
+    "explanation": "Un séjour régulier ne suffit pas toujours. L’autorisation dépend notamment du titre détenu et de l’activité.",
+    "source": "https://www.prepa-examen.fr/question/personne-etrangere-situation-reguliere-creer-entreprise-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2259,
+    "section": "health",
+    "prompt": "Que permet le tiers payant lors d’un soin ?",
+    "correct": [
+      "De ne pas avancer la part prise en charge par l’assurance maladie ou la complémentaire concernée"
+    ],
+    "distractors": [
+      [
+        "De rendre tous les soins intégralement gratuits"
+      ],
+      [
+        "De choisir librement les tarifs"
+      ],
+      [
+        "D’obtenir un remboursement sans droits ouverts"
+      ]
+    ],
+    "explanation": "Le tiers payant dispense d’avance pour la part couverte. Un reste à charge peut subsister.",
+    "source": "https://www.prepa-examen.fr/question/tiers-payant-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2261,
+    "section": "work",
+    "prompt": "Pour une naissance simple, quelle est la durée du congé de paternité et d’accueil de l’enfant d’un salarié, hors congé de naissance ?",
+    "correct": [
+      "25 jours calendaires"
+    ],
+    "distractors": [
+      [
+        "3 jours ouvrables"
+      ],
+      [
+        "11 jours calendaires"
+      ],
+      [
+        "32 jours calendaires"
+      ]
+    ],
+    "explanation": "Les 25 jours s’ajoutent au congé de naissance. La durée est portée à 32 jours calendaires en cas de naissances multiples.",
+    "source": "https://www.prepa-examen.fr/question/1er-juillet-2021-duree-conge-paternite-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2262,
+    "section": "residence",
+    "prompt": "Parmi ces documents, lequel le bailleur doit-il joindre au bail d’habitation dans le cadre d’une location ordinaire ?",
+    "correct": [
+      "Le dossier de diagnostic technique"
+    ],
+    "distractors": [
+      [
+        "Sa déclaration personnelle de revenus"
+      ],
+      [
+        "Le contrat de travail du locataire précédent"
+      ],
+      [
+        "Le relevé bancaire de la copropriété"
+      ]
+    ],
+    "explanation": "Le dossier regroupe les diagnostics applicables au logement. L’état des lieux et les autres annexes répondent à des règles propres.",
+    "source": "https://www.prepa-examen.fr/question/feng-vient-emmenager-appartement-documents-proprietaire-doit-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2263,
+    "section": "residence",
+    "prompt": "Quel est le rôle de l’état des lieux à l’entrée et à la sortie d’un logement loué ?",
+    "correct": [
+      "Décrire l’état du logement et permettre de constater les différences"
+    ],
+    "distractors": [
+      [
+        "Fixer le salaire du locataire"
+      ],
+      [
+        "Déterminer le montant du loyer du prochain bail"
+      ],
+      [
+        "Délivrer un titre de propriété"
+      ]
+    ],
+    "explanation": "La comparaison sert notamment à distinguer la dégradation imputable au locataire de l’usure normale.",
+    "source": "https://www.prepa-examen.fr/question/etat-lieux-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2264,
+    "section": "residence",
+    "prompt": "Quel préavis respecte en général le locataire qui quitte un logement meublé constituant sa résidence principale ?",
+    "correct": [
+      "Un mois"
+    ],
+    "distractors": [
+      [
+        "Deux mois"
+      ],
+      [
+        "Trois mois"
+      ],
+      [
+        "Six mois"
+      ]
+    ],
+    "explanation": "Le délai usuel du bail meublé est d’un mois. Les règles des locations vides sont différentes.",
+    "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1168",
+    "supplemental": true
+  },
+  {
+    "id": 2265,
+    "section": "health",
+    "prompt": "À qui la complémentaire santé solidaire est-elle principalement destinée ?",
+    "correct": [
+      "Aux personnes dont les ressources sont inférieures aux plafonds applicables"
+    ],
+    "distractors": [
+      [
+        "À tous les salariés sans condition"
+      ],
+      [
+        "Aux seuls retraités ayant une mutuelle privée"
+      ],
+      [
+        "Aux seuls patients hospitalisés"
+      ]
+    ],
+    "explanation": "Elle aide à couvrir les dépenses de santé selon la situation et peut être gratuite ou avec participation.",
+    "source": "https://www.prepa-examen.fr/question/cmu-complementaire-sante-solidaire-css-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2266,
+    "section": "health",
+    "prompt": "À quoi sert une ordonnance établie par un professionnel habilité ?",
+    "correct": [
+      "À prescrire des médicaments, des soins ou des examens"
+    ],
+    "distractors": [
+      [
+        "À établir un justificatif de domicile"
+      ],
+      [
+        "À fixer le montant des cotisations retraite"
+      ],
+      [
+        "À remplacer toute demande de remboursement"
+      ]
+    ],
+    "explanation": "La prescription précise les soins ou produits demandés. Les règles de délivrance dépendent notamment du médicament.",
+    "source": "https://www.prepa-examen.fr/question/ordonnance-medicale-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2267,
+    "section": "health",
+    "prompt": "En règle générale, dans quel délai présenter une ordonnance de médicaments pour une première délivrance ?",
+    "correct": [
+      "Dans les trois mois suivant sa prescription"
+    ],
+    "distractors": [
+      [
+        "Dans les trois jours pour tous les médicaments"
+      ],
+      [
+        "Dans les six mois pour toute prescription"
+      ],
+      [
+        "Dans l’année pour toute première délivrance"
+      ]
+    ],
+    "explanation": "Le délai général est de trois mois. Des médicaments soumis à des règles particulières peuvent avoir un délai plus court.",
+    "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33967",
+    "supplemental": true
+  },
+  {
+    "id": 2268,
+    "section": "work",
+    "prompt": "Qu’est-ce qui caractérise un contrat de travail à durée indéterminée ?",
+    "correct": [
+      "Il ne fixe pas de date de fin à l’avance"
+    ],
+    "distractors": [
+      [
+        "Il prend toujours fin un an après la signature"
+      ],
+      [
+        "Il ne peut jamais être rompu"
+      ],
+      [
+        "Il est réservé au temps complet"
+      ]
+    ],
+    "explanation": "Un CDI peut être à temps partiel et être rompu selon les procédures prévues.",
+    "source": "https://www.prepa-examen.fr/question/contrat-a-duree-indeterminee-cdi-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2269,
+    "section": "work",
+    "prompt": "Dans quel cadre un employeur peut-il conclure un contrat à durée déterminée ?",
+    "correct": [
+      "Pour un besoin temporaire relevant d’un motif autorisé"
+    ],
+    "distractors": [
+      [
+        "Pour pourvoir durablement tout emploi permanent sans restriction"
+      ],
+      [
+        "Pour supprimer tout droit aux congés payés"
+      ],
+      [
+        "Pour imposer une durée d’emploi illimitée"
+      ]
+    ],
+    "explanation": "Le CDD obéit à des motifs de recours et à des conditions de forme. Un remplacement est un exemple de motif.",
+    "source": "https://www.prepa-examen.fr/question/contrat-a-duree-determinee-cdd-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2270,
+    "section": "work",
+    "prompt": "Quels documents l’employeur doit-il notamment tenir à disposition à la fin d’un contrat de travail ?",
+    "correct": [
+      "Le certificat de travail, l’attestation France Travail et le reçu pour solde de tout compte"
+    ],
+    "distractors": [
+      [
+        "Seulement le dernier bulletin de paie"
+      ],
+      [
+        "L’avis d’imposition et la carte Vitale"
+      ],
+      [
+        "Le CV et la lettre de motivation du salarié"
+      ]
+    ],
+    "explanation": "Ces documents remplissent des fonctions différentes. Un récapitulatif d’épargne salariale peut s’ajouter si le dispositif existe.",
+    "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21789",
+    "supplemental": true
+  },
+  {
+    "id": 2271,
+    "section": "work",
+    "prompt": "Comment se déroule une formation par apprentissage ?",
+    "correct": [
+      "Elle alterne formation et travail chez un employeur dans le cadre d’un contrat"
+    ],
+    "distractors": [
+      [
+        "Elle se déroule uniquement en entreprise sans enseignement"
+      ],
+      [
+        "Elle consiste uniquement en cours sans contrat"
+      ],
+      [
+        "Elle implique toujours un stage sans rémunération"
+      ]
+    ],
+    "explanation": "L’apprentissage combine une formation pratique et un enseignement, notamment en centre de formation d’apprentis.",
+    "source": "https://www.prepa-examen.fr/question/apprentissage-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2272,
+    "section": "work",
+    "prompt": "Dans le régime de droit commun, combien de jours ouvrables de congé acquiert un salarié par mois de travail effectif ?",
+    "correct": [
+      "2,5 jours ouvrables"
+    ],
+    "distractors": [
+      [
+        "1 jour ouvrable"
+      ],
+      [
+        "2 jours ouvrables"
+      ],
+      [
+        "5 jours ouvrables"
+      ]
+    ],
+    "explanation": "Sur une année complète, cela correspond en principe à 30 jours ouvrables, soit cinq semaines.",
+    "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2258",
+    "supplemental": true
+  },
+  {
+    "id": 2273,
+    "section": "residence",
+    "prompt": "Où des partenaires qui résident en France peuvent-ils faire enregistrer leur Pacs ?",
+    "correct": [
+      "À la mairie de leur résidence commune ou chez un notaire"
+    ],
+    "distractors": [
+      [
+        "Auprès de la CPAM"
+      ],
+      [
+        "Dans toute agence France Travail"
+      ],
+      [
+        "Auprès du rectorat"
+      ]
+    ],
+    "explanation": "Le notaire peut enregistrer l’acte qu’il établit. Pour les démarches à l’étranger, les règles sont différentes.",
+    "source": "https://www.prepa-examen.fr/question/signe-pacs-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2274,
+    "section": "work",
+    "prompt": "À partir de quel âge peut-on, sous conditions, effectuer des travaux légers pendant certaines vacances scolaires ?",
+    "correct": [
+      "14 ans"
+    ],
+    "distractors": [
+      [
+        "12 ans"
+      ],
+      [
+        "16 ans dans tous les cas"
+      ],
+      [
+        "18 ans dans tous les cas"
+      ]
+    ],
+    "explanation": "Le travail dès 14 ans relève d’un régime dérogatoire encadré. Les règles protègent notamment la sécurité et le repos du mineur.",
+    "source": "https://www.prepa-examen.fr/question/a-age-enfant-legalement-travailler-france-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2275,
+    "section": "residence",
+    "prompt": "À quoi sert la procédure française de regroupement familial ?",
+    "correct": [
+      "À permettre, sous conditions, à certains résidents étrangers de faire venir leur conjoint et leurs enfants mineurs"
+    ],
+    "distractors": [
+      [
+        "À obtenir automatiquement un passeport français pour toute sa famille"
+      ],
+      [
+        "À faire venir sans condition des amis et des cousins"
+      ],
+      [
+        "À changer de département sans déclaration"
+      ]
+    ],
+    "explanation": "La procédure peut dépendre de la situation de séjour, des ressources, du logement et d’autres critères. Il existe des régimes particuliers.",
+    "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166",
+    "supplemental": true
+  },
+  {
+    "id": 2276,
+    "section": "residence",
+    "prompt": "Quel est l’objet du contrôle technique périodique d’une voiture ?",
+    "correct": [
+      "Vérifier son état au regard de critères de sécurité et d’environnement"
+    ],
+    "distractors": [
+      [
+        "Fixer sa valeur de revente"
+      ],
+      [
+        "Remplacer le contrat d’assurance"
+      ],
+      [
+        "Renouveler le permis de conduire du conducteur"
+      ]
+    ],
+    "explanation": "Le contrôle évalue l’état du véhicule. Des défaillances peuvent entraîner une contre-visite.",
+    "source": "https://www.prepa-examen.fr/question/controle-technique-vehicules-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2053,
+    "section": "institutions",
+    "prompt": "Outre le vote des lois, quelle mission la Constitution confie-t-elle au Parlement ?",
+    "correct": [
+      "Contrôler l’action du Gouvernement et évaluer les politiques publiques"
+    ],
+    "distractors": [
+      [
+        "Diriger l’administration au quotidien"
+      ],
+      [
+        "Nommer l’ensemble des ministres"
+      ],
+      [
+        "Promulguer les lois votées"
+      ]
+    ],
+    "explanation": "L’article 24 de la Constitution attribue au Parlement ces trois fonctions. La promulgation appartient au chef de l’État.",
+    "source": "https://www.prepa-examen.fr/question/role-principal-parlement-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2165,
+    "section": "history",
+    "prompt": "Quelle idée Louis XIV met-il en scène en adoptant le soleil comme emblème ?",
+    "correct": [
+      "La place centrale du roi et le rayonnement de son pouvoir"
+    ],
+    "distractors": [
+      [
+        "L’égalité des pouvoirs entre les ordres"
+      ],
+      [
+        "La séparation de l’Église et de l’État"
+      ],
+      [
+        "L’élection régulière du souverain"
+      ]
+    ],
+    "explanation": "Louis XIV adopte le soleil comme emblème. Ce symbole contribue à l’image du Roi-Soleil.",
+    "source": "https://www.prepa-examen.fr/question/etait-louis-xiv-pourquoi-surnomme-roi-soleil-cr/",
+    "supplemental": true
+  },
+  {
+    "id": 2220,
+    "section": "institutions",
+    "prompt": "Que signifie le principe de légalité appliqué à l’administration ?",
+    "correct": [
+      "Les décisions administratives doivent respecter les normes juridiques qui leur sont supérieures"
+    ],
+    "distractors": [
+      [
+        "Toute décision ministérielle prime sur une loi"
+      ],
+      [
+        "L’administration peut écarter toute règle de procédure à sa convenance"
+      ],
+      [
+        "Seules les décisions préfectorales peuvent être contrôlées"
+      ]
+    ],
+    "explanation": "La légalité d’un acte administratif peut en principe être contestée devant la juridiction compétente.",
+    "source": "https://www.prepa-examen.fr/question/principe-legalite-administration-cr/",
+    "supplemental": true
   }
 ]
