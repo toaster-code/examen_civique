@@ -90,3 +90,14 @@ button:focus-visible, select:focus-visible, a:focus-visible, summary:focus-visib
 .score-percentage { font-weight: 700; white-space: nowrap; }
 .score-below { color: #a12622; }
 .score-at-or-above { color: #236347; }
+
+.report-control { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-block: 4px; }
+#report-dialog {
+  width: min(440px, calc(100% - 32px)); max-height: calc(100% - 32px);
+  padding: 20px; border: 1px solid #dde4f0; border-radius: 14px; color: inherit;
+}
+#report-dialog::backdrop { background: rgb(23 43 80 / 45%); }
+#report-note {
+  display: block; width: 100%; margin: 6px 0 16px; padding: 10px;
+  font: inherit; border: 1px solid #c7d2e4; border-radius: 9px; resize: vertical;
+}
