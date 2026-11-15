@@ -61,7 +61,11 @@ function theme(question) {
 
 function scoreText() {
   const label = data.score.correct === 1 ? 'bonne réponse' : 'bonnes réponses';
-  return `${data.score.correct} ${label} sur ${data.score.total}`;
+  const { correct, total } = data.score;
+  if (!total) return `${correct} ${label} sur 0 · — %`;
+  const percentage = ((100 * correct) / total).toFixed(1).replace('.', ',');
+  const status = correct * 40 < total * 32 ? 'below' : 'at-or-above';
+  return `${correct} ${label} sur ${total} · <span class="score-percentage score-${status}">${percentage} %</span>`;
 }
 
 function resetScoreButton() {
